@@ -1,0 +1,76 @@
+//<![CDATA[
+
+
+  <% @marker_types.each do |mt| %>
+		var markerIcon_<%=mt[:id]%> = <%=icon_js(mt[:color])%>;
+  <% end %>
+
+
+  <% @projects.each do |p| %>
+    var marker<%=p.id%> = new GMarker(new GLatLng(<%=p.latitude%>,<%=p.longitude%>), {title: '<%=p.title%>', icon: markerIcon_<%=p.kind.id%> });
+    GEvent.addListener( marker<%=p.id%>, 'click', 
+                        function() {marker<%=p.id%>.openInfoWindowHtml('<%= infobox(p) %>');});
+  <% end %>
+
+  <% @multi_markers.each do |m| %>
+    <%
+      tooltip = m[:projects].map{|p| p.title}*" / "
+      infotext = m[:projects].map{|p| infobox(p)}*""
+    %>
+    var mmarkerIcon<%=m[:id]%> = <%=icon_js(par("cz_kind_marker_multi"), m[:projects].size, true)%>;
+    var mmarker<%=m[:id]%> = new GMarker(new GLatLng(<%=m[:latitude]%>,<%=m[:longitude]%>), {title: '<%=tooltip%>', icon: mmarkerIcon<%=m[:id]%> });
+    GEvent.addListener( mmarker<%=m[:id]%>, 'click', 
+                        function() {mmarker<%=m[:id]%>.openInfoWindowHtml('<%=infotext%>');});
+  <% end %>
+  
+    
+  function load() {
+    if (GBrowserIsCompatible()) {
+      var map = new GMap2(document.getElementById("map"));
+      map.addControl(new GSmallMapControl());
+      map.addControl(new GMapTypeControl());
+      map.setCenter(new GLatLng(49.817492,15.472962), 7);
+      
+      <% (@projects - @projects_hidden).each do |p| %>
+        map.addOverlay(marker<%=p.id%>);
+      <% end %>
+      <% @multi_markers.each do |m| %>
+        map.addOverlay(mmarker<%=m[:id]%>);
+      <% end %>
+
+		  <% @marker_types.each do |mt| %>
+				$('legend_marker_<%=mt[:id]%>').innerHTML = "";
+			  var img_<%= mt[:id] %> = document.createElement("img");
+			  img_<%= mt[:id] %>.setAttribute("src", markerIcon_<%=mt[:id]%>.image);
+			  $("legend_marker_<%=mt[:id]%>").appendChild(img_<%=mt[:id]%>);
+		  <% end %>
+    }
+  }
+  
+  function hide_multi() {
+    <% @multi_markers.each do |m| -%>
+      mmarker<%=m[:id]%>.hide()
+    <% end -%>
+  }
+  
+  function reset_links() {
+    <% @kinds.each do |k| %>
+      document.getElementById("cz_project_js_select_<%=k.id%>").className="cz_project_js_select";
+    <% end %>
+  }
+  
+  <% @kinds.each do |k| %>
+    function show_<%=k.id%> () {
+      hide_multi();
+      <% @projects.each do |p| -%>
+        <% if p.kind==k %>
+          marker<%=p.id%>.show();
+        <% else %>
+          marker<%=p.id%>.hide();
+        <% end -%>
+      <% end -%>
+      reset_links();
+      document.getElementById("cz_project_js_select_<%=k.id%>").className="cz_project_js_select_selected";
+    }
+  <% end %>
+//]]>

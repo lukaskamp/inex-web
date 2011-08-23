@@ -1,0 +1,1 @@
+page.replace_html "dynamic_files_list", :partial => "show_file_list"

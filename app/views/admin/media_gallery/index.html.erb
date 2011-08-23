@@ -1,0 +1,100 @@
+<h1> How to work with media gallery </h1>
+
+<h2> Important reminder </h2>
+<p>
+	All file names should consist of letters, numbers, spaces, underscores and dashes. Other names will result in files being ignored or even an application crash. Beware!
+</p>
+
+<h2> Quick start </h2>
+<p>
+1. upload files using FTP into the <i>/mediagallery</i> directory. <br />
+2. <%= link_to "synchronize", :action => :sync %> the database to show the uploaded files on the web <br />
+3. if you want, <%= (@root_id)?(link_to "edit", :action => :edit, :id => @root_id):("edit") %> the titles, descriptions etc.
+</p>
+
+<h2> Synchronization </h2>
+
+<p>To load the uploaded files into the database and therefore to display them on the web they, you need to
+perform synchronization. There is no work (and no string) attached - simply click the "Synchronize" button
+and wait a little while.</p>
+
+<% form_tag :action => :sync, :method => :post do -%>
+  <div><%= submit_tag 'Synchronize' %></div>
+<% end -%>
+
+<p>
+In case of unexpected crash of the database (which definitely should not happen) or if a 'clear start' is wanted,
+use forced synchronization clicking on the button below. Beware! This deletes all titles, description, links et
+cetera.
+</p>
+
+<% form_tag :action => :sync, :method => :post do -%>
+  <%= hidden_field_tag "force", 1 -%>
+  <div><%= submit_tag "Re-create galleries", :confirm => "Are you sure you want to delete the media database?" %></div>
+<% end %>
+
+<% if @root_id %>
+
+<h2> Editing the database </h2>
+
+<p>
+Click on the following button to enter the gallery administration. You can readily change titles of albums/files (click 
+update after changing any of these) or change more details, clicking on appropriate button.
+</p>
+<p>
+To enter an album, click on its thumbnail.
+</p>
+
+<% form_tag :method => :get, :action => :edit, :id => @root_id do -%>
+  <div><%= submit_tag "Edit the gallery" %></div>
+<% end -%>
+
+<h2> Images and photos </h2>
+
+<p>
+No special care is needed for images and photos; they are resized automatically to needed sizes (although too large files
+clutter the system and take a long time to resize). Currently, .jpg, .png and .gif are recognized, but virtually any image
+format can be supported.
+</p>
+
+<h2> Album covers </h2>
+
+<p>
+To change a cover for an album, enter the album, find the photo you want to become a cover and click on 'Use as cover'
+button.
+</p>
+
+<h2> Videos </h2>
+
+<p>
+Two kinds of videos are currently supported: YouTube videos and local file videos. To create a youtube video, simply upload 
+a picture, which will later become a 'cover' for the video. Then find the picture in the database, click on 'Details' and 
+change 'Media type' to 'YouTube video'. Then enter into the 'link' field the YouTube identifier, e.g. if the URL of the video 
+is <b>http://www.youtube.com/watch?v=ktWcsPttq24</b>, enter <b>ktWcsPttq24</b> here.
+</p>
+
+<p>For local videos, you actually need to upload two files: one with the video (.divx, .avi, .mov, .wmv, .qt, .mpg and 
+.mpeg are recognized, all reasonable codecs should be supported -- if they are installed on the user's system) and one 
+with the image, used as the video 'cover'. The files have to have the same name, except the extension -- so use something
+like <b>football-summer08.jpg</b> and <b>football-summer08.divx</b>. Then you don't have to care about anything, 
+the system automatically links the two files during the gallery synchronization.</p>
+
+<p>For videos, you have to explicitly specify the dimensions. Do this in file details of the video; enter the native,
+true video size -- any resizing would end up bad.</p>
+
+<h2> Thumbnails </h2>
+
+<p>
+All the best is done to maintain the thumbnails always up-to-date. However, if you find that the thumbnails stay incorrect
+even after browser reload (F5, Ctrl-R or Apple-R), click the following button to delete all cached thumbnails.
+</p>
+
+<% form_tag :method => :get, :action => :clear_thumbnails do -%>
+  <div><%= submit_tag "Clear thumbnail cache" %></div>
+<% end -%>
+
+<% else %>
+
+<p>Gallery has not been synchronized yet. Please synchronize. </p>
+
+<% end %>

@@ -1,0 +1,7 @@
+<li class="form-element" id="record_target_controller_<%=@record.id%>">    
+  <% if @controller_required %>
+    <%= render_textedit("target_controller", "Target controller")%>
+  <% else %>
+    <%= render_void %>
+  <% end %>
+</li>

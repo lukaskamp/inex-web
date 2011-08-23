@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<%=@current_language.code%>" lang="<%=@current_language.code%>">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>INEX-SDA</title>
+	    <%= javascript_include_tag :defaults %>
+    	<%= active_scaffold_includes %>
+		<%= stylesheet_link_tag "shared" %>
+		<%= stylesheet_link_tag "sessions" %>
+    </head>
+	<body>
+		<div id="content">
+			<center>
+			<%= render :partial => 'shared/infobox' %>		
+			<%= yield %>
+			</center>
+		</div>
+	</body>
+</html>

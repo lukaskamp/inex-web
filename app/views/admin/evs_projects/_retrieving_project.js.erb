@@ -1,0 +1,4 @@
+<%= icon('evs_progress') %> retrieving
+<script language="JavaScript">
+  <%=remote_function :update => "evs_retrieval_result_#{@project.id}", :url => {:action => :retrieve_project, :id => @project.id} %>
+</script>

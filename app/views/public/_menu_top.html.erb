@@ -1,0 +1,32 @@
+<table id="menu_top_buttons" cellspacing="0" cellpadding="0" border="0">
+	<colgroup>
+		<col width="25%" />
+		<col width="25%" />
+		<col width="25%" />
+		<col width="25%" />
+	</colgroup>
+	<tr>
+		<% MenuItem.root_menu_items(@current_language).each_with_index do |menu_item, i| -%>
+			<% if i < 4 -%>
+				<% target = construct_url(menu_item.target_url, {:menu => menu_item} ) %>
+				<!-- hard to believe, but true; the style has to be given inline-->
+				<td 
+					style="border:1px solid;" 
+					<% if menu_item != @active_menu_first %>
+						class="menu_top_button_off" 
+						id="menu_top_button_off_<%=i+1%>_td" 
+						onmouseover="this.className='menu_top_button_on';this.id='menu_top_button_on_<%=i+1%>_td';"
+						onmouseout="this.className='menu_top_button_off';this.id='menu_top_button_off_<%=i+1%>_td';"
+					<% else %>
+						class="menu_top_button_on" 
+						id="menu_top_button_on_<%=i+1%>_td" 
+					<% end %>
+					onclick="location.replace('<%=target%>');"
+					>
+					<%= link_to "&nbsp;"*55, target %>
+					<%= menu_item_edit_link menu_item.id %>
+				</td>
+			<% end -%>
+		<% end -%>
+	</tr>
+</table>

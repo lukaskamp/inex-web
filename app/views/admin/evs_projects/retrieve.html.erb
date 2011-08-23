@@ -1,0 +1,30 @@
+<table class="admin_properties_table">
+  <colgroup>
+    <col width="150">
+    <col width="250">
+  </colgroup>
+  <tr>
+    <th colspan=2>
+      EVS info retrieval
+    </th>
+  </tr>
+<% for project in @evs %>
+  <% div_id = "evs_retrieval_result_#{project.id}" %>
+  <tr>
+    <td class="id">
+      <%= project.eiref %>
+    </td>
+    <td>
+      <span id="<%=div_id%>">
+        <%= icon('evs_wait')%> queued for retrieval
+      </span>
+    </td>
+  </tr>
+  <script language="JavaScript">
+    <%= remote_function :update => div_id, :url => {:action => :retrieving_project, :id => project.id} %>
+  </script>
+<% end %>
+
+</table>
+
+<p><%= link_to icon('evs_back')+" Back to EVS list", :action => :index %></p>

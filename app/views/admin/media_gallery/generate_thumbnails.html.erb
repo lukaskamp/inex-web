@@ -1,0 +1,58 @@
+<% script = "" %>
+<% for files, status, dims, action, cols, show_id in [[@files,@status,@dims,"make_thumbnail",2,true], [@article_files,@article_status,@article_dims,"make_article_thumbnail",3,false]] %>
+
+<table class="admin_properties_table">
+  <colgroup>
+    <% cols.times do %>
+      <% if show_id %>
+        <col width="50">
+      <% end %>
+      <col width="150">
+      <% for x in dims %>
+        <col width="90">
+      <% end %>
+    <% end %>  
+  </colgroup>
+  <tr>
+    <% cols.times do %>
+      <% if show_id %>
+        <th class="small"> ID </th>
+      <% end %>
+      <th class="small"> File name </th>
+      <% for xdim, ydim, dim_name in dims %>
+        <th class="small"><%= dim_name %><br />(<%=xdim%>x<%=ydim%>)</th>
+      <% end %>
+    <% end %>
+  </tr>
+  <% files.each_with_index do |f,i| %>
+    <%="<tr>" if i%cols==0%>
+      <% if show_id %>
+        <td class="id"><%= f[:id] %></td>
+      <% end %>
+      <td class="id"><%= f[:filename].gsub('/', '/ ') %></td>
+      <% for xdim, ydim, dim_name in dims %>
+        <td>
+          <% div_id = "thumbnail_status_#{i}_#{xdim}_#{ydim}"%>
+          <div id="<%=div_id%>" class="status">
+            <% if status[f]["#{xdim}x#{ydim}"] %>
+              <%= icon("ok") %>
+            <% else %>
+              <%= icon("fail") %>
+              <%
+                script << remote_function(:update => div_id, :after => "Element.update(\"#{div_id}\", '#{icon('progress')}');", :method => :get, :url => {:action => action, :id => f[:id], :filename => f[:filename], :xdim => xdim, :ydim => ydim}) + ';'
+              %>
+            <% end %>
+          </div>
+        </td>
+      <% end %>
+    <%="</tr>" if (i+1)%cols==0 or i+1==@article_files.size%>
+  <% end %>
+</table>
+
+<% end %>
+<script>
+function loadthumbs() {
+  <%=script%>  
+}
+window.onload = loadthumbs;
+</script>

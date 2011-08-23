@@ -1,0 +1,231 @@
+body {
+	background-color: white;
+	font-family:Verdana, sans-serif;
+	font-size:11px;
+	color:black;
+}
+
+a {
+	text-decoration:none;
+}
+
+
+/* Style used by ActiveScaffold */
+h1 {
+	color:#555555;
+	font-family:arial,sans-serif;
+	font-size:160%;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:normal;
+	margin:0;
+	padding:2px 0;	
+}
+
+#sidebar {
+	float: left;
+	width: 250px;
+	margin: 0;
+	margin-left: -100%;
+	margin-top: 25px;
+}
+
+#contentwrapper{
+	float: left;
+	width: 100%;
+}
+
+#content {
+	margin-top: 25px;
+	margin-left: 270px;	
+}
+
+#mode-switch-tab {
+    background: #E6F2FF url(../images/world.png) no-repeat scroll 4px 50%;
+    border-color: #E6F2FF rgb(230, 242, 255) rgb(230, 242, 255) -moz-use-text-color;
+    border-style: outset outset outset none;
+    border-width: 1px 1px 1px medium;
+    display: block;
+    height: 35px;
+    left: 0pt;
+    margin-top: -45px;
+    position: fixed;
+    text-indent: -4000px;
+    top: 35%;
+    width: 25px;
+    z-index: 100001;
+}
+
+
+#status ul {
+	padding-left:20px;
+}
+
+#status li {
+	list-style: none;
+}
+
+#status li strong {
+	color: #555555;
+}
+
+
+
+div.image_list_cell {
+	float:left;
+	border:1px solid blue;
+	margin:5px;
+}
+
+#evs_retrieval img {
+	vertical-align:middle;
+}
+
+a img {
+	border:0;
+	vertical-align:middle;	
+}
+
+table.admin_properties_table tr th {
+	margin:1px;
+	background-color:#aaaaff;
+	font-size:14px;
+	font-weight:bold;
+}
+
+table.admin_properties_table tr th.small {
+	font-size:12px;
+}
+
+table.admin_properties_table tr td {
+	margin:1px;
+	background-color:#dddddd;
+	padding:3px;
+}
+
+table.admin_properties_table tr td.id {
+	background-color:#ddddff;
+}
+
+div.admin_button {
+	border:1px solid #9999ff;
+	background-color:#eeeeee;	
+	width:116px;
+}
+
+div.admin_button img {
+	vertical-align:top;
+	margin-top:2px;
+}
+
+div.admin_button input {
+	text-align:center;
+	background-image:none;
+	margin:2px 0px 2px 0px;
+	width:90px;
+	height:16px;
+	border:0;
+}
+
+
+
+/* album editing: */
+
+div.album_photo {
+	float:left;
+	margin:5px;
+	text-align:center;
+	font-size:10px;
+}
+
+div.album_editor_thumbnail {
+	background-color: #bbbbbb;
+	margin:1px;
+	padding:3px;
+}
+
+div.album_editor_text {
+	text-align:center;
+	background-color:#bbbbff;
+	margin:1px;
+	padding:3px;
+}
+
+div.album_editor_field {
+	text-align:center;
+	background-color:#bbbbff;
+	margin:1px;
+	padding:3px;
+}
+
+div.album_editor_button {
+	text-align:center;
+	background-color:#bbbbff;
+	margin:1px;
+	height:20px;
+}
+
+div.album_editor_button img {
+	background-color:#eeeeee;
+	vertical-align:top;
+	margin-top:2px;
+}
+
+div.album_editor_button input {
+	text-align:center;
+	background-color:#eeeeee;
+	background-image:none;
+	margin:2px 0px 2px 0px;
+	width:90px;
+	height:16px;
+	border:0;
+}
+
+
+#menu {
+	left: 0px;
+}
+
+#menu ul {
+	padding-left:20px;
+}
+
+#menu li strong
+{
+	color:#555555;
+	font-size:130%;
+	font-weight: bold;
+}
+
+#menu li {
+	color:#555555;
+	font-size: 110%;
+}
+
+#menu li.strong a:hover {
+	background-color: #FFFF88;
+}
+
+
+#menu ul li a, #status a {
+	font-size:12px;
+	color: #3E8CD9;	
+	text-decoration: none;
+	font-weight:normal;
+}
+
+#menu ul li a:visited, #status a:visited {
+	color: #3E8CD9;
+}
+
+#menu a:hover, #status a:hover {
+	background-color: #FFFF88;
+}
+
+#menu li {
+	vertical-align: middle;
+	list-style: none;
+}

@@ -1,0 +1,41 @@
+<% 100.times do |i| %>
+
+volunteer_<%=i%>:
+  firstname: John
+  lastname: Silver<%=i%>
+  projectcountry: Denmark
+  project: Legoland Actor
+  email: postman@example.com
+  age: <%= 10 + rand(50)%>
+
+  # rating attributes
+  findinex: <%= rand(6) %>
+  findproject: <%= rand(6) %>
+  findapplication: <%= rand(6) %>
+  ratecommunication: <%= rand(6) %>
+  rateapplication: <%= rand(6) %>
+  projwork: <%= rand(6) %>
+  projstudy: <%= rand(6) %>
+  projgroup: <%= rand(6) %>
+  projleisure: <%= rand(6) %>
+  projleader: <%= rand(6) %>
+  projaccomodation: 5
+  projfood: 4
+  projhygiene: 3
+  collcommunication: 2
+  collconflict: 1
+  collinfo: 0
+  rating: <%= rand(6) %>
+
+  # yes/no attributes
+  wasgood: <%= YamlUtils::yes_or_no %>
+  wouldrecommend: <%= YamlUtils::yes_or_no %>
+  goagain: <%= YamlUtils::yes_or_no %>
+  recommendtofriends: <%= YamlUtils::yes_or_no %>
+  wouldhelp: <%= YamlUtils::yes_or_no %>
+  newsletter: <%= YamlUtils::yes_or_no %>   
+
+  created_at: <%= (1 + rand(6)).month.ago.to_s :db %>
+  updated_at: <%= rand(6).day.ago.to_s :db %>   
+<% end %>
+

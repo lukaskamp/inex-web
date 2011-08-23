@@ -1,0 +1,20 @@
+<%= YamlUtils::eval_erb_file("#{RAILS_ROOT}/db/fixtures/seed/parameters.yml") %>
+
+parameter_nil:
+  key: parameter_nil
+  type: Parameter
+
+parameter_int:
+  key: parameter_int
+  type: IntegerParameter
+  value: 5
+
+parameter_str:
+  key: parameter_str
+  type: StringParameter
+  value: text
+
+parameter_float:
+  key: parameter_float
+  type: FloatParameter
+  value: 2.5

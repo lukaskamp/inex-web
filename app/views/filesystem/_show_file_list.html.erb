@@ -1,0 +1,8 @@
+<div id="tinymce_files_list">
+<% if @list.size == 0 %>
+	No files uploaded yet.
+<% end %>
+<% @list.each do |fn| %>
+    <%= link_to_function fn, "document.getElementById('href').value='#{par('attachment_root')}/#{fn}'" %> <br/>
+<% end %>
+</div>

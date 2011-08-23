@@ -1,0 +1,242 @@
+	<!--evs -->
+
+	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	
+	
+	<link rel="stylesheet" type="text/css" href="http://ec.europa.eu/youth/evs/aod/css/hei.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8;">
+</head>
+
+<body>
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="Language" content="en"/>
+<meta name="Keywords" content="Youth" />
+<meta name="Description" content="European Commission - Youth" />
+<meta name="Reference" content="COMM/EAC/EN" />
+<meta name="Creator" content="COMM/EAC" />
+<meta name="title" content="EUROPA - Youth - European Voluntary Service - Accredited organisations" />
+  <script src="http://ec.europa.eu/wel/template_2007/scripts/external.js" type="text/javascript"></script>
+  <script src="http://ec.europa.eu/wel/template_2007/scripts/language.js" type="text/javascript"></script>
+  <script src="http://ec.europa.eu/wel/template_2007/scripts/fontsize.js" type="text/javascript"></script>
+<!-- Central stylesheets for the template 2007-->
+  <link type="text/css" rel="stylesheet" href="http://ec.europa.eu/youth/wel/template_2007/stylesheets/commission.css" media="all"></link>
+  <link type="text/css" rel="stylesheet" href="http://ec.europa.eu/youth/wel/template_2007/stylesheets/commission-print.css" media="print"></link>
+    <!--[if IE 6]><link type="text/css" rel="stylesheet" href="http://ec.europa.eu/youth/wel/template_2007/stylesheets/commission-ie6.css" media="all"></link><![endif]-->
+<link href="http://158.167.240.72:6087/youth/wel/template_2007/stylesheets/global.css" rel="stylesheet" type="text/css" media="all"></link>  
+<link href="http://158.167.240.72:6087/youth/wel/template_2007/stylesheets/t2.css" rel="stylesheet" type="text/css"  media="screen"></link>
+<title>EUROPA - Youth - European Voluntary Service - Accredited organisations</title>
+</head>
+<body>
+  <div class="outOfScreen" title="Accessibility tools">
+    <ul>
+      <li><a href="#content" accesskey="S">Go to main content [shortcut key S], by skipping site tools, language selector, navigation path and navigation menu</a></li>
+      <li><a href="#container">Go to navigation menu, by skipping site tools, language selector and navigation path</a></li>
+      <li><a href="#path">Go to navigation path, by skipping site tools and language selector</a></li>
+      <li><a href="#langsSelector">Go to language selector, by skipping site tools</a></li>
+      <li><a href="#linkBoxTools">Go to site tools</a></li>
+    </ul>
+  </div>
+
+<!-- Main site menu -->
+  <div id="top">
+      <!-- Banner -->
+      <div id="bannerBackground">
+
+
+
+        <div class="bannerRight">
+          <div id="title-en" class="title"></div>
+          <div id="imageBanner">
+            <!-- Use h1 here for homepage only -->
+            <h1>European Commission</h1>
+          </div>
+
+         <div id="linkBox">
+            <div id="linkBoxTools"><ul><li><a accesskey="7" href="mailto:eac-youthinaction@ec.europa.eu?subject=EVS_page_request&body=European Voluntary Service Accredited organisations page:">Contact</a></li><li><a accesskey="4"  class="first" href="http://ec.europa.eu/geninfo/query/search_en.html">Search</a></li><li><a href="http://158.167.240.72:6087/youth/archive/index_en.html">Archives</a></li><li><a accesskey="8" id="legalNotice" href="http://ec.europa.eu/geninfo/legal_notices_en.htm" target="_blank">Legal notice</a></li></ul></div>
+          </div>
+        </div>
+        <div id="langsFormContainer"></div>
+        <div id="linkBoxArrow"></div>
+        <div id="langsSelector">
+           <p style="display:none;" > <ul id="official">
+<li><a href="http://ec.europa.eu/youth/evs/aod/index_en.htm" class="curlang" hreflang="en" lang="en" title="English">en</a></li>
+</ul><!-- Brotherlg-noscript took 0.01 sec --> </p>
+        </div>
+        <div id="linkBoxLanguage"></div>
+      </div>
+    <!-- BEGIN - The breadcrumb part - BEGIN -->
+      <div id="path">
+        <div>
+          <ul>
+          <li > <a href="http://158.167.240.72:6087/index_en.htm" >European Commission</a></li>
+          <li><a href="http://158.167.240.72:6087/youth/index_en.htm">Youth</a></li>
+		  <li><a href="http://ec.europa.eu/youth/evs/aod/hei_en.cfm">EVS Accredited Organisations</a></li>
+          </ul>
+        </div>
+      </div>
+       <script type="text/javascript">initLanguage("en"); </script>
+     <script type="text/javascript">initFontSize();</script> <!--[if IE 6]><![endif]--> 
+      <!-- END - The breadcrumb part - END -->    
+      <!-- End banner -->
+     </div> 
+	<table width="80%" border="0" cellpadding="0" cellspacing="0" align="center">		
+		<tr >
+			<td align="left" style="border-color:white !important">TYPE:<strong> S</strong> = Sending organisation</td>
+			<td align="left" style="border-color:white !important"><strong>H</strong> = Host organisation</td>
+			<td align="left" style="border-color:white !important"><strong>C </strong>= Co-ordinating organisation</td>
+			<td align="right" style="border-color:white !important"><strong>9</strong> record(s)</td>
+		</tr>
+	</table>
+	<br>
+	<table width="80%" border="0" align="center" cellpadding="4" cellspacing="2">		
+	    <tr align="left">      	
+	      <th nowrap="nowrap" align="center" valign="middle">EIRef</th>
+	      <th align="center" valign="middle">Country</th>
+		  <th align="center" valign="middle">Town</th> 
+		  <th align="center" valign="middle">Themes</th>
+	      <th align="center" valign="middle">Theme2</th> 
+    	  <th align="center" valign="middle">Organisation</th>
+		  <th align="center" valign="middle">Type</th>
+	      <th align="center" valign="middle" >Approval Date</th>
+	    </tr>
+
+  			
+			<tr bgcolor="#ffffff"> 
+				<td class="eilist"  height="25" nowrap="nowrap"><a href="http://ec.europa.eu/youth/evs/aod/hei_form_en.cfm?EID=20000091208">2007-BEFR-38</td>			
+				<td>Belgium</td>
+				<td>Bruxelles</td> 
+				<td>Art and culture</td>
+				<td>Other</td> 
+				<td >AFS Programmes Interculturels asbl</td>
+				<td nowrap="nowrap">
+					H 
+				</td>	
+				<td align="center" valign="middle" bgcolor="#ffffff">30/01/2008</td>  		
+			</tr>
+			
+			<tr bgcolor="#E4F0C6"> 
+				<td class="eilist"  height="25" nowrap="nowrap"><a href="http://ec.europa.eu/youth/evs/aod/hei_form_en.cfm?EID=20000091701">2007-BEFR-39</td>			
+				<td>Belgium</td>
+				<td>Bruxelles</td> 
+				<td>Art and culture</td>
+				<td>Disability</td> 
+				<td >FACERE</td>
+				<td nowrap="nowrap">
+					H 
+				</td>	
+				<td align="center" valign="middle" bgcolor="#E4F0C6">06/12/2007</td>  		
+			</tr>
+			
+			<tr bgcolor="#ffffff"> 
+				<td class="eilist"  height="25" nowrap="nowrap"><a href="http://ec.europa.eu/youth/evs/aod/hei_form_en.cfm?EID=20000090501">2007-BEFR-31</td>			
+				<td>Belgium</td>
+				<td>Rixensart</td> 
+				<td>Art and culture</td>
+				<td>Minority rights</td> 
+				<td >Fedasil Rixensart</td>
+				<td nowrap="nowrap">
+					H 
+				</td>	
+				<td align="center" valign="middle" bgcolor="#ffffff">20/11/2007</td>  		
+			</tr>
+			
+			<tr bgcolor="#E4F0C6"> 
+				<td class="eilist"  height="25" nowrap="nowrap"><a href="http://ec.europa.eu/youth/evs/aod/hei_form_en.cfm?EID=20000091101">2007-BEFR-36</td>			
+				<td>Belgium</td>
+				<td>Bruxelles</td> 
+				<td>Media and communication/Youth information</td>
+				<td>Development cooperation</td> 
+				<td >Bureau International Catholique de l'Enfance</td>
+				<td nowrap="nowrap">
+					H 
+				</td>	
+				<td align="center" valign="middle" bgcolor="#E4F0C6">29/10/2007</td>  		
+			</tr>
+			
+			<tr bgcolor="#ffffff"> 
+				<td class="eilist"  height="25" nowrap="nowrap"><a href="http://ec.europa.eu/youth/evs/aod/hei_form_en.cfm?EID=20000091001">2007-BEFR-33</td>			
+				<td>Belgium</td>
+				<td>Marche-en-Famenne</td> 
+				<td>European awareness</td>
+				<td>Anti-discrimination</td> 
+				<td >Compagnons Bâtisseurs Belgium Association</td>
+				<td nowrap="nowrap">
+					H 
+				</td>	
+				<td align="center" valign="middle" bgcolor="#ffffff">17/10/2007</td>  		
+			</tr>
+			
+			<tr bgcolor="#E4F0C6"> 
+				<td class="eilist"  height="25" nowrap="nowrap"><a href="http://ec.europa.eu/youth/evs/aod/hei_form_en.cfm?EID=20000091016">2007-BEFR-34</td>			
+				<td>Belgium</td>
+				<td>Marche-en-Famenne</td> 
+				<td>European awareness</td>
+				<td>Youth policies</td> 
+				<td >Mic-Ados a.m.o</td>
+				<td nowrap="nowrap">
+					H 
+				</td>	
+				<td align="center" valign="middle" bgcolor="#E4F0C6">17/10/2007</td>  		
+			</tr>
+			
+			<tr bgcolor="#ffffff"> 
+				<td class="eilist"  height="25" nowrap="nowrap"><a href="http://ec.europa.eu/youth/evs/aod/hei_form_en.cfm?EID=20000091032">2007-BEFR-35</td>			
+				<td>Belgium</td>
+				<td>Marche-en-Famenne</td> 
+				<td>Art and culture</td>
+				<td>Youth policies</td> 
+				<td >Maison de Jeunes de Marche</td>
+				<td nowrap="nowrap">
+					H 
+				</td>	
+				<td align="center" valign="middle" bgcolor="#ffffff">17/10/2007</td>  		
+			</tr>
+			
+			<tr bgcolor="#E4F0C6"> 
+				<td class="eilist"  height="25" nowrap="nowrap"><a href="http://ec.europa.eu/youth/evs/aod/hei_form_en.cfm?EID=20000090901">2007-BEFR-32</td>			
+				<td>Belgium</td>
+				<td>Marche-en-Famenne</td> 
+				<td></td>
+				<td></td> 
+				<td >Compagnons Bâtisseurs</td>
+				<td nowrap="nowrap">
+					C 
+				</td>	
+				<td align="center" valign="middle" bgcolor="#E4F0C6">15/10/2007</td>  		
+			</tr>
+			
+			<tr bgcolor="#ffffff"> 
+				<td class="eilist"  height="25" nowrap="nowrap"><a href="http://ec.europa.eu/youth/evs/aod/hei_form_en.cfm?EID=20000080601">2007-BEFR-3</td>			
+				<td>Belgium</td>
+				<td>Banneux</td> 
+				<td>Minority rights</td>
+				<td>Youth policies</td> 
+				<td >"Les Faons"</td>
+				<td nowrap="nowrap">
+					H 
+				</td>	
+				<td align="center" valign="middle" bgcolor="#ffffff">07/08/2007</td>  		
+			</tr>
+		
+  </table>
+<!-- BOTTOM NAVIGATION BAR -->
+<table width="100%" border="0" cellspacing="0" cellpadding="12" style="border-color:white !important">
+  <tr>
+    <td>
+		<p>&nbsp;</p>
+		<div class="footer" >
+			<div style="position:relative;border-top:1px dashed  #EFC0CA; height:50px;font-family: Verdana, Arial, Helvetica, Geneva, sans-serif;font-size: 10px;"><a href="mailto:eac-youthinaction@ec.europa.eu?subject=EVS_page_request&body=European Voluntary Service Accredited organisations page:" class='more'>Contact</a>  |  <a href="http://158.167.240.72:6087/youth/archive/index_en.html" class='more'>Archives</a>  |  <a href="#top"  class='more'>Top of the page</a>
+			</div>             
+			</div>&nbsp;
+	</td>
+  </tr>
+</table>	
+</body>
+</html>

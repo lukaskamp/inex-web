@@ -1,0 +1,79 @@
+h1 {
+	font-family: "Trebuchet MS", Trebuchet, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 15px;
+}
+
+h2 {
+	font-family: "Trebuchet MS", Trebuchet, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 15px;
+}
+
+h3 {
+	font-family: "Trebuchet MS", Trebuchet, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #951145;
+	margin-bottom: 15px;
+}
+
+h4 {
+	font-family: "Trebuchet MS", Trebuchet, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #951145;
+	margin-bottom: 15px;
+}
+
+h5 {
+	font-family: "Trebuchet MS", Trebuchet, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 15px;
+}
+
+h6 {
+	font-family: "Trebuchet MS", Trebuchet, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 9.5px;
+	font-weight: normal;
+	color: #4d7080;
+	margin-bottom: 15px;
+}
+
+p, li, td {
+	font-family: "Trebuchet MS", Trebuchet, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: black;
+}
+
+#content img {
+	padding:20px 15px;
+}
+
+#content img.icon {
+	padding:0;
+}
+
+a {
+	color: #74a8bf;
+	font-weight:bold;
+}
+a:hover {
+	color: #951145;
+	font-weight:bold;
+}
+a:visited {
+	color: #74a8bf;
+	font-weight:bold;
+}
+
+table {
+	border-collapse:separate;
+}

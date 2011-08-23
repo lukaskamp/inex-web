@@ -1,0 +1,1971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<countries type="array">
+  <country>
+    <code>AD</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4397253</id>
+    <name-cz>Andorra</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>AE</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4397254</id>
+    <name-cz>Spojené arabské emiráty</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>AF</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4397255</id>
+    <name-cz>Afghánistán</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>AG</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4397256</id>
+    <name-cz>Antigua a Barbuda</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>AI</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4397258</id>
+    <name-cz>Anguilla</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>AL</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4397261</id>
+    <name-cz>Albánie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>AM</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4397262</id>
+    <name-cz>Arménie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>AN</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4397263</id>
+    <name-cz>Nizozemské Antily</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>AO</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4397264</id>
+    <name-cz>Angola</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>AQ</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4397266</id>
+    <name-cz>Antarktida</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>AR</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4397267</id>
+    <name-cz>Argentina</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>AS</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4397268</id>
+    <name-cz>Americká Samoa</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>AT</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4397269</id>
+    <name-cz>Rakousko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>AU</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4397270</id>
+    <name-cz>Austrálie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>AW</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4397272</id>
+    <name-cz>Aruba</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>AX</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4397273</id>
+    <name-cz>Ålandy</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>AZ</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4397275</id>
+    <name-cz>Ázerbájdžán</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>BA</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4464898</id>
+    <name-cz>Bosna a Hercegovina</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>BB</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4464900</id>
+    <name-cz>Barbados</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>BD</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4464902</id>
+    <name-cz>Bangladéš</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>BE</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4464903</id>
+    <name-cz>Belgie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>BF</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4464904</id>
+    <name-cz>Burkina Faso</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>BG</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4464905</id>
+    <name-cz>Bulharsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>BH</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4464906</id>
+    <name-cz>Bahrajn</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>BI</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4464907</id>
+    <name-cz>Burundi</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>BJ</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4464908</id>
+    <name-cz>Benin</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>BL</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4464910</id>
+    <name-cz>Saint-Barthélemy</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>BM</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4464911</id>
+    <name-cz>Bermudy</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>BN</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4464912</id>
+    <name-cz>Brunej</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>BO</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4464913</id>
+    <name-cz>Bolívie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>BR</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4464916</id>
+    <name-cz>Brazílie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>BS</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4464917</id>
+    <name-cz>Bahamy</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>BT</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4464918</id>
+    <name-cz>Bhútán</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>BV</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4464920</id>
+    <name-cz>Bouvetův ostrov</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>BW</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4464921</id>
+    <name-cz>Botswana</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>BY</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4464923</id>
+    <name-cz>Bělorusko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>BZ</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4464924</id>
+    <name-cz>Belize</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>CA</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4532547</id>
+    <name-cz>Kanada</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>CC</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4532550</id>
+    <name-cz>Kokosové ostrovy</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>CD</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4532551</id>
+    <name-cz>Demokratická republika Kongo</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>CF</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4532553</id>
+    <name-cz>Středoafrická republika</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>CG</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4532554</id>
+    <name-cz>Kongo</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>CH</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4532555</id>
+    <name-cz>Švýcarsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>CI</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4532556</id>
+    <name-cz>Pobřeží slonoviny</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>CK</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4532558</id>
+    <name-cz>Cookovy ostrovy</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>CL</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4532559</id>
+    <name-cz>Chile</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>CM</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4532560</id>
+    <name-cz>Kamerun</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>CN</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4532561</id>
+    <name-cz>Čína</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>CO</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4532562</id>
+    <name-cz>Kolumbie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>CR</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4532565</id>
+    <name-cz>Kostarika</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>CU</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4532568</id>
+    <name-cz>Kuba</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>CV</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4532569</id>
+    <name-cz>Kapverdy</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>CX</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4532571</id>
+    <name-cz>Vánoční ostrov</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>CY</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4532572</id>
+    <name-cz>Kypr</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>CZ</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4532573</id>
+    <name-cz>Česko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>DE</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4600201</id>
+    <name-cz>Německo</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>DJ</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4600206</id>
+    <name-cz>Džibutsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>DK</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4600207</id>
+    <name-cz>Dánsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>DM</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4600209</id>
+    <name-cz>Dominika</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>DO</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4600211</id>
+    <name-cz>Dominikánská republika</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>DZ</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4600222</id>
+    <name-cz>Alžírsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>EC</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4667847</id>
+    <name-cz>Ekvádor</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>EE</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4667850</id>
+    <name-cz>Estonsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>EG</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4667852</id>
+    <name-cz>Egypt</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>EH</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4667853</id>
+    <name-cz>Západní Sahara</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>ER</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4667863</id>
+    <name-cz>Eritrea</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>ES</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4667864</id>
+    <name-cz>Španělsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>ET</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4667865</id>
+    <name-cz>Etiopie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>FI</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4735503</id>
+    <name-cz>Finsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>FJ</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4735504</id>
+    <name-cz>Fidži</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>FK</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4735505</id>
+    <name-cz>Falklandy (Malvíny)</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>FM</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4735507</id>
+    <name-cz>Mikronésie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>FO</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4735509</id>
+    <name-cz>Faerské ostrovy</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>FR</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4735512</id>
+    <name-cz>Francie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>GA</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4803143</id>
+    <name-cz>Gabon</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>GB</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4803144</id>
+    <name-cz>Velká Británie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>GD</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4803146</id>
+    <name-cz>Grenada</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>GE</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4803147</id>
+    <name-cz>Gruzie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>GF</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4803148</id>
+    <name-cz>Francouzská Guyana</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>GG</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4803150</id>
+    <name-cz>Guernsey</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>GH</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4803151</id>
+    <name-cz>Ghana</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>GI</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4803152</id>
+    <name-cz>Gibraltar</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>GL</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4803155</id>
+    <name-cz>Grónsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>GM</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4803156</id>
+    <name-cz>Gambie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>GN</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4803157</id>
+    <name-cz>Guinea</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>GP</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4803159</id>
+    <name-cz>Guadeloupe</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>GQ</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4803160</id>
+    <name-cz>Rovníková Guinea</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>GR</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4803161</id>
+    <name-cz>Řecko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>GS</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4803162</id>
+    <name-cz>Jižní Georgie a Jižní Sandwichovy ostrovy</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>GT</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4803163</id>
+    <name-cz>Guatemala</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>GU</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4803164</id>
+    <name-cz>Guam</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>GW</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4803166</id>
+    <name-cz>Guinea-Bissau</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>GY</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4803168</id>
+    <name-cz>Guyana</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>HK</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4870803</id>
+    <name-cz>Hongkong</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>HM</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4870805</id>
+    <name-cz>Heardův ostrov a McDonaldovy ostrovy</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>HN</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4870806</id>
+    <name-cz>Honduras</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>HR</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4870810</id>
+    <name-cz>Chorvatsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>HT</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4870812</id>
+    <name-cz>Haiti</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>HU</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4870813</id>
+    <name-cz>Maďarsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>ID</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4938444</id>
+    <name-cz>Indonésie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>IE</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4938445</id>
+    <name-cz>Irsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>IL</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4938453</id>
+    <name-cz>Izrael</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>IM</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4938454</id>
+    <name-cz>Ostrov Man</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>IN</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4938455</id>
+    <name-cz>Indie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>IO</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4938456</id>
+    <name-cz>Britské indickooceánské území</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>IQ</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4938458</id>
+    <name-cz>Irák</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>IR</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4938459</id>
+    <name-cz>Írán</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>IS</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4938460</id>
+    <name-cz>Island</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>IT</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4938461</id>
+    <name-cz>Itálie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>JE</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5006094</id>
+    <name-cz>Jersey</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>JM</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5006103</id>
+    <name-cz>Jamajka</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>JO</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5006105</id>
+    <name-cz>Jordánsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>JP</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5006106</id>
+    <name-cz>Japonsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>KE</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5073743</id>
+    <name-cz>Keňa</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>KG</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5073745</id>
+    <name-cz>Kyrgyzstán</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>KH</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5073746</id>
+    <name-cz>Kambodža</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>KI</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5073747</id>
+    <name-cz>Kiribati</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>KM</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5073752</id>
+    <name-cz>Komory</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>KN</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5073753</id>
+    <name-cz>Svatý Kryštof a Nevis</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>KP</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5073755</id>
+    <name-cz>Severní Korea</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>KR</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5073757</id>
+    <name-cz>Jižní Korea</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>KW</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5073762</id>
+    <name-cz>Kuvajt</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>KY</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5073764</id>
+    <name-cz>Kajmanské ostrovy</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>KZ</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5073765</id>
+    <name-cz>Kazachstán</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>LA</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5141388</id>
+    <name-cz>Laos</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>LB</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5141389</id>
+    <name-cz>Libanon</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>LC</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5141390</id>
+    <name-cz>Svatá Lucie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>LI</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5141396</id>
+    <name-cz>Lichtenštejnsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>LK</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5141398</id>
+    <name-cz>Šrí Lanka</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>LR</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5141406</id>
+    <name-cz>Libérie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>LS</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5141407</id>
+    <name-cz>Lesotho</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>LT</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5141408</id>
+    <name-cz>Litva</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>LU</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5141409</id>
+    <name-cz>Lucembursko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>LV</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5141410</id>
+    <name-cz>Lotyšsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>LY</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5141413</id>
+    <name-cz>Libye</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>MA</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5209037</id>
+    <name-cz>Maroko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>MC</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5209039</id>
+    <name-cz>Monako</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>MD</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5209040</id>
+    <name-cz>Moldavsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>ME</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5209041</id>
+    <name-cz>Černá Hora</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>MF</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5209042</id>
+    <name-cz>Saint-Martin</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>MG</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5209043</id>
+    <name-cz>Madagaskar</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>MH</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5209044</id>
+    <name-cz>Marshallovy ostrovy</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>MK</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5209047</id>
+    <name-cz>Makedonie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>ML</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5209048</id>
+    <name-cz>Mali</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>MM</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5209050</id>
+    <name-cz>Myanmar</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>MN</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5209051</id>
+    <name-cz>Mongolsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>MO</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5209052</id>
+    <name-cz>Macao</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>MP</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5209053</id>
+    <name-cz>Severní Mariany</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>MQ</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5209054</id>
+    <name-cz>Martinik</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>MR</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5209055</id>
+    <name-cz>Mauritánie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>MS</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5209056</id>
+    <name-cz>Montserrat</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>MT</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5209057</id>
+    <name-cz>Malta</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>MU</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5209058</id>
+    <name-cz>Mauricius</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>MV</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5209059</id>
+    <name-cz>Maledivy</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>MW</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5209060</id>
+    <name-cz>Malawi</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>MX</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5209061</id>
+    <name-cz>Mexiko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>MY</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5209062</id>
+    <name-cz>Malajsie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>MZ</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5209063</id>
+    <name-cz>Mosambik</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>NA</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5276686</id>
+    <name-cz>Namibie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>NC</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5276688</id>
+    <name-cz>Nová Kaledonie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>NE</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5276690</id>
+    <name-cz>Niger</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>NF</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5276691</id>
+    <name-cz>Norfolk</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>NG</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5276692</id>
+    <name-cz>Nigérie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>NI</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5276694</id>
+    <name-cz>Nikaragua</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>NL</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5276697</id>
+    <name-cz>Nizozemsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>NO</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5276701</id>
+    <name-cz>Norsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>NP</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5276702</id>
+    <name-cz>Nepál</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>NR</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5276704</id>
+    <name-cz>Nauru</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>NU</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5276707</id>
+    <name-cz>Niue</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>NZ</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5276712</id>
+    <name-cz>Nový Zéland</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>OM</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5344347</id>
+    <name-cz>Omán</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>PA</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5411984</id>
+    <name-cz>Panama</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>PE</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5411988</id>
+    <name-cz>Peru</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>PF</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5411989</id>
+    <name-cz>Francouzská Polynésie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>PG</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5411990</id>
+    <name-cz>Papua-Nová Guinea</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>PH</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5411991</id>
+    <name-cz>Filipíny</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>PK</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5411994</id>
+    <name-cz>Pákistán</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>PL</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5411995</id>
+    <name-cz>Polsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>PM</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5411996</id>
+    <name-cz>Saint-Pierre a Miquelon</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>PN</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5411997</id>
+    <name-cz>Pitcairnovy ostrovy</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>PR</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5412002</id>
+    <name-cz>Portoriko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>PS</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5412003</id>
+    <name-cz>Palestinská autonomie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>PT</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5412004</id>
+    <name-cz>Portugalsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>PW</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5412007</id>
+    <name-cz>Palau</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>PY</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5412009</id>
+    <name-cz>Paraguay</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>QA</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5479633</id>
+    <name-cz>Katar</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>RE</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5547286</id>
+    <name-cz>Réunion</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>RO</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5547296</id>
+    <name-cz>Rumunsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>RS</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5547301</id>
+    <name-cz>Srbsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>RU</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5547303</id>
+    <name-cz>Rusko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>RW</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5547305</id>
+    <name-cz>Rwanda</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>SA</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5614931</id>
+    <name-cz>Saúdská Arábie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>SB</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5614932</id>
+    <name-cz>Šalamounovy ostrovy</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>SC</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5614933</id>
+    <name-cz>Seychely</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>SD</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5614934</id>
+    <name-cz>Súdán</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>SE</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5614935</id>
+    <name-cz>Švédsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>SG</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5614937</id>
+    <name-cz>Singapur</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>SH</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5614938</id>
+    <name-cz>Svatá Helena</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>SI</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5614939</id>
+    <name-cz>Slovinsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>SJ</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5614940</id>
+    <name-cz>Špicberky a Jan Mayen</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>SK</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5614941</id>
+    <name-cz>Slovensko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>SL</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5614942</id>
+    <name-cz>Sierra Leone</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>SM</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5614943</id>
+    <name-cz>San Marino</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>SN</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5614944</id>
+    <name-cz>Senegal</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>SO</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5614945</id>
+    <name-cz>Somálsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>SR</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5614948</id>
+    <name-cz>Surinam</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>ST</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5614951</id>
+    <name-cz>Svatý Tomáš a Princův ostrov</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>SV</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5614953</id>
+    <name-cz>Salvador</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>SY</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5614956</id>
+    <name-cz>Sýrie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>SZ</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5614957</id>
+    <name-cz>Svazijsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>TC</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5682582</id>
+    <name-cz>Turks a Caicos</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>TD</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5682583</id>
+    <name-cz>Čad</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>TF</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5682585</id>
+    <name-cz>Francouzská jižní a antarktická území</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>TG</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5682586</id>
+    <name-cz>Togo</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>TH</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5682587</id>
+    <name-cz>Thajsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>TJ</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5682589</id>
+    <name-cz>Tádžikistán</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>TK</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5682590</id>
+    <name-cz>Tokelau</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>TL</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5682591</id>
+    <name-cz>Východní Timor</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>TM</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5682592</id>
+    <name-cz>Turkmenistán</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>TN</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5682593</id>
+    <name-cz>Tunisko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>TO</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5682594</id>
+    <name-cz>Tonga</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>TR</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5682597</id>
+    <name-cz>Turecko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>TT</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5682600</id>
+    <name-cz>Trinidad a Tobago</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>TV</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5682602</id>
+    <name-cz>Tuvalu</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>TW</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5682603</id>
+    <name-cz>Tchaj-wan</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>TZ</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5682606</id>
+    <name-cz>Tanzanie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>UA</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5750229</id>
+    <name-cz>Ukrajina</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>UG</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5750235</id>
+    <name-cz>Uganda</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>UM</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5750241</id>
+    <name-cz>Menší odlehlé ostrovy USA</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>US</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5750247</id>
+    <name-cz>Spojené státy americké</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>UY</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5750254</id>
+    <name-cz>Uruguay</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>UZ</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5750255</id>
+    <name-cz>Uzbekistán</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>VA</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5817878</id>
+    <name-cz>Vatikán</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>VC</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5817880</id>
+    <name-cz>Svatý Vincenc a Grenadiny</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>VE</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5817882</id>
+    <name-cz>Venezuela</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>VG</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5817884</id>
+    <name-cz>Britské Panenské ostrovy</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>VI</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5817886</id>
+    <name-cz>Americké Panenské ostrovy</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>VN</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5817891</id>
+    <name-cz>Vietnam</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>VU</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5817898</id>
+    <name-cz>Vanuatu</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>WF</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5885532</id>
+    <name-cz>Wallis a Futuna</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>WS</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5885545</id>
+    <name-cz>Samoa</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>YE</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">6020829</id>
+    <name-cz>Jemen</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>YT</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">6020844</id>
+    <name-cz>Mayotte</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>ZA</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">6088474</id>
+    <name-cz>Jihoafrická republika</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>ZM</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">6088486</id>
+    <name-cz>Zambie</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <country>
+    <code>ZW</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">6088496</id>
+    <name-cz>Zimbabwe</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+</countries>

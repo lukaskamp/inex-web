@@ -1,0 +1,32 @@
+<%= chart_editor_style_adjust %>
+
+<% form_for :chart, @chart, :url => { :action => :save_chart }, :html => { :id => 'chart_form_id' } do |f| -%>
+<table class="form" style="width:auto">
+	
+	<%= form_head 'Properties' %>			
+	<%= simple_wrap 'Name', f.text_field(:name) %>
+	<%= simple_wrap 'Width', f.text_field(:width) %>	
+	<%= simple_wrap 'Height', f.text_field(:height) %>	
+	<%= chart_type_select %>	
+
+	<%= field_select(@chart) %>
+	<%= chart_term_select %>
+
+	<tr id="term_fields">
+	<% fields_for :term, @chart.term do |term_fields| %>
+		<%= render :partial => 'term', :object => @chart.term %>
+    <% end %>
+	</tr>
+	
+	<%= form_head 'Generated Chart' %>			
+	<tr>
+		<td colspan="2" id="chart_container" >
+			<%= render :partial => 'chart', :object => @chart %>
+		</td>
+	</tr>
+
+	<%= simple_wrap '', f.submit('Save') %>
+</table>
+<% end %>
+
+<%= install_form_observer %>

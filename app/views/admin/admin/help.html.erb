@@ -1,0 +1,57 @@
+<h1> Help and hints </h1>
+
+<h2> File naming conventions </h2>
+<p>
+	All file names should consist of letters, numbers, spaces, underscores and dashes. Other names will result in files being ignored or even an application crash. Beware!
+</p>
+
+<h2> Internal links </h2>
+<p>
+	When creating a hyperlink to an article or other page, just navigate to the target page and copy the relative URL from your browser navigation bar, i.e. the part after the server address (example: from http://inexsda.cz/cs/105/article/202 you would copy /cs/105/article/202) and use that as the link adress. Copying whole URL is a very bad idea. Obviously, for external links, i.e. for links to other web sites, you have to use the whole URL (INCLUDING the http:// part).
+</p>
+
+<h2> Media Gallery </h2>
+
+<p>
+	This topic is covered in section <%= link_to 'Media Gallery', :controller => "admin/media_gallery" %>.
+</p>
+
+<h2> Partner logos </h2>
+
+<p>
+	These are uploaded as images to the <b>/data/layout</b> directory (in fact, into directory given in parameter <i>layout_image_root</i>).
+	Then they have to be entered into parameters <i>partner_main_logo</i> (single filename, for the main partner logo in the right menu bar) and 
+	<i>partner_logos</i> (comma-separated filenames for the other logos in the footer).
+</p>
+<p>The logos will appear exactly as uploaded, so any size adjustment is responsibility of the user.</p>
+<p>For making the images linked to a website, a file naming convention is used: if you want to point a logo to web with address <b>www.whatever.cz</b>,
+	just rename it to <b>_www_whatever_cz.gif</b>: so you prepend an underscore, then convert all dots in the address to underscore and then append the
+	usual file extension (gif, jpg, png, whatever...).</p>
+
+<h2> Buttons on homepage </h2>
+
+<p>
+	The buttons on right (for wiki, football and horky) and also the contact button on the top are linked to functional articles with keys <b>wiki</b>, <b>football</b>,
+	<b>horky</b> and <b>contact</b>, respectively. So create them or modify them to suit your needs.
+</p>
+
+<h2> Top menu buttons </h2>
+
+<p>
+	After you change the menu item titles in the topmost level, click on <b>Re-create icons</b> button in the upper right corner. New image files 
+	will be generated then.
+</p>
+
+<h2> Top banner images </h2>
+<p>
+	The images are to be uploaded in the <b>/data/layout</b> directory (in fact, into directory given in parameter <i>layout_image_root</i>).
+	No size adjustment is performed.
+	For the homepage, set parameters <i></i> and <i></i> (use probably '50% 50%' in most of the cases). For the four sections, set columns
+	<b>Banner: file</b> and <b>Banner: position</b> for the respective Menu items.
+</p>
+
+<h2> Layout tweaking </h2>
+<p>
+	Set the maximum page width using <b>maximum_width</b> parameter (it's in pixels). There is no way to set minimum margins (because they would be minimal even for narrow variant). 
+</p>
+

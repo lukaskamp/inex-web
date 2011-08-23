@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+cs_first:
+  title: Novinka
+  article: cs_about_inex
+  valid_from: <%= 5.days.ago.to_s :db %>
+  valid_to: <%= 5.days.from_now.to_s :db %>
+  updated_at: <%= 2.days.ago.to_s :db %>
+  language: czech
+
+cs_second:
+  title: Druha novinka
+  valid_from: <%= 5.days.ago.to_s :db %>
+  valid_to: <%= 5.days.from_now.to_s :db %>
+  updated_at: <%= 3.days.ago.to_s :db %>
+  annotation_explicit: Tentokrat o tykvich a bez clanku
+  language: czech

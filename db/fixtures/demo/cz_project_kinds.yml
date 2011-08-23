@@ -1,0 +1,4 @@
+<%= YamlUtils::cz_project_kind('country') %>
+<%= YamlUtils::cz_project_kind('hands') %>
+<%= YamlUtils::cz_project_kind('one') %>
+<%= YamlUtils::cz_project_kind('bridges') %>

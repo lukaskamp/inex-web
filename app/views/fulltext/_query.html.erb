@@ -1,0 +1,5 @@
+<% form_tag lng({:controller => :fulltext, :action => :search}), :method => :get do %>
+  <%= bt("fulltext_search_query") %> 
+  <%= text_field_tag :query, '', :size => 20 %>
+  <%= submit_tag bt("fulltext_search_button", :edit_allowed => false) %>
+<% end %>

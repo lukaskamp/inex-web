@@ -1,0 +1,19 @@
+<h1>Connection to Workcamp Database</h1>
+<p>Check the connection to INEX workcamp database by clicking on the link below. Contact administrator if the connection fails, 
+as it causes the workcamp search and application form processing on the web not to work.</p>
+
+<script>
+	
+</script>
+
+<center>
+	<span id="connection_message"></span>
+	<br/>
+	<br/>
+	<span>
+		<%=  link_to_remote icon('admin_db_connection', 'Test Connection'), 
+							:url => { :action => "workcamp_connection_check" },
+							:before =>  "$('connection_message').update('#{h icon('progress', 'Testing...')}')"
+		 %>
+	</span>
+</center>

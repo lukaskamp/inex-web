@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workcamp-intentions type="array">
+  <workcamp-intention>
+    <code>AGRI</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>práce v zemědělství</description-cz>
+    <id type="integer">445288225</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>ANIMAL</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>práce se zvířaty</description-cz>
+    <id type="integer">445288226</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>ARCH</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>archeologie</description-cz>
+    <id type="integer">445288227</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>ARTS</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>umělecké zaměření</description-cz>
+    <id type="integer">445288228</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>CONS</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>konstrukční, stavební práce</description-cz>
+    <id type="integer">445288229</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>CULT</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>kulturní zaměření</description-cz>
+    <id type="integer">445288230</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>DISA</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>práce s postiženými lidmi</description-cz>
+    <id type="integer">445288231</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>ECO</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>ekologie</description-cz>
+    <id type="integer">445288232</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>EDU</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>vyučování cizích jazyků</description-cz>
+    <id type="integer">445288233</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>ELDE</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>práce se staršími lidmi</description-cz>
+    <id type="integer">281362063</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>ENVI</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>práce pro životní prostředí</description-cz>
+    <id type="integer">281362061</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>ETHNO</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>etnografie</description-cz>
+    <id type="integer">281362060</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>FEST</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>práce na festivalu</description-cz>
+    <id type="integer">281362059</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>HERI</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>památky</description-cz>
+    <id type="integer">281362058</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>HIST</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>práce zaměřená na historii</description-cz>
+    <id type="integer">281362057</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>KIDS</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>práce s dětmi</description-cz>
+    <id type="integer">281362056</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>LANG</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>učení se cizím jazykům</description-cz>
+    <id type="integer">281362055</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>LEAD</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>školení vedoucích</description-cz>
+    <id type="integer">281362054</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>MANU</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>manuální práce</description-cz>
+    <id type="integer">281362053</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>MENT</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>práce s mentálně postiženými</description-cz>
+    <id type="integer">281294414</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>PHYS</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>práce s fyzicky postiženými</description-cz>
+    <id type="integer">281294413</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>PLAY</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>organizování her, školení</description-cz>
+    <id type="integer">281294411</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>REFUGEE</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>práce s uprchlíky</description-cz>
+    <id type="integer">281294410</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>RENO</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>obnovovací práce</description-cz>
+    <id type="integer">281294409</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>SOCI</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>sociální práce</description-cz>
+    <id type="integer">281294408</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>SP NEEDS</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>ruzně postižení lidé</description-cz>
+    <id type="integer">281294407</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>SPORT</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>sportovní tématika</description-cz>
+    <id type="integer">281294406</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>STUDY</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>studijní nebo diskusní zaměření</description-cz>
+    <id type="integer">281294405</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>TEACH</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>zaměřeno na vzdělávání</description-cz>
+    <id type="integer">281294404</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+  <workcamp-intention>
+    <code>TEEN</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>práce s teenagery</description-cz>
+    <id type="integer">281226765</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+</workcamp-intentions>

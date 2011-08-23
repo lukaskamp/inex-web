@@ -1,0 +1,53 @@
+<div class="inner">
+	<ul class="level2">
+		<% for i in @active_menu_first.children %>
+			<li class="level2" id="menu_left_item_outer_<%=i.id%>">
+				<% if MenuItemLabel === i %>
+					<div class="inner_label" id="menu_left_item_inner_<%=i.id%>">
+						<%= i.title.chars.upcase %>
+						<%= menu_item_edit_link i.id %>
+					</div>
+				<% else %>
+					<% if !@active_menu_second or i.id != @active_menu_second.id %>
+						<div class="inner_item" id="menu_left_item_inner_<%=i.id%>">
+					<% else %>
+						<div class="inner_item_active" id="menu_left_item_inner_<%=i.id%>">
+					<% end %>
+						<table cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="10">&#9632;</td>
+								<% if !@active_menu_second or i.id != @active_menu_second.id %>
+									<td><%= link_to i.title.chars.upcase, 
+										construct_url(i.target_url, {:menu => i}), 
+										:onmouseover => "$('menu_left_item_inner_#{i.id}').className = 'inner_item_active';",
+										:onmouseout => "$('menu_left_item_inner_#{i.id}').className = 'inner_item';"%>
+										<%= menu_item_edit_link i.id %>
+									</td>
+								<% else %>
+									<td><%= link_to i.title.chars.upcase, 
+										construct_url(i.target_url, {:menu => i}) %>
+										<%= menu_item_edit_link i.id %>
+									</td>
+								<% end %>
+							</tr>
+						</table>
+					</div>
+				<% end %>
+			</li>
+			<% if @active_menu_second and i.id == @active_menu_second.id %>
+				<% for ii in (i.children||[]) %>
+					<li class="level3" id="menu_left_item_outer_<%=ii.id%>">
+						<div class="inner_item" id="menu_left_item_inner_<%=ii.id%>">
+							<%= link_to ii.title, 
+									construct_url(ii.target_url, {:menu => i}), 
+									:onmouseover => "$('menu_left_item_inner_#{ii.id}').className = 'inner_item_active';",
+									:onmouseout => "$('menu_left_item_inner_#{ii.id}').className = 'inner_item';" 
+							%>
+							<%= menu_item_edit_link ii.id %>
+						</div>
+					</li>
+				<% end %>
+			<% end %>
+		<% end %>
+	</ul>
+</div>

@@ -1,0 +1,2 @@
+module Admin::ParameterHelper
+end

@@ -1,0 +1,7 @@
+<li class="form-element" id="record_target_link_<%=@record.id%>">    
+  <% if @link_required %>
+    <%= render_textedit("target_link", "Target link")%>
+  <% else %>
+    <%= render_void %>
+  <% end %>
+</li>

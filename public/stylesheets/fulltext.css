@@ -1,0 +1,37 @@
+.fulltext_result_set_head {
+    font-size: 11px;
+    border-bottom: 1px solid #444499;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.25em;
+    margin-top: 0.6em;
+}
+
+.fulltext_result {
+    color: #777777;
+		margin-left: 1.5em;
+}
+
+p.fulltext_result a {
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.fulltext_result_highlight {
+    color: #2222ff;
+}
+
+.fulltext_result_head {
+    font-weight: bold;
+    color: #000000;
+}
+
+.fulltext_result_head_highlight {
+    font-weight: bold;
+    color: #5555ff;
+}
+
+a.fulltext_result_link {
+    font-weight: normal;
+    color: #882222;
+    text-decoration: none;
+}

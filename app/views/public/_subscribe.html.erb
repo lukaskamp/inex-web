@@ -1,0 +1,5 @@
+<% form_tag({:controller => :public, :action => :newsletter_subscribe}) do %>
+  <%= bt('subscribe_ask') %><br />
+  <%= bt('subscribe_ask_email') %> <%= text_field_tag :email %><br />
+  <%= submit_tag bt('subscribe_ask_submit', :allow_edit => false )%>
+<% end %>

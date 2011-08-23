@@ -1,0 +1,18 @@
+<% 
+  def action(title,controller,action)
+    "#{controller}_#{action}:\n"+
+    "  title: #{title}\n"+
+    "  controller: #{controller}\n"+
+    "  action: #{action}\n"+
+    "\n"
+  end
+%>
+
+<%= action("Workcamps (from INEX database)","workcamps","") %>
+<%= action("LTV projects","ltv_projects","") %>
+<%= action("EVS projects","evs_projects","") %>
+<%= action("CZ workcamps","cz_projects","") %>
+<%= action("Media gallery","gallery","") %>
+<%= action("Survey","survey","") %>
+<%= action("Fulltext search","fulltext","") %>
+<%= action("Headlines","headline","") %>

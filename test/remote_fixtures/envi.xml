@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workcamp-intentions type="array">
+  <workcamp-intention>
+    <code>ENVI</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <description-cz>práce pro životní prostředí</description-cz>
+    <id type="integer">281362061</id>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </workcamp-intention>
+</workcamp-intentions>

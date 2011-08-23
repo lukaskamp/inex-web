@@ -1,0 +1,47 @@
+table.workcamp_list {
+        width:100%;
+}
+
+table.workcamp_list thead, table.workcamp_list thead th {
+        background-color: #e9f6fc;
+        border-color: #e9f6fc;
+}
+
+.handle {
+ cursor: move;
+}
+
+table.workcamp_list thead th {
+        height: 17px;
+        font-family: "Trebuchet MS", Trebuchet, Tahoma, Verdana, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        color: black;
+}
+
+table.workcamp_list tr {
+        height: 17px;
+}
+
+table.workcamp_list th.paginator {
+        padding-top:35px;
+}
+
+#cart_links,
+.links a
+{
+        padding-top:35px;
+        padding-bottom:25px;
+}
+
+#cart_links a,
+.links a
+{
+        border: 1px solid black;
+        padding: 2px;
+        padding-left:8px;
+        padding-right:8px;
+        background-color: white;
+        font-weight:normal;
+        color:#74a8bf;
+}

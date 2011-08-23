@@ -1,0 +1,46 @@
+<%= YamlUtils::eval_erb_file("#{RAILS_ROOT}/db/fixtures/demo/headlines.yml") %>
+
+en_expired:
+  title: Expired Headline
+  valid_from: <%= 5.days.ago.to_s :db %>
+  valid_to: <%= 3.days.ago.to_s :db %>
+  updated_at: <%= 1.hour.ago.to_s :db %>
+  language: english
+
+en_first_unexpired:
+  title: 1.Unexpired Headline
+  valid_from: <%= 1.week.ago.to_s :db %>
+  valid_to: <%= 1.week.from_now.to_s :db %>
+  updated_at: <%= 1.hour.ago.to_s :db %>
+  language: english
+
+en_second_unexpired:
+  title: 2.Unexpired Headline
+  valid_from: <%= 1.week.ago.to_s :db %>
+  valid_to: <%= 1.week.from_now.to_s :db %>
+  updated_at: <%= 2.hours.ago.to_s :db %>
+  language: english
+
+en_expired_catch:
+  title: Expired!
+  valid_from: <%= 2.weeks.ago.to_s :db %>
+  valid_to: <%= 1.week.ago.to_s :db %>
+  updated_at: <%= 5.minutes.ago.to_s :db %>
+  language: english
+
+dognews:
+  title: Novinka o psech
+  valid_from: <%= 2.weeks.ago.to_s :db %>
+  valid_to: <%= 1.week.ago.to_s :db %>
+  updated_at: <%= 5.years.ago.to_s :db %>
+  language: english
+  article: psi
+
+dognews_w_annotation:
+  title: Novinka o psech2
+  valid_from: <%= 2.weeks.ago.to_s :db %>
+  valid_to: <%= 1.week.ago.to_s :db %>
+  updated_at: <%= 5.years.ago.to_s :db %>
+  language: english
+  article: psi
+  annotation_explicit: Novinka o psech zacina takhle.

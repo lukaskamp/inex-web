@@ -1,0 +1,50 @@
+<ul id="admin_stripe">
+        <li>
+                (<%= flag(@current_language) + ' ' + @current_language.link_title %>)
+        </li>
+        <!--
+        <li>
+                <a href="http://inex.uservoice.com/?referer_type=tab" onclick="try { UserVoice.PopIn.show(); return false; } catch(e){}">
+                        UserVoice feedback
+                </a>
+        </li>
+        -->
+
+        <% if logged_in? %>
+          <% if admin %>
+                 <li>
+                    <%= link_to icon('admin_help', 'Help'), :controller => "admin", :action => "help" %>
+                 </li>
+                  <li>
+                        <%= link_to icon('admin_web','View the Web'), home_url %>
+                  </li>
+          <% else %>
+                  <li>
+                        <%= link_to icon('admin_go_to_admin','Administration'), admin_url %>
+                  </li>
+                        <li>
+                          <% if admin_view? %>
+                            <%= link_to icon('admin_hide_edit_links','Hide edit links'), :to_user_view => true %>
+                      <% else %>
+                        <%= link_to icon('admin_show_edit_links','Show edit links'), :to_admin_view => true %>
+                      <% end %>
+                        </li>
+                        <li>
+                                <%= link_to_unless( @article.nil?,
+                                                icon('admin_edit_article', 'Edit this article'),
+                                                :controller => "admin/article",
+                                                :action => "edit",
+                                                :params => { :id => @article })
+                                %>
+                        </li>
+                <% end %>
+                <li>
+                        <%= link_to(icon('admin_logout',"Logout " + current_user.login) , logout_url) %>
+                </li>
+        <% else %>
+                        <li>
+                                <%= link_to icon('admin_login','Login'), login_url %>
+                        </li>
+        <% end%>
+
+</ul>

@@ -1,0 +1,7 @@
+page.replace :advanced_menu_button, advanced_menu_button
+
+if @current_user.show_advanced_menu
+  page[:advanced_menu_items].visual_effect :slide_down, :duration => 0.3
+else
+  page[:advanced_menu_items].visual_effect :slide_up, :duration => 0.3
+end

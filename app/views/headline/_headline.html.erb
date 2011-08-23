@@ -1,0 +1,30 @@
+<div class="headline_list_item">
+
+  <div class="headline_list_validity">
+    <div class="headline_validity_date"><%= headline.valid_from %></div>
+    <div class="headline_validity_line">&nbsp;</div>
+  </div>
+
+  <div class="headline_list_title">
+    <% if headline.article %>
+      <%= link_to headline.title, smart_article_url(headline.article) %>
+    <% else %>
+      <%= headline.title %>
+    <% end %>
+  </div>
+
+  <% if headline.image_filename %>
+    <div class="headline_list_image">
+			<%=
+			   # image_tag(article_thumb_path(:filename => headline.image_filename, :dims=>"0x130"))
+			   # HACK - TODO - udelat lepe
+			   image_tag "/media/article_thumb/0x130/#{headline.image_filename}"
+			%>
+    </div>
+  <% end %>
+
+  <div class="headline_list_annotation">
+        <%= headline.annotation.gsub(/(\s[ksvz]) /,"\\1&nbsp;") if headline.annotation %>
+  </div>
+
+</div>

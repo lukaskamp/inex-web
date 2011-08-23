@@ -1,0 +1,71 @@
+        <ul id="menu">
+                <li><strong>Content</strong></li>
+                <li>
+                        <ul>
+                                <li><%= link_to icon('admin_articles', 'Articles'), :controller => "admin/article" %></li>
+                                <li><%= link_to icon('admin_headlines', 'Headlines'), :controller => "admin/headline" %></li>
+                                <li><%= link_to icon('admin_menu', 'Menu'), :controller => "admin/menu_item" %></li>
+                                <li><%= link_to icon('admin_banners', 'Banners'), :controller => "admin/banners" %>
+                                <li><%= link_to icon('admin_gallery', 'Media Gallery'), :controller => "admin/media_gallery" %>
+                                  <ul>
+              <li><%= link_to icon('admin_gallery_sync', 'Synchronize'), :action => :sync, :controller => "admin/media_gallery" -%></li>
+              <% if root_id = MediaAlbum.root(@current_language) %>
+                <li><%= link_to icon('admin_gallery_edit', 'Edit the gallery'), edit_album_path(:id => root_id) %></li>
+                <li><%= link_to icon('admin_gallery_thumbs', 'Generate thumbs'), :action => :generate_thumbnails, :controller => "admin/media_gallery" %></li>
+              <% end %>
+                                  </ul>
+                                </li>
+                        </ul>
+                </li>
+
+                <li><strong>Volunteers & Projects</strong></li>
+                <li>
+                        <ul>
+                                <li><%= link_to icon('admin_evs', 'EVS Projects'), :controller => "admin/evs_projects" %></li>
+                                <li><%= link_to icon('admin_ltv', 'LTV Projects'), :controller => "admin/ltv_projects" %></li>
+                                <li><%= link_to icon('admin_cz', 'CZ Projects'), :controller => "admin/cz_projects" %></li>
+                                <li><%= link_to icon('admin_survey_data', 'Volunteer Surveys'), :controller => "admin/survey" %></li>
+                                <!--
+                                <li><%= link_to icon('admin_statistics', 'Statistics'), :controller => "admin/statistics" %></li>
+                                -->
+                                <li><%= icon('admin_workcamps', 'Workcamps') %>
+                                        <ul>
+                                                <li><%= link_to icon('admin_apply_forms', 'Applications'), :controller => "admin/apply_form" %></li>
+                                                <li><%= link_to icon('admin_season', 'Season Start'),
+                                                                                :controller => "admin/parameter",
+                                                                                :action => :edit_by_key,
+                                                                                :code => WorkcampSearch::SEASON_START_PARAM
+                                                        %>
+                                                </li>
+                                                <li><%= link_to icon('admin_season', 'Season End'),
+                                                                                :controller => "admin/parameter",
+                                                                                :action => :edit_by_key,
+                                                                                :code => WorkcampSearch::SEASON_END_PARAM
+                                                        %>
+                                                </li>
+                                        </ul>
+                                </li>
+                        </ul>
+                </li>
+
+        <li>
+                        <%= advanced_menu_button %>
+                </li>
+                <li id="advanced_menu_items"
+                        style="<%= 'display:none;' unless @current_user.show_advanced_menu %>">
+                        <ul>
+                          <li><%= link_to icon('admin_db_connection', 'Workcamp DB Connection'), :controller => "admin/apply_form/connection_info" %></li>
+                          <li><%= link_to icon('admin_users', 'Manage Users'), :controller => "admin/user" %></li>
+                      <li><%= link_to icon('admin_menu_actions', 'List of available actions'), :controller => "admin", :action => "menu_actions" %></li>
+                                <li><%= link_to icon('admin_cz_kinds', 'CZ project kinds'), :controller => "admin/cz_project_kinds" %></li>
+                                <li><%= icon('admin_parameters', 'Configuration') %></li>
+                                <ul>
+                                <li><%= link_to icon('admin_parameters', 'Parameters'), :controller => "admin/parameter" %></li>
+                                  <li><%= link_to icon('admin_icons', 'Icon settings'), :controller => "admin/icon" %></li>
+                                  <li><%= link_to icon('admin_admin_icons', 'Admin menu icons'), :controller => "admin/admin_icon" %></li>
+                                </ul>
+                                <li><%= link_to icon('admin_builtins', 'Builtin Texts'), :controller => "admin/builtin_text" %></li>
+                                <li><%= link_to icon('admin_specials', 'Functional articles'), :controller => "admin/special_articles" %></li>
+                        </ul>
+                </li>
+        </ul>

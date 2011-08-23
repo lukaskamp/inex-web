@@ -1,0 +1,15 @@
+<% if !@parent %>
+<li class="form-element">
+	<dl>
+		<dt>
+			<label>Banner:</label>
+		</dl>
+		<dd>
+			File: <%= select_tag 'record[banner_filename]', options_for_select([nil] + InexUtils::layout_image_list, @record.banner_filename) %><br />
+			Position: <input type="text" value="<%=@record.banner_position%>" size="30" name="record[banner_position]" 
+			id="record_banner_position_input_<%=@record.id%>\" class="text-input" autocomplete="off" /> 
+			(e.g. left top, 0% 0%, 100px 20px)<br />
+		</dd>
+	</dl>
+</li>
+<% end %>

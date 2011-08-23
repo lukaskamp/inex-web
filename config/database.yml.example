@@ -1,0 +1,33 @@
+development:
+  adapter: postgresql
+  database: webinex_development
+  encoding: utf8
+  host: localhost
+  username: postgres
+  password: password
+
+test:
+  adapter: postgresql
+  database: webinex_test
+  encoding: utf8
+  username: postgres
+  password: password
+  host: localhost
+
+workcamps_development:
+  adapter: postgresql
+  database: volant_development
+  encoding: utf8
+  username: postgres
+  password: password
+  host: localhost
+
+workcamps_test:
+  adapter: postgresql
+  database: volant_development
+  encoding: utf8
+  username: postgres
+  password: password
+  host: localhost
+
+

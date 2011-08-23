@@ -1,0 +1,30 @@
+<h1 id="gallery_album_title">
+	<%= @chain.map{|a| link_to((a.parent ? a.title : bt("gallery_root")),album_path(lng({:id => a.id})))} * " &gt;&nbsp;"%>
+</h1>
+
+<script id="gallery_browser_loader">
+  <%= remote_function(:update => "gallery_browser", :url => browser_path(lng(:index => @index, :id => @album.id)))%>
+</script>
+
+<a name="browser">&nbsp;</a>
+<div id="gallery_browser_wrapper">
+	<div id="gallery_browser_shell">
+		<div id="gallery_browser">
+		  Loading media browser ...
+		</div>
+	</div>
+</div>
+
+<% @sub_files.each_with_index do |f,index| %>
+	<div class="gallery_album_item_photo" id="gallery_album_sub_file-<%=f.id%>">
+		<div class="image">
+			<div>
+		    <%= link_to_remote( image_tag(thumb_path(:id => f, :dims => thumbnail_dimensions), :style => "padding:0px;"),
+		                    { :update => "gallery_browser", 
+		                      :url => {:action => "update_browser", :index => index, :id => @album.id},
+													:complete => "location.hash='browser'" } ) %>
+			</div>
+		</div>
+  	<%= edit_file_link(f.id) if admin_view? %>
+	</div>
+<% end %>

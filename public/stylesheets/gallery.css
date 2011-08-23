@@ -1,0 +1,148 @@
+#gallery_browser_wrapper {
+	width:100%;
+	text-align:center;
+	margin-bottom:20px;
+}
+
+#gallery_browser_shell {
+	width:515px;
+	min-height:560px;
+	border:1px solid #74a8bf;
+	margin-left:auto;
+	margin-right:auto;
+/*	text-align:right;*/
+}
+
+#gallery_browser {
+	width:495px;
+	min-height:540px;
+	margin:10px;
+	overflow:auto;
+	text-align:right;
+}
+
+/* whole browser-content div */
+#gallery_browser_content{
+	
+}
+
+/* media file title in browser */
+#gallery_browser_title {
+	
+}
+
+/* media file description in browser */
+#gallery_browser_description {
+	
+}
+
+/* title of the viewed album */
+#gallery_album_title {
+	font-family:inherit;
+	font-size:16px;
+	color:#273840;
+}
+#gallery_album_title a {
+	color:inherit;
+	font:inherit;
+	text-decoration:none;
+}
+
+/* link to go to the parent album */
+#gallery_album_up {
+	
+}
+
+/* navigation blocks in browser */
+
+#gallery_browser_footer {
+	float:right;
+}
+
+#gallery_browser_counter {
+	color:black;
+	width:100px;
+	float:right;
+}
+
+#gallery_browser_navigator {
+	width:60px;
+	float:right;
+}
+
+#gallery_browser_navigator_backward {
+	width:30px;
+	float:right;
+}
+#gallery_browser_navigator_forward {
+	width:30px;
+	float:right;
+}
+#gallery_browser_button_first {
+	
+}
+#gallery_browser_button_previous {
+	
+}
+#gallery_browser_button_next {
+	
+}
+#gallery_browser_button_last {
+	
+}
+
+/* thumbnail div in gallery */
+div.gallery_album_item_photo, div.gallery_album_item_album {
+	float:left;
+	margin:5px;
+	text-align:center;
+	font-size:10px;
+	width:149px;
+}
+
+div.gallery_album_item_photo div.image {
+	width:149px;
+	height:115px;
+	background-image:url('/images/layout/gallery_browser_template_photo.png');
+}
+
+div.gallery_album_item_album div.image {
+	width:149px;
+	height:115px;
+	background-image:url('/images/layout/gallery_browser_template_album.png');
+}
+
+div.gallery_album_item_photo div.image div, div.gallery_album_item_album div.image div {
+  padding-top:12px;
+	padding-left:7px;
+}
+
+div.gallery_album_item_photo div.title, div.gallery_album_item_album div.title {
+	padding-top:6px;
+	width:115px;
+	float:left;
+	font-size:10.5px;
+	color:#395664;
+	text-align:justify;
+	height:42px;
+	margin-bottom:10px;
+}
+
+div.gallery_album_item_photo div.count, div.gallery_album_item_album div.count {
+	padding-top:6px;
+	margin-right:-2px;
+	width:20px;
+	float:right;
+	font-size:10.5px;
+	color:#395664;
+}
+
+div.gallery_album_item_photo div.title a, div.gallery_album_item_album div.title a {
+	text-decoration:none;
+	font-weight:inherit;
+	color:inherit;
+} 
+
+#gallery_browser_wrapper img {
+	padding:0;
+}

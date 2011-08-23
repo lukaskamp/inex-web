@@ -1,0 +1,25 @@
+<% if chart.valid? %>
+
+	<!-- TODO - use hidden_tag method -->
+	<input id="chart_generated_at" type="hidden" value="<%= chart.generated_at %>" name="chart[generated_at]"/>
+	<input id="chart_google_chart_url" type="hidden" value="<%= chart.google_chart_url %>" name="chart[google_chart_url]"/>
+
+	<table>
+		<tr>
+			<th>Field</th>
+			<td><%= chart.field %></td>
+		</tr>
+		<tr>
+			<th>Generated</th>
+			<td><%= chart.generated_at %></td>
+		</tr>
+		<tr>
+			<th>Term</th>
+			<td><%= chart.term.from %> - <%= chart.term.to %></td>
+		</tr>
+	</table>
+
+	<img alt="<%= chart.title %>" src="<%= chart.google_chart_url %>" />
+<% else %>
+	<h2>Chart is invalid!</h2>
+<% end %>

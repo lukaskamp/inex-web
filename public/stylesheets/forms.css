@@ -1,0 +1,47 @@
+table.form {
+    width: 100%;
+}
+
+table.form input, table.form textarea, table.form select {
+                background-color: #dff4fc;
+                border: 0;
+                padding:2px;
+}
+
+#content table.form img {
+                 padding: 0px;
+                 margin: 0px;
+}
+
+table.form tr td {
+    vertical-align: top;
+    text-align: left;
+    width: 30%;
+}
+
+table.form tr td + td {
+    text-align: left;
+    width: 70%;
+}
+
+table.form tr + tr.survey_head td {
+        padding-top:50px;
+}
+
+table.form tr td.survey_head {
+                padding-top:20px;
+    text-align: left;
+                font-family: "Trebuchet MS", Trebuchet, Tahoma, Verdana, Arial, sans-serif;
+                font-size: 13px;
+                font-weight: bold;
+                color: #951145;
+    padding-bottom: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+table.form tr td.survey_subhead {
+        font-family: "Trebuchet MS", Trebuchet, Tahoma, Verdana, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        color: black;
+}

@@ -1,0 +1,24 @@
+<div id="cz_projects_map">
+	<div id="map"> 
+		Loading GoogleMaps ... 
+	</div>
+</div>
+
+<div id="cz_projects_key">
+	<table>
+	<% for k in @kinds %>
+		<tr>
+		  <td><div id="legend_marker_<%=k.id%>"></div></td>
+		  <td> <%= link_to_function bt(k.title_btkey), "show_#{k.id}();", {:id => "cz_project_js_select_#{k.id}", :class => "cz_project_js_select"} %></td>
+	  </tr>
+	<% end %>
+	</table>
+</div>
+
+<div style="clear:both"></div>
+
+<% for k in @kinds %>
+<h3><%= link_to bt(k.title_btkey), cz_projects_path(lng(:id => k.id)) %></h3>
+<p><%= bt(k.description_btkey) %></p>
+
+<% end %>

@@ -1,0 +1,18 @@
+<li class="form-element">
+  <dl>
+    <dt>
+      <label for="article">Linked (meta)article</label>
+    </dt>
+    <dd>
+      <select name="meta_article" id="meta_article" class="image_filename-input">
+        <option value="0" <%='selected="selected"' unless @record.meta_article%>>-- none --</option>
+        <% for m in @meta_articles %>
+          <option value="m:<%=m.id%>" <%='selected="selected"' if m == @record.meta_article%>><%=m.to_label%></option>
+        <% end %>
+        <% for a in @articles %>
+          <option value="a:<%=a.id%>">*<%=a.title%></option>
+        <% end %>
+      </select>
+    </dd>
+  </dl>  
+</li>

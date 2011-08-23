@@ -1,0 +1,4 @@
+ENV['volant_site'] = 'http://localhost:3000/rest'
+ENV['volant_user'] = 'pass'
+ENV['volant_password'] = 'pass'
+

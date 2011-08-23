@@ -1,0 +1,15 @@
+<% LOGINS =   [ ['admin','inexsda@inexsda.cz'],
+                ['radka','evs@inexsda.cz'],
+                ['kuba','jakub.hozak@gmail.com'],
+                ['frantisek','moskyt@rozhled.cz']] %>
+
+<% LOGINS.each do |login,email| %>
+<%=login%>:
+  login: <%=login%>
+  salt: <%= salt = User::make_salt(login)%>
+  crypted_password: <%= User::encrypt(login,salt)%>
+  email: <%= email %>
+  created_at: <%= 1.week.ago.to_s :db %>
+  show_advanced_menu: <%= (login == 'admin')? 'true' : 'false' %>
+<% end %>
+

@@ -1,0 +1,19 @@
+<%= render_special_article("headlines_intro") %>
+
+<table cellspacing="0" cellpadding="0" id="headlines_table">
+	<tr>
+		<td id="headlines_left">
+			<div id="headlines_left_inner">
+				<%= render :partial => 'headline', :collection => @headlines_l %>
+			</div>
+		</td>
+		<td id="headlines_right">
+			<div id="headlines_right_inner">
+				<%= render :partial => 'headline', :collection => @headlines_r %>
+				<div id="headlines_rss_link">
+					<%= link_to(show_icon('feed.png', 'RSS', bt('rss_link')), rss_path(:language_code => @current_language.code))%>
+				</div>
+			</div>
+		</td>
+	</tr>
+</table>

@@ -1,0 +1,18 @@
+<li class="form-element" id="record_target_<%=@record.id%>">
+  <% if @target_options %>
+    <dl>
+      <dt>
+        <label for="record_target">Target</label>
+      </dt>
+      <dd>
+        <select name="record[target]" id="record_target_select_<%=@record.id%>" class="target-input">
+          <% for key,value in @target_options %>
+            <option value="<%=value%>" <%='selected="selected"' if @record.target==value%>><%=key%></option>
+          <% end %>
+        </select>
+      </dd>
+    </dl>  
+  <% else %>
+    <%= render_void %>
+  <% end %>
+</li>

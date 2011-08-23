@@ -1,0 +1,38 @@
+<h1 id="gallery_album_title">
+	<%= @chain.map{|a| link_to((a.parent ? a.title : bt("gallery_root")),album_path(lng({:id => a.id})))} * " &gt;&nbsp;"%>
+</h1>
+
+<%= edit_album_link(@album.id, "Edit this album") if admin_view? %>
+
+<% for a in @sub_albums %>       
+  <% unless a.title.blank? %>
+    <div class="gallery_album_item_album" id="gallery_album_sub_album-<%=a.id%>">
+  		<div class="image">
+  			<div>
+    			<%= link_to image_tag(cover_path(:id => a.id, :dims => thumbnail_dimensions), :style => "padding:0px;"), lng(:action => :show, :id => a.id) %>
+  			</div>
+  		</div>
+  		<div class="title">
+    		<%= link_to a.title, lng(:action => :show, :id => a.id) if a.title%>
+  		</div>
+  		<div class="count">
+  			<%= a.count %>
+  		</div>
+    	<%= edit_album_link(@album.id) if admin_view? %>
+    </div>
+  <% end %>
+<% end %>
+
+<% @sub_files.each_with_index do |f,index| %>
+	<div class="gallery_album_item_photo" id="gallery_album_sub_file-<%=f.id%>">
+		<div class="image">
+			<div>
+				<%= link_to image_tag(thumb_path(:id => f, :dims => thumbnail_dimensions), :style => "padding:0px;"), lng(:action => :browse, :id => @album.id, :index => index) %>
+			</div>
+		</div>
+		<div class="title">
+  		<%= link_to f.title, lng(:action => :browse, :id => @album.id, :index => index) if f.title%>
+		</div>
+  	<%= edit_file_link(f.id) if admin_view? %>
+	</div>
+<% end %>

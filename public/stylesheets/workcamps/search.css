@@ -1,0 +1,93 @@
+
+td.search_form_head {
+        font-family: "Trebuchet MS", Trebuchet, Tahoma, Verdana, Arial, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+        height:40px;
+}
+
+table#query label {
+        font-family: "Trebuchet MS", Trebuchet, Tahoma, Verdana, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        color: black;
+}
+
+tr.search_field input {
+        width: 160px;
+}
+
+table#query tr td {
+    width: 200px;
+}
+
+table#query tr td + td {
+    width: auto;
+}
+
+
+div.country_flag {
+        width:30px;
+        float:left;
+}
+
+#query_submit {
+        width: 90px;
+        border: 1px solid black;
+        padding: 2px;
+        background-color: white;
+}
+
+ul#countries_list {
+        list-style:none;
+}
+
+ul#countries_list, ul#countries_list li {
+        margin-left:0px;
+        padding-left:0px;
+}
+
+a#countries_list_clear {
+        padding:2px;
+  background-color: #FFF5B8;
+}
+
+div#map {
+        width: 450px;
+        height: 300px;
+        margin-top:8px;
+        margin-bottom:35px;
+}
+
+table#workcamps {
+        width: 100%;
+}
+
+table#workcamps tfoot th {
+       text-align: center;
+}
+
+table.workcamp_detail {
+        border: 1px solid black;
+        background-color: #FFF5B8;
+        margin: 10px;
+        width: 95%;
+        padding-right: 10px;
+}
+
+table.workcamp_detail th {
+        width: 20%;
+        text-align: right;
+        vertical-align: top;
+}
+
+table.workcamp_detail tr {
+        padding-bottom: 5px;
+}
+
+table.workcamp_detail ul li {
+        display: inline;
+        padding-right: 2em;
+        list-style-image: none;
+}

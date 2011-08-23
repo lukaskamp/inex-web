@@ -1,0 +1,43 @@
+survey_intro:
+  key: survey_intro
+  description: This is shown on the top of the survey when the users sees it for the first time.
+  meta_article: survey_intro
+  associated_controller: survey
+
+ltv_intro:
+  key: ltv_intro
+  description: Text above the LTV project list.
+  meta_article: ltv_intro
+  associated_controller: ltv
+
+evs_intro:
+  key: evs_intro
+  description: Text above the EVS project list.
+  meta_article: evs_intro
+  associated_controller: evs
+  
+embedded_calendar:
+  key: embedded_calendar
+  description: Embedded calendar.
+  meta_article: embedded_calendar
+  associated_controller: calendar
+
+special_article_wiki:
+  key: wiki
+  description: X
+  meta_article: evs_intro
+
+special_article_football:
+  key: football
+  description: X
+  meta_article: evs_intro
+
+special_article_horky:
+  key: horky
+  description: X
+  meta_article: evs_intro
+
+special_article_contact:
+  key: contact
+  description: X
+  meta_article: evs_intro

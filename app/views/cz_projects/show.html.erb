@@ -1,0 +1,14 @@
+<h1><%= bt(@kind.title_btkey) %></h1>
+
+<p><%= bt(@kind.description_btkey) %></p>
+
+<% for p in @projects %>
+  <p class="cz_project_head">
+	  <span class="cz_project_title"><%= p.title %></span>
+	  <%= strip_tags p.description_short %>
+  </p>
+
+  <div class="cz_project_body">
+  	<%= p.description_long %>
+  </div>
+<% end %>

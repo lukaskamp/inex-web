@@ -1,0 +1,24 @@
+#evs_table {
+	
+}
+
+td.evs_cell_link {
+}
+
+td.evs_cell_sep {
+	width:20px;
+}
+
+td.evs_cell_title {
+	min-width:70px;	
+}
+
+td.evs_cell_empty {
+}
+
+td.evs_cell_description {
+	font-family: "Trebuchet MS", Trebuchet, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 9.5px;
+	font-weight: normal;
+	color: #4d7080;
+}

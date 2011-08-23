@@ -1,0 +1,31 @@
+<div class="inner">
+  <div id="menu_right_search">
+		<% form_tag lng({:controller => :fulltext, :action => :search}), :method => :get do %>
+     	<%= changing_input('query', 'fulltext_widget') %>
+		<% end %>
+  </div>
+	<div id="menu_right_email">
+		<% form_tag lng({:controller => :public, :action => :newsletter_subscribe}), :method => :get do %>
+			<%= changing_input('email', 'subscribe') %>
+		<% end %>
+  </div>
+	<div>
+		<%= link_to image_tag("/images/layout/right_menu_wiki_off_#{@current_language.code}.png", :mouseover => "/images/layout/right_menu_wiki_on_#{@current_language.code}.png"), article_path(lng({:url_atom => SpecialArticle.find_atom_by_key('wiki', @current_language)})) %>
+		<%= special_article_edit_link 'wiki'%>
+  </div>
+  <div>
+    <%= link_to image_tag("/images/layout/right_menu_gallery_off_#{@current_language.code}.png", :mouseover => "/images/layout/right_menu_gallery_on_#{@current_language.code}.png"), lng({:controller => 'gallery'}) %>
+  </div>
+
+  <%= render_banners %>
+
+  <div>
+    <% if par('partner_main_logo') %>
+    <div style="width:190px; height:134px; background-image:url('/images/layout/right_menu_partner.png');">
+      <div id="main_partner_container">
+	<%= linked_image_tag(par('layout_image_root') + '/' + par('partner_main_logo'), 'main_partner_logo')  %>
+      </div>
+    </div>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,62 @@
+<%= YamlUtils::eval_erb_file("#{RAILS_ROOT}/db/fixtures/seed/articles.yml") %>
+
+<%= YamlUtils::special_article("evs_intro", 
+      "Evropská dobrovolná služba (EVeeS)","V Evropě je lehce sloužit, když nám zabili císařpána.", 
+      "European Volunteer Service","Serving Europe is delightful.") %>
+
+cs_about_inex:
+  title: "O INEXu"
+  url_atom: oinexu
+  language: czech
+  body: <p>Prosazujeme myšlenku, že dobrovolně přispívat k péči o okolní svět a lidské společenství, dobrovolně pomáhat jiným ve svém domovském prostředí, ale také projevovat solidaritu na dálku, jsou věci člověku přirozené a jsou základem občanské společnosti. Svoji činností směřujeme k tomu, aby se dobrovolná pomoc v nejrůznějších oblastech života stala opět normální součástí našeho myšlení a našla potřebnou společenskou prestiž. Vysíláme dobrovolníky za zkušenostmi na mezinárodní projekty po světě a umožňujeme setkávání různých pohledů na svět, pochopení každodenní reality a rozdílů v jiných zemích, a tím i poznávání sebe sama. Na mnoha místech celé České republiky organizujeme krátkodobé i dlouhodobé projekty zaměřené na obnovu venkova, záchranu památek, zlepšení životního prostředí, kulturní a sociální akce, akce pro i sociálně znevýhodněnou mládež a mnoho dalších. Věnujeme se přípravě dobrovolných vedoucích, koordinátorů projektů, dobrovolníků reprezentujících nás v zahraničí a připravujeme dobrovolníky na činnost v neziskovém sektoru i v jiných organizacích. Posilujeme iniciativy občanů založené na zájmu o vlastní obec, dobrovolnictví a spolupráci.</p>
+  created_by: admin
+  updated_by: admin
+
+cs_asus_article:
+  title: "Asus Eee 1000H: praktické zkušenosti"
+  url_atom: asuseee
+  language: czech
+  body: <h3>K čemu jsem si Eee pořizoval</h3><p>Eeečko je velmi silný nástroj a umí dobře posloužit tam, kde je vyžadována velká mobilita. Jsou tu ale i činnosti, pro které Eeečko není dobrá volba. Především rozlišení displaye je limitující pro jakoukoli práci, kde jsou potřeba programy s lištami a podobně. Hlavní činnosti, které na něm provozuji, jsou.</p>
+  created_by: admin
+  updated_by: admin
+
+cs_gnome_article:
+  title: "GNOME"
+  url_atom: "GNOME"
+  language: czech
+  body: Zkratka GNOME znamená GNU Object Model Environment a jedná se spíše o desktopové prostředí než o klasický window manager. Prostředí GNOME dokáže běžet nad mnoha správci oken a obsahuje řadu vlastních nástrojů, utilit a programů. 
+  created_by: admin
+  updated_by: admin
+
+cs_gnome_qt_article:
+  title: "Aby Qt aplikace zapadly do GNOME"
+  url_atom: qt
+  language: czech
+  body: <p>Úloha desktopových prostředí KDE a GNOME je ve světě linuxových distribucí v podstatě vyrovnaná. Loňský průzkum Desktop Linux sice přinesl zprávu o tom, že je GNOME používanější, obecně se ale jedná o poměrně vyrovnaný souboj.</p><p>Obvykle si obě prostředí žijí svým vlastním životem a k výrazným průnikům nedochází. Klíčové aplikace existují na „obou stranách“. Existují však i takové, které nalezneme jen v jednom z prostředí – namátkou například HDR software Qtfpsgui.</p>
+  created_by: admin
+  updated_by: admin
+
+cs_gnome_apps_article:
+  title: "GNOME: nejznámější aplikace"
+  url_atom: gnomeapl
+  language: czech
+  body: <p>Na úvod uvedu na pravou míru mýtus, který se občas objevuje. Aplikace, které pro svůj běh vyžadují GNOME, lze provozovat třeba i v KDE. Jen je zapotřebí mít GNOME nainstalované (se všemi potřebnými knihovnami, což ověří váš balíčkovací systém při instalaci programu), nikoliv ale spuštěné. A tak můžete z prostředí KDE spustit třeba GNOME Office.</p><p>Je to kancelářský balík, který pro svůj běh používá GNOME a je na tom podobně jako KOffice. Celý balík je složen z několika samostatných aplikací a chybí aplikace pro tvorbu prezentací. V pravém slova smyslu se však nejedná o několik úzce spolupracujících aplikací jako jsou např. součásti OpenOffice.org, tyto aplikace mají jednotící prvek, a to GNOME. Pokud potřebujete psát texty pomocí pokročilého textového editoru, nabízí se Abiword. Jedná se o velmi dobrý program s bohatými funkcemi a navíc je to program velmi rychlý a malý. Jeho rozhraní je v podstatě standardní a nemělo by vás ničím překvapit. O jeho úspěchu svědčí i to, že se stal součástí balíčku aplikací, které jsou instalovány na linuxovou verzi OLPC (projekt přinášející počítače do rozvojových částí světa). Navíc zvládá ISO standard v podobě OpenDocument formátu. Projekt vznikl v roce 2002 a v současné době je podporována řada platforem jako jsou například Microsoft Windows (verze 95 a vyšší), unixové systémy či nativní port pro MacOS. Jeho funkce nejsou navíc nějak omezeny, protože podporuje tzv. zásuvné moduly, které umožní přidávat nové, v programu neintegrované funkce.</p>
+  created_by: admin
+  updated_by: admin
+
+cs_gnome_intro_article:
+  title: "GNOME: lehké představení"
+  url_atom: gnomepred
+  language: czech
+  body: <p>Když si dnes budete s linuxovými uživateli povídat o používání Linuxu na právě vašem počítači, dříve či později se téma stočí na desktopové prostředí. Utváří totiž hlavní styčný bod mezi vámi a vaší linuxovou distribucí. Obvykle (tedy v největším počtu případů) narazíte na KDE nebo GNOME. Podíváme-li se na tato prostředí používaná v Linuxu střízlivým okem, musíme konstatovat, že jsou obě velmi povedená a podobná v komfortu, který nabízejí. Klasicky se pak nabízí už jen otázka - Volíš Losnu nebo Mažňáka?;</p><p>Historie GNOME se začala psát v roce 1997. V roce 1996 se začala šířit módní vlna KDE, jenže ta byla trochu bržděna tím, že byla vyvíjena pomocí uzavřené knihovny Qt, což se samozřejmě některým uživatelům nezamlouvalo. Odpovědí byly dva projekty a to Harmony toolkit (svobodná knihovna nahrazující Qt) a právě GNOME. Zatímco Harmony přestal v roce 2000 existovat (Qt byla vydána pod svobodnou licencí), GNOME existuje dále. Našlo si svou stálou základnu uživatelů, kteří na něj nedají dopustit.</p>
+  created_by: admin
+  updated_by: admin
+
+cs_gnome_ximian_article:
+  title: "Ximian - Gnome v luxusním balení"
+  url_atom: ximian
+  language: czech
+  body: <p>Ximian Gnome, dříve Helix, je pokus o vytvoření výhradně desktopové distribuce. Nejedná se však o klasickou distribuci jako třeba Debian nebo Red Hat, ale spíše o balík programů a technologických součástí, které se instalují do vaší stávající "velké" distribuce. Důraz je kladen na bezešvou integraci celého balíku do vašeho systému, čehož je dosaženo použitím obvyklých instalačních součástí, běžných v dané distribuci. Proto je Ximian k dispozici v mutacích pro různé verze Red Hatu, Debianu, Caldera OpenDesktopu, Mandrake, SuSE, Turbolinuxu, LinuxPPC, ale také Solarisu.</p>
+  created_by: admin
+  updated_by: admin
+

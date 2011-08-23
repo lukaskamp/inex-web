@@ -1,0 +1,11 @@
+<div id="<%=@result_set_name%>_default">
+<%= render_result_list(@max_default, "default") %>
+</div>
+
+<div id="<%=@result_set_name%>_extended" style="display:none;">
+<%= render_result_list(@max_extended, "extended") %>
+</div>
+
+<div id="<%=@result_set_name%>_total" style="display:none;">
+<%= render_result_list(@max_total, "total") %>
+</div>

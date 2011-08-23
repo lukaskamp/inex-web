@@ -1,0 +1,7 @@
+<li class="form-element" id="record_target_action_<%=@record.id%>">    
+  <% if @action_required %>
+    <%= render_textedit("target_action", "Target action")%>
+  <% else %>
+    <%= render_void %>
+  <% end %>
+</li>

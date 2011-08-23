@@ -1,0 +1,11 @@
+<ol class="form">
+	<%= render :partial => 'field', :locals => {:field => 'login'} %>
+	<%= render :partial => 'field', :locals => {:field => 'email'} %>
+	<%= render :partial => 'field', :locals => {:field => 'password'} %>
+	<%= render :partial => 'field', 
+			   :locals => {
+					:field => 'password_confirmation', 
+					:title => "Password Confirmation"
+				} 
+	%>
+</ol>

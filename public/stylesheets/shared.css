@@ -1,0 +1,98 @@
+.hidden {
+	display: none;
+}
+
+#notice, #error {
+	border: 1px solid black;
+	background-color: #EFF8FF;
+	padding: 10px;
+}
+
+.banner { 
+          padding-left: 14px;
+          padding-top: 30px;
+}
+
+#error {
+	color: red;
+}
+
+.required {
+	font-weight: bold;
+}
+
+#admin_stripe {
+	position: absolute;
+	
+	top: 0px;
+	left: 0px;
+	height: 20px;
+	width: 100%;
+	
+	background-color: white;
+		
+	font-size:12px;
+	text-align: right;
+	text-decoration: none;
+	
+	margin: 0px;
+	padding: 0px;
+}
+
+#admin_stripe ul {
+	border: 1px solid #E6F2FF;
+	border-top: hidden;
+}
+
+#admin_stripe li
+{
+	display: inline;
+	padding-right: 20px;
+	vertical-align: middle;
+	margin: 0px;
+	color: #B5B5B5;
+}
+
+#admin_stripe li a,
+#admin_stripe li a:visited {
+	color: #3E8CD9;
+	text-decoration: none;
+}
+
+#admin_stripe li a:hover {
+	background-color: #FFFF88;
+}
+
+img.icon {
+	vertical-align: middle;
+	margin:0;
+	padding:0;
+}
+
+a {
+	text-decoration:none;
+}
+
+a img {
+	border: 0;
+}
+
+hr {
+	clear:both;
+}
+
+#tinymce_files_list {
+	height:300px;
+	overflow:scroll;
+}
+
+.image_list_cell {
+        text-align: center;
+	margin:5px;
+        background-color: #e1e1e1;
+        padding: 5px;
+}
+
+div.status {
+	text-align:center;
+}

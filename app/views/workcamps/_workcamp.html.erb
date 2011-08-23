@@ -1,0 +1,46 @@
+<%
+        js_id = "#{prefix}workcamp_#{workcamp.id}"
+        incart_display = (prefix == 'cart_')
+%>
+
+<tr id="<%= js_id %>">
+        <% if incart_display -%>
+          <td class="handle">
+            <%= image_tag '/images/shading.png', :class => 'icon', :alt => bt('drag_and_drop'), :title => bt('drag_and_drop') %>
+          </td>
+          <td class="numbering">
+            <%= "#{workcamp_counter + 1}." %>
+          </td>
+        <% end -%>
+
+        <td><%= flag(workcamp.country) %></td>
+        <td><%= workcamp.code %></td>
+        <td>
+          <%= detail_link( workcamp.name, 'show_detail', workcamp, js_id, prefix) %>
+        </td>
+        <td class='wc_intention_column'>
+          <%= render_intentions(workcamp.intentions)  %>
+        </td>
+        <td class="from">
+          <%= workcamp.from %>
+        </td>
+        <td class="to">
+          <%= workcamp.to %>
+        </td>
+        <td><%= workcamp.free_places %></td>
+        <td><%= workcamp.free_places_for_males %></td>
+        <td><%= workcamp.free_places_for_females %></td>
+        <td>
+          <%=
+             unless @cart.contains?(workcamp)
+                add_to_cart_link(workcamp)
+             else
+               if incart_display
+                 remove_from_cart_link(workcamp)
+               else
+                 bt('wc_already_in_application')
+               end
+             end
+          %>
+        </td>
+</tr>

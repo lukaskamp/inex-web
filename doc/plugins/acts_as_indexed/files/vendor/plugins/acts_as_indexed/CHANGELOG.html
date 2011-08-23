@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>File: CHANGELOG</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <link rel="stylesheet" href="../../../.././rdoc-style.css" type="text/css" media="screen" />
+  <script type="text/javascript">
+  // <![CDATA[
+
+  function popupCode( url ) {
+    window.open(url, "Code", "resizable=yes,scrollbars=yes,toolbar=no,status=no,height=150,width=400")
+  }
+
+  function toggleCode( id ) {
+    if ( document.getElementById )
+      elem = document.getElementById( id );
+    else if ( document.all )
+      elem = eval( "document.all." + id );
+    else
+      return false;
+
+    elemStyle = elem.style;
+    
+    if ( elemStyle.display != "block" ) {
+      elemStyle.display = "block"
+    } else {
+      elemStyle.display = "none"
+    }
+
+    return true;
+  }
+  
+  // Make codeblocks hidden by default
+  document.writeln( "<style type=\"text/css\">div.method-source-code { display: none }</style>" )
+  
+  // ]]>
+  </script>
+
+</head>
+<body>
+
+
+
+  <div id="fileHeader">
+    <h1>CHANGELOG</h1>
+    <table class="header-table">
+    <tr class="top-aligned-row">
+      <td><strong>Path:</strong></td>
+      <td>vendor/plugins/acts_as_indexed/CHANGELOG
+      </td>
+    </tr>
+    <tr class="top-aligned-row">
+      <td><strong>Last Update:</strong></td>
+      <td>Wed Jan 14 15:03:15 +0100 2009</td>
+    </tr>
+    </table>
+  </div>
+  <!-- banner header -->
+
+  <div id="bodyContent">
+
+
+
+  <div id="contextContent">
+
+    <div id="description">
+      <h3>0.4.6 [10 August 2008]</h3>
+<ul>
+<li>Rolled in pagination.
+
+</li>
+</ul>
+<h3>0.4.5 [04 February 2008]</h3>
+<ul>
+<li>Fixed a bug where the find_options :limit would be added to the :offset,
+which caused incorrectly sized collections to be returned.
+
+</li>
+<li>Fixed an &#8216;ambiguous column&#8217; error when using the :includes
+find_options key.
+
+</li>
+</ul>
+<h3>0.4.4 [29 November 2007]</h3>
+<ul>
+<li>Fixed a bug causing the weighting section of the code to error out.
+
+</li>
+</ul>
+<h3>0.4.3 [27 September 2007]</h3>
+<ul>
+<li>Fixed a bug causing records to be deleted from index during record updates.
+
+</li>
+</ul>
+<h3>0.4.2 [27 September 2007]</h3>
+<ul>
+<li>Fixed a bug causing identically ranked records to be lost.
+
+</li>
+</ul>
+<h3>0.4.1 [22 September 2007]</h3>
+<ul>
+<li>Fixed a bug in the main search method.
+
+</li>
+</ul>
+<h3>0.4.0 [22 September 2007]</h3>
+<ul>
+<li>Search results now ranked by relevance.
+
+</li>
+</ul>
+<h3>0.3.3 [20 September 2007]</h3>
+<ul>
+<li>Fixed index update bug where deleted atoms were not removed from index.
+
+</li>
+<li>Improved performance of quoted queries.
+
+</li>
+<li>Improved performance of index updates.
+
+</li>
+<li>When building a full index, records are retrieved and indexed in batches to
+reduce memory consumption.
+
+</li>
+</ul>
+<h3>0.3.2 [19 September 2007]</h3>
+<ul>
+<li>Fixed index update bug.
+
+</li>
+</ul>
+<h3>0.3.1 [18 September 2007]</h3>
+<ul>
+<li>Added RDoc documentation comments.
+
+</li>
+</ul>
+<h3>0.3.0 [18 September 2007]</h3>
+<ul>
+<li>Minor bug fixes.
+
+</li>
+<li>min_word_size now works properly, with quieries containing small words in
+quotes or being preceded by a &#8217;+&#8217; symbol are now searched on.
+
+</li>
+</ul>
+<h3>0.2.2 [06 September 2007]</h3>
+<ul>
+<li>Search now caches query results within a session. Call the search twice in
+an action? Only runs once!
+
+</li>
+</ul>
+<h3>0.2.1 [05 September 2007]</h3>
+<ul>
+<li>AR find options can now be passed to the search to allow finer control of
+returned Model Objects.
+
+</li>
+</ul>
+<h3>0.2.0 [04 September 2007]</h3>
+<ul>
+<li>Major performance improvements.
+
+</li>
+<li>Index segmentation can now be tuned.
+
+</li>
+</ul>
+<h3>0.1.1 [31 August 2007]</h3>
+<ul>
+<li>Added a full set of tests.
+
+</li>
+<li>Fixed various set-manipulation based errors.
+
+</li>
+<li>Fixed a bug when searching for quoted phrases.
+
+</li>
+</ul>
+<h3>0.1.01 [31 August 2007]</h3>
+<ul>
+<li>Fixed a casting bug occurring when adding non-string fields to the index.
+
+</li>
+</ul>
+<h3>0.1 [31 August 2007]</h3>
+<ul>
+<li>Initial release.
+
+</li>
+</ul>
+
+    </div>
+
+
+   </div>
+
+
+  </div>
+
+
+    <!-- if includes -->
+
+    <div id="section">
+
+
+
+
+
+      
+
+
+    <!-- if method_list -->
+
+
+  </div>
+
+
+<div id="validator-badges">
+  <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<% updateables = ['help','target','target_link','target_controller','target_action'] %>
+
+<li class="form-element">
+  <dl>
+    <dt>
+      <label for="record_type">Type</label>
+    </dt>
+    <dd>
+      <select name="record[type]" id="record_type_<%= @record.id%>" class="type-input" onChange="<%=updateables.map{|x| js_for_update(x)}*";"%>">
+        <% [  ["none","MenuItem"],
+              ["article","MenuItemArticle"],
+              ["custom action","MenuItemAction"],
+              ["media album","MenuItemMediaAlbum"],
+              ["link","MenuItemLink"],
+              ["inactive label", "MenuItemLabel"]].each do |key,value|%>
+          <option <%='selected="selected"' if value == @record.type%> value="<%=value%>"><%=key%></option>
+        <% end %>
+      </select>
+    </dd>
+  </dl>  
+</li>
+
+<script>
+  <% for item in updateables %>
+    <%= js_for_update(item) %>
+  <% end %>
+</script>

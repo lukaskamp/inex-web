@@ -1,0 +1,11 @@
+<%= YamlUtils::special_article("survey_intro", 
+      "Dotazník","Toto je dotazník.", 
+      "Survey","This is a survey.") %>
+
+<%= YamlUtils::special_article("ltv_intro", 
+      "Dlouhodobé projekty (LTV)","Dlouhodobé projekty jsou na dlouhé lokte.",
+      "Long-term volunteering","Long-time projects take a long time.") %>
+
+<%= YamlUtils::special_article("embedded_calendar", 
+      "Kalendář","Kalendář akcí",
+      "Calendar","Action calendar") %>

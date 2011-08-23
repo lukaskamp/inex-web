@@ -1,0 +1,29 @@
+<%= render_special_article("evs_intro") %>
+
+<div style="clear:both">&nbsp;</div>
+
+<% for country in @projects.keys.sort %>
+<h3> <%= country %> </h3>
+<table id="evs_table">
+  <% for project in @projects[country] %>
+    <tr>
+      <td class="evs_cell_link"> 
+        <% if project.link and not project.link.empty? %>
+          <%= link_to project.eiref, project.link %>
+        <% else %>
+          <%= link_to project.eiref, "http://ec.europa.eu/youth/evs/aod/hei_form_en.cfm?EID=#{project.eid}" %>
+        <% end %>
+      </td>
+      <td class="evs_cell_sep">&nbsp;</td>
+      <td class="evs_cell_title"> <%= project.title %> </td>
+    </tr>
+    <% if project.description and not project.description.empty? %>
+      <tr>
+        <td class="evs_cell_empty"></td>
+	      <td class="evs_cell_sep">&nbsp;</td>
+        <td class="evs_cell_description"><%= project.description %></td>
+      </tr>
+    <% end %>
+  <% end %>
+</table>
+<% end %>

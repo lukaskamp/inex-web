@@ -1,0 +1,4 @@
+psi_dogs:
+  created_at: <%= 1.week.from_now.to_s :db%>
+  
+<%=IO.read("#{RAILS_ROOT}/db/fixtures/seed/meta_articles.yml")%>

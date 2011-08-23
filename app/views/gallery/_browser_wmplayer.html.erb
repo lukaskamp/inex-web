@@ -1,0 +1,22 @@
+<div style="float:left" id="gallery_browser_content">
+  <OBJECT id="VIDEO" width="<%=@sub_files[@index].video_width%>" height="<%=@sub_files[@index].video_height%>" 
+  	style="position:absolute; left:0;top:0;"
+  	CLASSID="CLSID:6BF52A52-394A-11d3-B153-00C04F79FAA6"
+  	type="application/x-oleobject">	
+  	<PARAM NAME="URL" VALUE="<%=@sub_files[@index].absolute_filename%>">
+  	<PARAM NAME="SendPlayStateChangeEvents" VALUE="True">
+  	<PARAM NAME="AutoStart" VALUE="True">
+  	<PARAM name="uiMode" value="none">
+  	<PARAM name="PlayCount" value="9999">
+  </OBJECT>
+
+  <p id="gallery_browser_title">
+    <%= @sub_files[@index].title %>
+  </p>
+  <p id="gallery_browser_description">
+    <%= @sub_files[@index].description %>
+  </p>
+  <%= edit_file_link(@sub_files[@index].id) if admin_view? %>
+</div>
+
+<%= navigator(@index,@album.id,@index_max) %>

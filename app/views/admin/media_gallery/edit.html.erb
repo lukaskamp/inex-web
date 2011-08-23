@@ -1,0 +1,67 @@
+<% if @parent %>
+  <h1>Album "<%=@album.title%>" [<%=@album.full_path%>]</h1>
+  <p><%= link_to "Go up", :action => :edit, :id => @parent.id %></p>
+<% else %>
+  <h1>Root album [<%=@album.full_path%>]</h1>
+<% end %>
+
+<hr style="clear:both" />
+
+<% for a in @sub_albums %>
+<div class="album_photo">
+  <div class="album_editor_thumbnail">
+	  <%= link_to image_tag(cover_url(:id => a.id,:dims => thumbnail_dimensions), :size=>thumbnail_dimensions), :action => :edit, :id => a.id %>
+	</div>
+	<div class="album_editor_text">
+	  <%= a.filename%>
+	</div>
+  <% form_for :media_album, a, :html => {:id => "media_album_#{a.id}"}, :url => {:action => :update_album_entry, :id => a.id } do |f| %>
+  	<div class="album_editor_field">
+	    <%= f.text_field :title, :size=>15 %>
+	  </div>
+  	<div class="album_editor_field">
+	    Position: <%= f.text_field :position, :size=>6 %>
+	  </div>
+	  <div class="album_editor_button">
+  	  <%= icon('ok') %><%= f.submit "Update" %>
+  	</div>
+	<% end %>
+</div>
+<% end %>
+
+<% for d in @sub_files %>
+	<div class="album_photo">
+    <div class="album_editor_thumbnail">
+  	  <%= link_to \
+  	        image_tag(thumb_url(:id => d.id, :dims => thumbnail_dimensions), :size => thumbnail_dimensions), 
+  	        :action => :edit_file, 
+  	        :id => d.id %>
+  	</div>
+  	<div class="album_editor_text">
+  	  <%= d.filename %>
+	  </div>
+    <% form_for :media_file, d, :url => {:action => :update_file_entry, :id => d.id} do |f| %>
+    	<div class="album_editor_field">
+  	    <%= f.text_field :title, :size=>15 %>
+  	  </div>
+    	<div class="album_editor_field">
+  	    Position: <%= f.text_field :position, :size=>6 %>
+  	  </div>
+  	  <div class="album_editor_button">
+	      <%= icon('ok') %><%= f.submit "Update" %>
+    	</div>
+	  <% end %>
+	  <% if @album.parent %>
+      <% form_for :media_file, d, :url => {:action => :update_album_cover, :id => d.id} do |f| %>
+  	    <div class="album_editor_button">
+	        <%= icon('link') %><%= f.submit "Use as cover" %>
+    	  </div>
+    	<% end %>
+  	<% end %>
+  	<% form_for :media_file, :url => {:action => :edit_file, :id => d.id} do |f|%>
+  	  <div class="album_editor_button">
+  	    <%= icon('options') %><%= f.submit "Details..." %>
+    	</div>
+    <% end %>
+	</div>
+<% end %>

@@ -1,0 +1,71 @@
+<% if @show_intro %>
+  <%= render_special_article("survey_intro") %>
+<% else %>
+  <%= bt("survey_failure") %>
+<% end %>
+
+<%= error_messages_for "survey" %>
+
+<% form_for :survey do |f| %>
+
+<table class="form" id="survey">
+
+	<%= form_head bt("survey_head_about_yourself") %>
+	<% [:lastname, :firstname, :email, :age, :projectcountry, :project].each do |field| %>
+  		<%= form_text_field f, field, bt("survey_field_#{field.to_s}"), :required => true %>
+	<% end %>
+
+	<%= form_head bt("survey_head_inex") %>
+	<%= form_radio f, :reason, bt("survey_field_reason"), 
+	                  ["culture","people","language","stay","freetime"].map{|x| bt("survey_field_reason_#{x}")},
+	                  :reasonx, bt("survey_field_reason_other")
+	%>
+	<%= form_radio f, :howknow, bt("survey_field_howknow"), 
+	                  ["friends","internet","press","promo","past"].map{|x| bt("survey_field_howknow_#{x}")},
+	                  :howknowx, bt("survey_field_howknow_other")
+	%>
+
+	<%= form_subhead bt("survey_field_find") %>
+	<%= form_eval_field f, :findinex, bt("survey_field_findinex") %>
+	<%= form_eval_field f, :findproject, bt("survey_field_findproject") %>
+	<%= form_eval_field f, :findapplication, bt("survey_field_findapplication") %>
+	<%= form_text_area f, :findcomment, bt("survey_field_findcomment") %>
+	
+	<%= form_subhead bt("survey_field_rate") %>
+	<%= form_eval_field f, :ratecommunication, bt("survey_field_ratecommunication") %>
+	<%= form_eval_field f, :rateapplication, bt("survey_field_rateapplication") %>
+	<%= form_text_area f, :ratecomment, bt("survey_field_ratecomment") %>
+
+	<%= form_head bt("survey_head_project") %>
+	<%= form_subhead bt("survey_field_projectitem") %>
+	<% for sub in ["work", "study", "group", "leisure", "leader", "accomodation", "food", "hygiene"] %>
+	  <%= form_eval_field f, "proj#{sub}", bt("survey_field_proj#{sub}") %>
+	<% end %>
+	<%= form_text_area f, :projcomment, bt("survey_field_projcomment") %>
+	
+	<%= form_subhead bt("survey_field_coll") %>
+	<%= form_eval_field f, :collcommunication, bt("survey_field_collcommunication") %>
+	<%= form_eval_field f, :collconflict, bt("survey_field_collconflict") %>
+	<%= form_eval_field f, :collinfo, bt("survey_field_collinfo") %>
+	<%= form_text_area f, :collcomment,  bt("survey_field_collcomment") %>
+
+	<%= form_yes_no f, :wasgood, bt("survey_field_wasgood") %>
+	<%= form_yes_no f, :wouldrecommend, bt("survey_field_wouldrecommend") %>
+	<%= form_text_area f, :whynot, bt("survey_field_whynot") %>
+
+	<%= form_subhead bt("survey_field_rating") %>	
+	<%= form_eval_field f, :rating, bt("survey_field_rating_sub") %>
+
+	<%= form_head bt("survey_head_other") %>
+	<%= form_text_area f, :visa, bt("survey_field_visa") %>
+	<%= form_text_area f, :transport, bt("survey_field_transport") %>
+	<%= form_yes_no f, :goagain, bt("survey_field_goagain") %>
+	<%= form_yes_no f, :recommendtofriends, bt("survey_field_recommendtofriends") %>
+	<%= form_yes_no f, :wouldhelp, bt("survey_field_wouldhelp") %>
+	<%= form_text_field f, :newsletter, bt("survey_field_newsletter") %>
+	<%= form_text_area f, :comments,  bt("survey_field_comments") %>
+
+	<%= form_submit f, bt("survey_submit", :edit_allowed => false) %>
+</table>
+
+<% end %>

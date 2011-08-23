@@ -1,0 +1,21 @@
+div.ltv_project {
+	
+}
+
+div.ltv_project_title {
+	font-weight:bold;
+	color:#273840;
+}
+
+div.ltv_project_organization {
+	
+}
+
+div.ltv_project_description, div.ltv_project_description p {
+	font-style:italic;
+	color:#4d7080;
+}
+
+div.ltv_project + div.ltv_project {
+	margin-top:10px;
+}

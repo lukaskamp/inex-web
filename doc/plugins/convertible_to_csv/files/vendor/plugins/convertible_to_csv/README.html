@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>File: README</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <link rel="stylesheet" href="../../../.././rdoc-style.css" type="text/css" media="screen" />
+  <script type="text/javascript">
+  // <![CDATA[
+
+  function popupCode( url ) {
+    window.open(url, "Code", "resizable=yes,scrollbars=yes,toolbar=no,status=no,height=150,width=400")
+  }
+
+  function toggleCode( id ) {
+    if ( document.getElementById )
+      elem = document.getElementById( id );
+    else if ( document.all )
+      elem = eval( "document.all." + id );
+    else
+      return false;
+
+    elemStyle = elem.style;
+    
+    if ( elemStyle.display != "block" ) {
+      elemStyle.display = "block"
+    } else {
+      elemStyle.display = "none"
+    }
+
+    return true;
+  }
+  
+  // Make codeblocks hidden by default
+  document.writeln( "<style type=\"text/css\">div.method-source-code { display: none }</style>" )
+  
+  // ]]>
+  </script>
+
+</head>
+<body>
+
+
+
+  <div id="fileHeader">
+    <h1>README</h1>
+    <table class="header-table">
+    <tr class="top-aligned-row">
+      <td><strong>Path:</strong></td>
+      <td>vendor/plugins/convertible_to_csv/README
+      </td>
+    </tr>
+    <tr class="top-aligned-row">
+      <td><strong>Last Update:</strong></td>
+      <td>Wed Jan 14 15:02:57 +0100 2009</td>
+    </tr>
+    </table>
+  </div>
+  <!-- banner header -->
+
+  <div id="bodyContent">
+
+
+
+  <div id="contextContent">
+
+    <div id="description">
+      <h1>The Acts As Convertible To Csv</h1>
+<h2>Installation</h2>
+<p>
+To install or update the gem, simply execute:
+</p>
+<p>
+gem install acts_as_convertible_to_csv
+</p>
+<p>
+To use the &#8216;acts_as_convertible_to_csv&#8217; library in your Rails
+application after installing the gem, add this line at the end of your
+&#8216;config/environment.rb&#8217; file:
+</p>
+<p>
+require &#8216;convertible_to_csv&#8216;
+</p>
+<h2>Usage Instructions</h2>
+<p>
+:header may be true or false, or not given. :header =&gt; true means the
+csv output will have the first row as a header (with field names) :fields
+should be an array of field names. If :fields is not specified, all the
+human_readable fields will be used.
+</p>
+<p>
+In your model declaration:
+</p>
+<pre>
+  class Customer &lt; ActiveRecord::Base
+    acts_as_convertible_to_csv :header =&gt; true,
+                               :fields =&gt; %w(id firstname lastname email_address)
+  end
+</pre>
+<p>
+Getting the csv data from a collection of records:
+</p>
+<pre>
+  Customer.find(:all).to_csv
+</pre>
+<p>
+You can pass a block:
+</p>
+<pre>
+  Customer.find(:all).to_csv do |line|
+    # write the line to a file or something
+  end
+</pre>
+<p>
+You can also convert individual records to csv:
+</p>
+<pre>
+  Customer.find(:first).to_csv
+</pre>
+<h2>Testing</h2>
+<p>
+The test code requires a database. modify the test/config.yml to point to
+the database you want to use for testing (acts_as_convertible_to_csv is
+default). Creation of test table is taken care of by the test code.
+</p>
+<h2>Bugs/Patches</h2>
+<p>
+Please submit any patches or bug reports to keith@rubygreenblue.com.
+</p>
+<h2>Author</h2>
+<p>
+Keith Rowell of rubygreenblue.com
+</p>
+
+    </div>
+
+
+   </div>
+
+
+  </div>
+
+
+    <!-- if includes -->
+
+    <div id="section">
+
+
+
+
+
+      
+
+
+    <!-- if method_list -->
+
+
+  </div>
+
+
+<div id="validator-badges">
+  <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+</div>
+
+</body>
+</html>

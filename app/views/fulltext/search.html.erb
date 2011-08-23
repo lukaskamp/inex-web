@@ -1,0 +1,17 @@
+<%= render :partial => "query" %>
+
+<hr />
+
+<% for set in ["articles", "headlines", "menu_items", "media_albums", "media_files", "evs_projects", "cz_projects", "ltv_projects"] %>
+<div id="fulltext_results_<%=set%>"> 
+  <p class="fulltext_result_set_head">
+    <%= bt ("fulltext_results_#{set}_head")%> 
+  </p>
+  <p class="fulltext_result">
+    <%= icon("progress") + "&nbsp;" + bt("fulltext_search_progress") %>
+  </p>
+</div>
+<script>
+  <%= remote_function :url => {:action => "results_#{set}", :query => @query}, :update => "fulltext_results_#{set}" %>
+</script>
+<% end %>

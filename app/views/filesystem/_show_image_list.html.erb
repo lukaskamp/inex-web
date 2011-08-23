@@ -1,0 +1,17 @@
+<% if @list.size == 0 %>
+        No images uploaded yet.
+<% else %>
+<table>
+<%= table_rows(@list, 5) do |filename,i,image_id|
+
+     # TODO - replace by route paths and make more sophisticated selection
+     image =  image_tag "/media/article_thumb/#{par('editor_thumbnail_size')}x#{par('editor_thumbnail_size')}/#{filename}",
+                              :size => "#{par('editor_thumbnail_size')}x#{par('editor_thumbnail_size')}",
+                              :onclick => "select_image_in_browser('#{image_id}', '/data/articleimages/#{filename}')",
+                              :onmouseover => "mouse_on_image('#{image_id}')",
+                              :onmouseout => "mouse_out_image('#{image_id}')"
+     image + '<br/>' + filename
+  end
+%>
+</table>
+<% end %>

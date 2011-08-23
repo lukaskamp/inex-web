@@ -1,0 +1,22 @@
+<div style="float:left" id="gallery_browser_content">
+
+  <object width="<%=@sub_files[@index].video_width%>" height="<%=@sub_files[@index].video_height%>">
+    <param name="movie" value="http://www.youtube.com/v/<%=@sub_files[@index].link%>&hl=en&fs=1"></param>
+    <param name="allowFullScreen" value="true"></param>
+    <embed src="http://www.youtube.com/v/<%=@sub_files[@index].link%>&hl=en&fs=1" type="application/x-shockwave-flash" 
+          allowfullscreen="true" 
+          width="<%=@sub_files[@index].video_width%>" 
+          height="<%=@sub_files[@index].video_height%>"></embed>
+  </object>
+
+  <p id="gallery_browser_title">
+    <%= @sub_files[@index].title %>
+  </p>
+  <p id="gallery_browser_description">
+    <%= @sub_files[@index].description %>
+  </p>
+  <%= edit_file_link(@sub_files[@index].id) if admin_view? %>
+
+</div>
+
+<%= navigator(@index,@album.id,@index_max) %>

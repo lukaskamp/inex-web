@@ -1,0 +1,18 @@
+
+<div style="float:left" id="gallery_browser_content">
+  <!-- Linux / Firefox -->
+  <EMBED  width="<%=@sub_files[@index].video_width%>" 
+          height="<%=@sub_files[@index].video_height%>" 
+          src="http://<%=request.domain+request.port_string%><%=@sub_files[@index].full_filename%>" 
+          loop="false" type="video/divx" controller="true" autoplay="false" 
+          pluginspage="http://packman.links2linux.org/package/mplayerplug-in" target="myself"> </EMBED>
+  <p id="gallery_browser_title">
+    <%= @sub_files[@index].title %>
+  </p>
+  <p id="gallery_browser_description">
+    <%= @sub_files[@index].description %>
+  </p>
+  <%= edit_file_link(@sub_files[@index].id) if admin_view? %>
+</div>
+
+<%= navigator(@index,@album.id,@index_max) %>

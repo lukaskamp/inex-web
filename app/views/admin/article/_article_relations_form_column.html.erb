@@ -1,0 +1,26 @@
+<% if @show_article_relations %>
+  <li class="form-element">
+    <dl>
+      <dt>
+        <label for="article_relations">Article relations</label>
+      </dt>
+      <dd>
+        <table>
+          <% for lang in @other_languages %>
+            <tr>
+              <td><%=lang.link_title %> [<%= lang.code %>]</td>
+              <td>
+                <select name="article_relation[<%= lang.code %>]" id="article_relation[<%= lang.code %>]" class="image_filename-input">
+                <option value="0" <%='selected="selected"' unless @record.language_version(lang)%>>-- none --</option>
+                <% for a in @articles[lang.code] %>
+                  <option value="<%=a.id%>" <%='selected="selected"' if a == @record.language_version(lang)%>><%=a.title%></option>
+                <% end %>
+                </select>
+              </td>
+            </tr>
+          <% end %>
+        </table>
+      </dd>
+    </dl>  
+  </li>
+<% end %>

@@ -1,0 +1,20 @@
+xml.instruct! :xml, :version=>"1.0" 
+xml.rss(:version=>"2.0"){
+  xml.channel{
+    xml.title(bt('rss_title',:edit_allowed => false))
+    xml.link(bt('rss_homepage',:edit_allowed => false))
+    xml.description(bt('rss_description',:edit_allowed => false))
+    xml.language(bt('rss_language',:edit_allowed => false))
+      @headlines.each do |headline|    
+        xml.item do
+          xml.title(headline.title)
+          xml.description(headline.annotation)      
+          xml.author(bt('rss_author',:edit_allowed => false))               
+          xml.pubDate(headline.created_at.strftime("%a, %d %b %Y %H:%M:%S %z"))
+          xml.link(home_url({:language_code => @current_language.code}))
+      	  # TODO find out what it is
+      	  # xml.guid(post.link)
+        end
+      end
+  }
+}

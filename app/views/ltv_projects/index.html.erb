@@ -1,0 +1,25 @@
+<%= render_special_article("ltv_intro") %>
+
+<% for country in @projects.keys.sort{|x,y| InexUtils::strip_cs_chars(x)<=>InexUtils::strip_cs_chars(y)} %>
+  <h3> <%= country %> </h3>
+  <% for project in @projects[country] %>
+    <div class="ltv_project" id ="ltv_project_<%=project.id%>">
+
+      <div class="ltv_project_title"> 
+       <%= project.organization %>:
+        <% if project.filename and not project.filename.empty? %>
+          <%= link_to project.title, par("ltv_attachment_root") + "/" + project.filename %>
+        <% else %>
+          <%= project.title %>
+        <% end %>
+      </div>
+
+      <% if project.description and not project.description.empty? %>
+        <div class="ltv_project_description">
+          <%= project.description %>
+        </div>
+      <% end %>
+
+    </div>
+  <% end %>
+<% end %>

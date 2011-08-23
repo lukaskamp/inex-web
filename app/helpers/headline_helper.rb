@@ -1,0 +1,3 @@
+module HeadlineHelper 
+
+end

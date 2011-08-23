@@ -1,0 +1,17 @@
+config/database.yml
+config/environments/volant_access.rb
+config/environments/google_maps_access.rb
+log/*.log
+db/*.db
+db/*.sqlite3
+db/schema.rb
+tmp/**/*
+index
+public/data
+doc/api
+doc/app
+*\#*\#
+.\#*
+*~
+*_flymake.*
+public/images/menu*.png

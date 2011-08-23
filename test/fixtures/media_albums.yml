@@ -1,0 +1,18 @@
+en_root:
+  filename: .
+  language: english
+
+en_album1:
+  filename: album1
+  title: First album
+  parent: en_root
+  language: english
+  position: 1
+
+en_album2:
+  filename: album2
+  title: Second album
+  parent: en_root
+  language: english
+  position: 2
+

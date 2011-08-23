@@ -1,0 +1,244 @@
+#menu_top {
+	height:28px;
+	background-color:#273840;
+	font-size:0px;
+}
+
+td.menu_top_button_off {
+	background-color:<%=par("button_background_off")%>;
+	height:28px;
+	text-align:center;
+	vertical-align:middle;
+	font-size:0px;
+	border-color: <%=par("button_color_off")%>;
+}
+
+img.menu_top_button_off {
+	border:0;
+	margin:0;
+	height:26px;
+}
+
+<% for i in (1..4) %>
+
+#menu_top_button_off_<%=i%>_td {
+	background-image:url('/images/menu_icon_<%=@current_language.code%>_<%=i%>_off.png');
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+}
+#menu_top_button_on_<%=i%>_td {
+	background-image:url('/images/menu_icon_<%=@current_language.code%>_<%=i%>_on.png');
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+}
+
+<% end %>
+
+td.menu_top_button_on {
+	background-color:<%=par("button_background_on")%>;
+	height:28px;
+	text-align:center;
+	vertical-align:middle;
+	font-size:0px;
+	border-color: <%=par("button_color_on")%>;
+}
+
+img.menu_top_button_on {
+	border:0;
+	margin:0;
+	height:26px;
+}
+
+#menu_top_buttons {
+	float:left;
+	width:100%;
+	height:28px;
+}
+
+#menu_left {
+	width:20%;
+	background-color:#273840;
+	vertical-align:top;
+	font-size:11px;
+	background-image: url('/images/layout/right_menu_bkgnd.png');
+	color:white;
+}
+
+#menu_left div.inner {
+	padding-top:28px;
+	padding-bottom:50px;
+	color:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+}
+
+
+#menu_right {
+	width:190px;
+	background-color:#273840;
+	vertical-align:top;
+	font-size:0px;
+	line-height:0px;
+	background-image: url('/images/layout/right_menu_bkgnd.png');
+}
+
+#menu_right div.inner {
+	margin-top:28px;
+}
+
+#menu_right div.inner div {
+	float:left;
+}
+
+#menu_right_search {
+	width:189px;
+	height:66px;
+	background-image: url('/images/layout/right_menu_search.png');
+}
+
+#menu_right_search input {
+	border: 0;
+	margin-left:14px;
+	margin-top:38px;
+	height:12px;
+	width:130px;
+	font-size:9px;
+	background-color:white;
+}
+
+#menu_right_email {
+	height:51px;
+	width:189px;
+	background-image: url('/images/layout/right_menu_email.png');
+}
+
+#menu_right_email input {
+	border: 0;
+	margin-left:14px;
+	margin-top:23px;
+	height:12px;
+	width:130px;
+	font-size:9px;
+	background-color:white;
+}
+
+
+ul.level2 {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	color:white;
+	font-size:inherit;
+	font-weight:inherit;
+}
+
+li.level2 {
+	margin:0px;
+	margin-bottom:2px;
+	padding:0px;
+	color:white;
+	font-size:inherit;
+	font-weight:inherit;
+}
+
+li.level2 div.inner_item table, li.level2 div.inner_item tr, li.level2 div.inner_item td,
+li.level2 div.inner_item_active table, li.level2 div.inner_item_active tr, li.level2 div.inner_item_active td {
+	margin:0px;
+	padding:0px;
+	color:white;
+	font-size:inherit;
+	font-weight:inherit;
+}
+
+li.level2 div.inner_item td, li.level2 div.inner_item_active td {
+	vertical-align:top;
+	color:white;
+	font-size:inherit;
+	font-weight:inherit;
+}
+
+li.level2 div.inner_item, li.level2 div.inner_label, li.level2 div.inner_item_active {
+	padding-top:4px;
+	padding-bottom:2px;
+	padding-right:20px;
+	border:0;
+	color:white;
+	font-size:inherit;
+	font-weight:inherit;
+}
+
+li.level2 div.inner_item {
+	padding-left:20px;
+	background-color:transparent;
+	color:white;
+	font-size:inherit;
+	font-weight:inherit;
+}
+
+li.level2 div.inner_label {
+	padding-left:20px;
+	font-weight:bold;
+	background-color:transparent;
+	color:white;
+	font-size:inherit;
+}
+
+li.level2 div.inner_item_active {
+	padding-left:20px;
+	background-color:<%=par("button_background_on")%>;
+	color:white;
+	font-size:inherit;
+	font-weight:inherit;
+}
+
+li.level2 div a {
+	padding:0;
+	color:white;
+	background-color:transparent;
+}
+
+li.level2 div a:hover {color:white;}
+li.level2 div a:visited {color:white;}
+
+li.level3 {
+	margin:0px;
+	margin-bottom:2px;
+	padding:0;
+	overflow:none;
+	color:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+}
+
+li.level3 div.inner_item {
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:40px;
+	padding-right:15px;
+	border:0;
+	background-color:transparent;
+	color:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+}
+
+li.level3 div.inner_item_active {
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-left:40px;
+	padding-right:15px;
+	background-color:<%=par("button_background_on")%>;
+	overflow:none;
+	color:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+}
+
+li.level3 div a {
+	padding:0;
+	color:white;
+	background-color:transparent;
+}
+
+li.level3 div a:hover {color:white;}
+li.level3 div a:visited {color:white;}

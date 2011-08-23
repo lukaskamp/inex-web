@@ -1,0 +1,48 @@
+<%
+  def commons
+    result = ''
+    result << "  firstname: Bender\n"
+    result << "  lastname: Rodriguez\n"
+    result << "  street: 55th\n"
+    result << "  city: NY\n"
+    result << "  zipcode: 2349083\n"
+    result << "  birthnumber: 820327654\n"
+    result << "  birthdate: #{20.years.ago.to_date.to_s(:db)}\n"
+
+    result << "  contact_street: no\n"
+    result << "  contact_city: more\n"
+    result << "  contact_zipcode: addresses\n"
+
+    result << "  emergency_name: Someone\n"
+    result << "  emergency_day: 124 536 723\n"
+    result << "  emergency_night: +420 9823898\n"
+
+    result << "  terms_of_processing: true\n"
+    result << "  occupation: developer\n"
+    result << "  gender: m\n"
+    result << "  email: a@b.com\n"
+    result << "  nationality: Mexico\n"
+    result << "  phone: 347882347  \n"
+    result << "  terms_of_workcamps: true\n"
+    result << "  terms_of_processing: true\n"
+    result << "  motivation: I'd like to be motivated...\n"
+    result
+  end
+%>
+
+valid:
+<%= commons %>
+  workcamps_ids:
+      - <%= Workcamp.find(:first).id %>
+
+no_workcamps:
+<%= commons %>
+
+not_accepted:
+<%= commons %>
+  terms_of_workcamps: false
+  terms_of_processing: false
+
+bender:
+<%= commons %>
+  gender: robot

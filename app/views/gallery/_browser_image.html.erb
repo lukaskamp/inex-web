@@ -1,0 +1,12 @@
+<div id="gallery_browser_content">
+  <%= image_tag(thumb_url(:id => @sub_files[@index], :dims => photo_dimensions), :size => photo_dimensions, :style => "padding:0px;") %>
+  <p id="gallery_browser_title">
+    <%= @sub_files[@index].title %>
+  </p>
+  <p id="gallery_browser_description">
+    <%= @sub_files[@index].description %>
+  </p>
+  <%= edit_file_link(@sub_files[@index].id) if admin_view? %>
+</div>
+
+<%= navigator(@index,@album.id,@index_max) %>

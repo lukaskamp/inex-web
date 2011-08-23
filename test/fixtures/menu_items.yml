@@ -1,0 +1,29 @@
+grocery:
+  title: Grocery
+  position: 10
+  language: english
+
+empty_grocery:
+  title: Empty Grocery
+  position: 20
+  language: english
+  
+fruits:
+  title: Fruits
+  position: 10
+  parent: grocery
+  language: english
+
+vegetables:
+  title: Vegetables
+  position: 20
+  parent: grocery
+  language: english
+  
+carrot:
+  title: Carrot
+  position: 10
+  parent: vegetables 
+  language: english
+
+<%= YamlUtils::eval_erb_file("#{RAILS_ROOT}/db/fixtures/demo/menu_items.yml") %>

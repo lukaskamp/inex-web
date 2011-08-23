@@ -1,0 +1,5 @@
+page[:chart_container].hide  
+page.replace_html :chart_container, :partial => 'chart'
+page.replace_html :term_fields, :partial => 'term', :object => @chart.term
+page.replace_html :chart_field, options_for_select(extract_allowed_fields(@chart), @chart.field)
+page[:chart_container].visual_effect :appear

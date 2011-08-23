@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Module: Foo::Acts::Indexed::ClassMethods</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <link rel="stylesheet" href="../../../.././rdoc-style.css" type="text/css" media="screen" />
+  <script type="text/javascript">
+  // <![CDATA[
+
+  function popupCode( url ) {
+    window.open(url, "Code", "resizable=yes,scrollbars=yes,toolbar=no,status=no,height=150,width=400")
+  }
+
+  function toggleCode( id ) {
+    if ( document.getElementById )
+      elem = document.getElementById( id );
+    else if ( document.all )
+      elem = eval( "document.all." + id );
+    else
+      return false;
+
+    elemStyle = elem.style;
+    
+    if ( elemStyle.display != "block" ) {
+      elemStyle.display = "block"
+    } else {
+      elemStyle.display = "none"
+    }
+
+    return true;
+  }
+  
+  // Make codeblocks hidden by default
+  document.writeln( "<style type=\"text/css\">div.method-source-code { display: none }</style>" )
+  
+  // ]]>
+  </script>
+
+</head>
+<body>
+
+
+
+    <div id="classHeader">
+        <table class="header-table">
+        <tr class="top-aligned-row">
+          <td><strong>Module</strong></td>
+          <td class="class-name-in-header">Foo::Acts::Indexed::ClassMethods</td>
+        </tr>
+        <tr class="top-aligned-row">
+            <td><strong>In:</strong></td>
+            <td>
+                <a href="../../../../files/vendor/plugins/acts_as_indexed/lib/acts_as_indexed_rb.html">
+                vendor/plugins/acts_as_indexed/lib/acts_as_indexed.rb
+                </a>
+        <br />
+            </td>
+        </tr>
+
+        </table>
+    </div>
+  <!-- banner header -->
+
+  <div id="bodyContent">
+
+
+
+  <div id="contextContent">
+
+
+
+   </div>
+
+    <div id="method-list">
+      <h3 class="section-bar">Methods</h3>
+
+      <div class="name-list">
+      <a href="#M000002">acts_as_indexed</a>&nbsp;&nbsp;
+      <a href="#M000003">index_add</a>&nbsp;&nbsp;
+      <a href="#M000004">index_remove</a>&nbsp;&nbsp;
+      <a href="#M000005">index_update</a>&nbsp;&nbsp;
+      <a href="#M000006">search_index</a>&nbsp;&nbsp;
+      </div>
+    </div>
+
+  </div>
+
+
+    <!-- if includes -->
+    <div id="includes">
+      <h3 class="section-bar">Included Modules</h3>
+
+      <div id="includes-list">
+        <span class="include-name"><a href="InstanceMethods.html">Foo::Acts::Indexed::InstanceMethods</a></span>
+      </div>
+    </div>
+
+    <div id="section">
+
+
+
+
+
+      
+
+
+    <!-- if method_list -->
+    <div id="methods">
+      <h3 class="section-bar">Public Instance methods</h3>
+
+      <div id="method-M000002" class="method-detail">
+        <a name="M000002"></a>
+
+        <div class="method-heading">
+          <a href="#M000002" class="method-signature">
+          <span class="method-name">acts_as_indexed</span><span class="method-args">(options = {})</span>
+          </a>
+        </div>
+      
+        <div class="method-description">
+          <p>
+Declares a class as searchable.
+</p>
+<h4>options:</h4>
+<table>
+<tr><td valign="top">fields:</td><td>Names of fields to include in the index. Symbols pointing to instance
+methods of your model may also be given here.
+
+</td></tr>
+<tr><td valign="top">index_file_depth:</td><td>Tuning value for the index partitioning. Larger values result in quicker
+searches, but slower indexing. Default is 3.
+
+</td></tr>
+<tr><td valign="top">min_word_size:</td><td>Sets the minimum length for a word in a query. Words shorter than this
+value are ignored in searches unless preceded by the &#8217;+&#8217;
+operator. Default is 3.
+
+</td></tr>
+</table>
+          <p><a class="source-toggle" href="#"
+            onclick="toggleCode('M000002-source');return false;">[Source]</a></p>
+          <div class="method-source-code" id="M000002-source">
+<pre>
+    <span class="ruby-comment cmt"># File vendor/plugins/acts_as_indexed/lib/acts_as_indexed.rb, line 33</span>
+33:         <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">acts_as_indexed</span>(<span class="ruby-identifier">options</span> = {})
+34:           <span class="ruby-identifier">class_eval</span> <span class="ruby-keyword kw">do</span>
+35:             <span class="ruby-identifier">extend</span> <span class="ruby-constant">Foo</span><span class="ruby-operator">::</span><span class="ruby-constant">Acts</span><span class="ruby-operator">::</span><span class="ruby-constant">Indexed</span><span class="ruby-operator">::</span><span class="ruby-constant">SingletonMethods</span>
+36:           <span class="ruby-keyword kw">end</span>
+37:           <span class="ruby-identifier">include</span> <span class="ruby-constant">Foo</span><span class="ruby-operator">::</span><span class="ruby-constant">Acts</span><span class="ruby-operator">::</span><span class="ruby-constant">Indexed</span><span class="ruby-operator">::</span><span class="ruby-constant">InstanceMethods</span>
+38: 
+39:           <span class="ruby-identifier">after_create</span>  <span class="ruby-identifier">:add_to_index</span>
+40:           <span class="ruby-identifier">before_update</span>  <span class="ruby-identifier">:update_index</span>
+41:           <span class="ruby-identifier">after_destroy</span> <span class="ruby-identifier">:remove_from_index</span>
+42: 
+43:           <span class="ruby-identifier">cattr_accessor</span> <span class="ruby-identifier">:aai_config</span>
+44: 
+45:           <span class="ruby-comment cmt"># default config</span>
+46:           <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">aai_config</span> = { 
+47:             <span class="ruby-identifier">:index_file</span> =<span class="ruby-operator">&gt;</span> [<span class="ruby-constant">RAILS_ROOT</span>,<span class="ruby-value str">'index'</span>,<span class="ruby-constant">RAILS_ENV</span>,<span class="ruby-identifier">name</span>],
+48:             <span class="ruby-identifier">:index_file_depth</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">3</span>,
+49:             <span class="ruby-identifier">:min_word_size</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">3</span>,
+50:             <span class="ruby-identifier">:fields</span> =<span class="ruby-operator">&gt;</span> []
+51:           }
+52: 
+53:           <span class="ruby-comment cmt"># set fields</span>
+54:           <span class="ruby-identifier">aai_config</span>[<span class="ruby-identifier">:fields</span>] = <span class="ruby-identifier">options</span>[<span class="ruby-identifier">:fields</span>] <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">options</span>.<span class="ruby-identifier">include?</span>(<span class="ruby-identifier">:fields</span>)
+55: 
+56:           <span class="ruby-comment cmt"># set minimum word size if available.</span>
+57:           <span class="ruby-identifier">aai_config</span>[<span class="ruby-identifier">:min_word_size</span>] = <span class="ruby-identifier">options</span>[<span class="ruby-identifier">:min_word_size</span>] <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">options</span>.<span class="ruby-identifier">include?</span>(<span class="ruby-identifier">:min_word_size</span>)
+58: 
+59:           <span class="ruby-comment cmt"># set index file depth if available.</span>
+60:           <span class="ruby-comment cmt"># Min size of 1.</span>
+61:           <span class="ruby-identifier">aai_config</span>[<span class="ruby-identifier">:index_file_depth</span>] = <span class="ruby-identifier">options</span>[<span class="ruby-identifier">:index_file_depth</span>].<span class="ruby-identifier">to_i</span> <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">options</span>.<span class="ruby-identifier">include?</span>(<span class="ruby-identifier">:index_file_depth</span>) <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">options</span>[<span class="ruby-identifier">:index_file_depth</span>].<span class="ruby-identifier">to_i</span> <span class="ruby-operator">&gt;</span> <span class="ruby-value">0</span>
+62: 
+63:           <span class="ruby-comment cmt"># Set file location for plugin testing.</span>
+64:           <span class="ruby-comment cmt"># TODO: Find more portable (ruby) way of doing the up-one-level.</span>
+65:           <span class="ruby-identifier">aai_config</span>[<span class="ruby-identifier">:index_file</span>] = [<span class="ruby-constant">File</span>.<span class="ruby-identifier">dirname</span>(<span class="ruby-keyword kw">__FILE__</span>),<span class="ruby-value str">'../test/index'</span>,<span class="ruby-constant">RAILS_ENV</span>,<span class="ruby-identifier">name</span>] <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">options</span>.<span class="ruby-identifier">include?</span>(<span class="ruby-identifier">:self_test</span>)
+66: 
+67:         <span class="ruby-keyword kw">end</span>
+</pre>
+          </div>
+        </div>
+      </div>
+
+      <div id="method-M000003" class="method-detail">
+        <a name="M000003"></a>
+
+        <div class="method-heading">
+          <a href="#M000003" class="method-signature">
+          <span class="method-name">index_add</span><span class="method-args">(record)</span>
+          </a>
+        </div>
+      
+        <div class="method-description">
+          <p>
+Adds the passed <tt>record</tt> to the index. Index is built if it does not
+already exist. Clears the query cache.
+</p>
+          <p><a class="source-toggle" href="#"
+            onclick="toggleCode('M000003-source');return false;">[Source]</a></p>
+          <div class="method-source-code" id="M000003-source">
+<pre>
+    <span class="ruby-comment cmt"># File vendor/plugins/acts_as_indexed/lib/acts_as_indexed.rb, line 71</span>
+71:         <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">index_add</span>(<span class="ruby-identifier">record</span>)
+72:           <span class="ruby-identifier">build_index</span> <span class="ruby-keyword kw">if</span> <span class="ruby-operator">!</span><span class="ruby-constant">File</span>.<span class="ruby-identifier">exists?</span>(<span class="ruby-constant">File</span>.<span class="ruby-identifier">join</span>(<span class="ruby-identifier">aai_config</span>[<span class="ruby-identifier">:index_file</span>]))
+73:           <span class="ruby-identifier">index</span> = <span class="ruby-constant">SearchIndex</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">aai_config</span>[<span class="ruby-identifier">:index_file</span>], <span class="ruby-identifier">aai_config</span>[<span class="ruby-identifier">:index_file_depth</span>], <span class="ruby-identifier">aai_config</span>[<span class="ruby-identifier">:fields</span>], <span class="ruby-identifier">aai_config</span>[<span class="ruby-identifier">:min_word_size</span>])
+74:           <span class="ruby-identifier">index</span>.<span class="ruby-identifier">add_record</span>(<span class="ruby-identifier">record</span>)
+75:           <span class="ruby-identifier">index</span>.<span class="ruby-identifier">save</span>
+76:           <span class="ruby-ivar">@query_cache</span> = {}
+77:           <span class="ruby-keyword kw">true</span>
+78:         <span class="ruby-keyword kw">end</span>
+</pre>
+          </div>
+        </div>
+      </div>
+
+      <div id="method-M000004" class="method-detail">
+        <a name="M000004"></a>
+
+        <div class="method-heading">
+          <a href="#M000004" class="method-signature">
+          <span class="method-name">index_remove</span><span class="method-args">(record)</span>
+          </a>
+        </div>
+      
+        <div class="method-description">
+          <p>
+Removes the passed <tt>record</tt> from the index. Clears the query cache.
+</p>
+          <p><a class="source-toggle" href="#"
+            onclick="toggleCode('M000004-source');return false;">[Source]</a></p>
+          <div class="method-source-code" id="M000004-source">
+<pre>
+    <span class="ruby-comment cmt"># File vendor/plugins/acts_as_indexed/lib/acts_as_indexed.rb, line 82</span>
+82:         <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">index_remove</span>(<span class="ruby-identifier">record</span>)
+83:           <span class="ruby-identifier">index</span> = <span class="ruby-constant">SearchIndex</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">aai_config</span>[<span class="ruby-identifier">:index_file</span>], <span class="ruby-identifier">aai_config</span>[<span class="ruby-identifier">:index_file_depth</span>], <span class="ruby-identifier">aai_config</span>[<span class="ruby-identifier">:fields</span>], <span class="ruby-identifier">aai_config</span>[<span class="ruby-identifier">:min_word_size</span>])
+84:           <span class="ruby-comment cmt"># record won't be in index if it doesn't exist. Just return true.</span>
+85:           <span class="ruby-keyword kw">return</span> <span class="ruby-keyword kw">true</span> <span class="ruby-keyword kw">if</span> <span class="ruby-operator">!</span><span class="ruby-identifier">index</span>.<span class="ruby-identifier">exists?</span>
+86:           <span class="ruby-identifier">index</span>.<span class="ruby-identifier">remove_record</span>(<span class="ruby-identifier">record</span>)
+87:           <span class="ruby-identifier">index</span>.<span class="ruby-identifier">save</span>
+88:           <span class="ruby-ivar">@query_cache</span> = {}
+89:           <span class="ruby-keyword kw">true</span>
+90:         <span class="ruby-keyword kw">end</span>
+</pre>
+          </div>
+        </div>
+      </div>
+
+      <div id="method-M000005" class="method-detail">
+        <a name="M000005"></a>
+
+        <div class="method-heading">
+          <a href="#M000005" class="method-signature">
+          <span class="method-name">index_update</span><span class="method-args">(record)</span>
+          </a>
+        </div>
+      
+        <div class="method-description">
+          <p>
+Updates the index.
+</p>
+<ol>
+<li>Removes the previous version of the record from the index
+
+</li>
+<li>Adds the new version to the index.
+
+</li>
+</ol>
+          <p><a class="source-toggle" href="#"
+            onclick="toggleCode('M000005-source');return false;">[Source]</a></p>
+          <div class="method-source-code" id="M000005-source">
+<pre>
+     <span class="ruby-comment cmt"># File vendor/plugins/acts_as_indexed/lib/acts_as_indexed.rb, line 96</span>
+ 96:         <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">index_update</span>(<span class="ruby-identifier">record</span>)
+ 97:           <span class="ruby-identifier">build_index</span> <span class="ruby-keyword kw">if</span> <span class="ruby-operator">!</span><span class="ruby-constant">File</span>.<span class="ruby-identifier">exists?</span>(<span class="ruby-constant">File</span>.<span class="ruby-identifier">join</span>(<span class="ruby-identifier">aai_config</span>[<span class="ruby-identifier">:index_file</span>]))
+ 98:           <span class="ruby-identifier">index</span> = <span class="ruby-constant">SearchIndex</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">aai_config</span>[<span class="ruby-identifier">:index_file</span>], <span class="ruby-identifier">aai_config</span>[<span class="ruby-identifier">:index_file_depth</span>], <span class="ruby-identifier">aai_config</span>[<span class="ruby-identifier">:fields</span>], <span class="ruby-identifier">aai_config</span>[<span class="ruby-identifier">:min_word_size</span>])
+ 99:           <span class="ruby-comment cmt">#index.remove_record(find(record.id))</span>
+100:           <span class="ruby-comment cmt">#index.add_record(record)</span>
+101:           <span class="ruby-identifier">index</span>.<span class="ruby-identifier">update_record</span>(<span class="ruby-identifier">record</span>,<span class="ruby-identifier">find</span>(<span class="ruby-identifier">record</span>.<span class="ruby-identifier">id</span>))
+102:           <span class="ruby-identifier">index</span>.<span class="ruby-identifier">save</span>
+103:           <span class="ruby-ivar">@query_cache</span> = {}
+104:           <span class="ruby-keyword kw">true</span>
+105:         <span class="ruby-keyword kw">end</span>
+</pre>
+          </div>
+        </div>
+      </div>
+
+      <div id="method-M000006" class="method-detail">
+        <a name="M000006"></a>
+
+        <div class="method-heading">
+          <a href="#M000006" class="method-signature">
+          <span class="method-name">search_index</span><span class="method-args">(query, find_options={}, options={})</span>
+          </a>
+        </div>
+      
+        <div class="method-description">
+          <p>
+Finds instances matching the terms passed in <tt>query</tt>. Terms are
+ANDed by default. Returns an array of model instances or, if
+<tt>ids_only</tt> is true, an array of integer IDs.
+</p>
+<p>
+Keeps a cache of matched IDs for the current session to speed up multiple
+identical searches.
+</p>
+<h4>find_options</h4>
+<p>
+A hash passed on to active_record&#8216;s find when retrieving the data
+from db, useful for pagination.
+</p>
+<h4>options</h4>
+<table>
+<tr><td valign="top">ids_only:</td><td>Method returns an array of integer IDs when set to true.
+
+</td></tr>
+<tr><td valign="top">no_query_cache:</td><td>Turns off the query cache when set to true. Useful for testing.
+
+</td></tr>
+</table>
+          <p><a class="source-toggle" href="#"
+            onclick="toggleCode('M000006-source');return false;">[Source]</a></p>
+          <div class="method-source-code" id="M000006-source">
+<pre>
+     <span class="ruby-comment cmt"># File vendor/plugins/acts_as_indexed/lib/acts_as_indexed.rb, line 121</span>
+121:         <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">search_index</span>(<span class="ruby-identifier">query</span>, <span class="ruby-identifier">find_options</span>={}, <span class="ruby-identifier">options</span>={})
+122:           <span class="ruby-comment cmt"># !MY_HACK</span>
+123:           <span class="ruby-identifier">query</span> = <span class="ruby-constant">InexUtils</span><span class="ruby-operator">::</span><span class="ruby-identifier">strip_cs_chars</span>(<span class="ruby-identifier">query</span>)
+124:           <span class="ruby-comment cmt"># Clear the query cache off  if the key is set.</span>
+125:           <span class="ruby-ivar">@query_cache</span> = {}  <span class="ruby-keyword kw">if</span> (<span class="ruby-identifier">options</span>.<span class="ruby-identifier">has_key?</span>(<span class="ruby-value str">'no_query_cache'</span>) <span class="ruby-operator">||</span> <span class="ruby-identifier">options</span>[<span class="ruby-identifier">:no_query_cache</span>])
+126:           <span class="ruby-keyword kw">if</span> <span class="ruby-operator">!</span><span class="ruby-ivar">@query_cache</span> <span class="ruby-operator">||</span> <span class="ruby-operator">!</span><span class="ruby-ivar">@query_cache</span>[<span class="ruby-identifier">query</span>]
+127:             <span class="ruby-identifier">logger</span>.<span class="ruby-identifier">debug</span>(<span class="ruby-value str">'Query not in cache, running search.'</span>)
+128:             <span class="ruby-identifier">build_index</span> <span class="ruby-keyword kw">if</span> <span class="ruby-operator">!</span><span class="ruby-constant">File</span>.<span class="ruby-identifier">exists?</span>(<span class="ruby-constant">File</span>.<span class="ruby-identifier">join</span>(<span class="ruby-identifier">aai_config</span>[<span class="ruby-identifier">:index_file</span>]))
+129:             <span class="ruby-identifier">index</span> = <span class="ruby-constant">SearchIndex</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">aai_config</span>[<span class="ruby-identifier">:index_file</span>], <span class="ruby-identifier">aai_config</span>[<span class="ruby-identifier">:index_file_depth</span>], <span class="ruby-identifier">aai_config</span>[<span class="ruby-identifier">:fields</span>], <span class="ruby-identifier">aai_config</span>[<span class="ruby-identifier">:min_word_size</span>])
+130:             <span class="ruby-ivar">@query_cache</span> = {} <span class="ruby-keyword kw">if</span> <span class="ruby-operator">!</span><span class="ruby-ivar">@query_cache</span>
+131:             <span class="ruby-ivar">@query_cache</span>[<span class="ruby-identifier">query</span>] = <span class="ruby-identifier">index</span>.<span class="ruby-identifier">search</span>(<span class="ruby-identifier">query</span>)
+132:           <span class="ruby-keyword kw">else</span>
+133:             <span class="ruby-identifier">logger</span>.<span class="ruby-identifier">debug</span>(<span class="ruby-value str">'Query held in cache.'</span>)
+134:           <span class="ruby-keyword kw">end</span>
+135:           <span class="ruby-keyword kw">return</span> <span class="ruby-ivar">@query_cache</span>[<span class="ruby-identifier">query</span>].<span class="ruby-identifier">sort</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">a</span>,<span class="ruby-identifier">b</span><span class="ruby-operator">|</span> <span class="ruby-identifier">b</span> <span class="ruby-operator">&lt;=&gt;</span> <span class="ruby-identifier">a</span> }.<span class="ruby-identifier">collect</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">a</span><span class="ruby-operator">|</span> <span class="ruby-identifier">a</span>.<span class="ruby-identifier">first</span>} <span class="ruby-keyword kw">if</span> (<span class="ruby-identifier">options</span>.<span class="ruby-identifier">has_key?</span>(<span class="ruby-identifier">:ids_only</span>) <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">options</span>[<span class="ruby-identifier">:ids_only</span>]) <span class="ruby-operator">||</span> <span class="ruby-ivar">@query_cache</span>[<span class="ruby-identifier">query</span>].<span class="ruby-identifier">empty?</span>
+136:           
+137:           <span class="ruby-comment cmt"># slice up the results by offset and limit</span>
+138:           <span class="ruby-identifier">offset</span> = <span class="ruby-identifier">find_options</span>[<span class="ruby-identifier">:offset</span>] <span class="ruby-operator">||</span> <span class="ruby-value">0</span>
+139:           <span class="ruby-identifier">limit</span> = <span class="ruby-identifier">find_options</span>.<span class="ruby-identifier">include?</span>(<span class="ruby-identifier">:limit</span>) <span class="ruby-operator">?</span> <span class="ruby-identifier">find_options</span>[<span class="ruby-identifier">:limit</span>] <span class="ruby-operator">:</span> <span class="ruby-ivar">@query_cache</span>[<span class="ruby-identifier">query</span>].<span class="ruby-identifier">size</span>
+140:           <span class="ruby-identifier">part_query</span> = <span class="ruby-ivar">@query_cache</span>[<span class="ruby-identifier">query</span>].<span class="ruby-identifier">sort</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">a</span>,<span class="ruby-identifier">b</span><span class="ruby-operator">|</span> <span class="ruby-identifier">b</span> <span class="ruby-operator">&lt;=&gt;</span> <span class="ruby-identifier">a</span> }.<span class="ruby-identifier">slice</span>(<span class="ruby-identifier">offset</span>,<span class="ruby-identifier">limit</span>).<span class="ruby-identifier">collect</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">a</span><span class="ruby-operator">|</span> <span class="ruby-identifier">a</span>.<span class="ruby-identifier">first</span>}
+141:           
+142:           <span class="ruby-comment cmt"># Set these to nil as we are dealing with the pagination by setting</span>
+143:           <span class="ruby-comment cmt"># exactly what records we want.</span>
+144:           <span class="ruby-identifier">find_options</span>[<span class="ruby-identifier">:offset</span>] = <span class="ruby-keyword kw">nil</span>
+145:           <span class="ruby-identifier">find_options</span>[<span class="ruby-identifier">:limit</span>] = <span class="ruby-keyword kw">nil</span>
+146:           
+147:           <span class="ruby-identifier">with_scope</span> <span class="ruby-identifier">:find</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">find_options</span> <span class="ruby-keyword kw">do</span>
+148:             <span class="ruby-comment cmt"># Doing the find like this eliminates the possibility of errors occuring</span>
+149:             <span class="ruby-comment cmt"># on either missing records (out-of-sync) or an empty results array.</span>
+150:             <span class="ruby-identifier">records</span> = <span class="ruby-identifier">find</span>(<span class="ruby-identifier">:all</span>, <span class="ruby-identifier">:conditions</span> =<span class="ruby-operator">&gt;</span> [ <span class="ruby-node">&quot;#{class_name.tableize}.id IN (?)&quot;</span>, <span class="ruby-identifier">part_query</span>])
+151:             
+152:             <span class="ruby-comment cmt"># Results come back in random order from SQL, so order again.</span>
+153:             <span class="ruby-identifier">ranked_records</span> = {}
+154:             <span class="ruby-identifier">records</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword kw">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">r</span><span class="ruby-operator">|</span>
+155:               <span class="ruby-identifier">ranked_records</span>[<span class="ruby-identifier">r</span>] = <span class="ruby-ivar">@query_cache</span>[<span class="ruby-identifier">query</span>][<span class="ruby-identifier">r</span>.<span class="ruby-identifier">id</span>]
+156:             <span class="ruby-keyword kw">end</span>
+157: 
+158:             <span class="ruby-identifier">ranked_records</span>.<span class="ruby-identifier">to_a</span>.<span class="ruby-identifier">sort</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">a</span>,<span class="ruby-identifier">b</span><span class="ruby-operator">|</span> <span class="ruby-identifier">b</span>.<span class="ruby-identifier">last</span> <span class="ruby-operator">&lt;=&gt;</span> <span class="ruby-identifier">a</span>.<span class="ruby-identifier">last</span> }.<span class="ruby-identifier">collect</span>{<span class="ruby-operator">|</span><span class="ruby-identifier">a</span><span class="ruby-operator">|</span> <span class="ruby-identifier">a</span>.<span class="ruby-identifier">first</span>}
+159:           <span class="ruby-keyword kw">end</span>
+160:           
+161:         <span class="ruby-keyword kw">end</span>
+</pre>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+
+<div id="validator-badges">
+  <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+</div>
+
+</body>
+</html>

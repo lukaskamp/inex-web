@@ -1,0 +1,6 @@
+<h1><%= @article.title %></h1>
+<% if admin_view? %>
+  <%= link_to "(create headline from this article)", :controller => "admin/headline", :action =>"new", :headline_title => @article.title, :headline_article => @article.id
+  %>
+<% end %>
+<%= @article.body %>

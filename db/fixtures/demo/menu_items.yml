@@ -1,0 +1,108 @@
+clanky_z_rootu:
+  title: Články z rootu
+  position: 10
+  language: czech
+  type: MenuItem
+
+asus:
+  title: Asus
+  parent: clanky_z_rootu
+  position: 10
+  language: czech
+  type: MenuItemArticle
+  article: cs_asus_article
+
+qtgnome:
+  title: Qt a Gnome
+  parent: clanky_z_rootu
+  position: 20
+  language: czech
+  type: MenuItemArticle
+  article: cs_gnome_article
+
+kalendar:
+  title: Kalendář akcí
+  position: 23
+  language: czech
+  type: MenuItemAction
+  target_controller: calendar
+
+mediateka_alba:
+  title: Alba z mediatéky
+  language: czech
+  type: MenuItem
+  position: 20
+
+dotaznik:
+  title: Dotazník
+  position: 25
+  language: czech
+  type: MenuItemAction
+  target_controller: survey
+  
+workcampy:
+  title: Workcampy
+  position: 27
+  language: czech
+  type: MenuItemAction
+  target_controller: workcamps/search
+  target_action: search  
+  
+
+galerie:
+  title: Mediatéka
+  position: 30
+  language: czech
+  type: MenuItemAction
+  target_controller: gallery
+
+evs:
+  title: EVS
+  position: 35
+  language: czech
+  type: MenuItemAction
+  target_controller: evs_projects
+  
+cz_projects:
+  title: České workcampy
+  language: czech
+  position: 33
+  type: MenuItemAction
+  target_controller: cz_projects
+
+ltv_projects:
+  title: Dlouhodobé projekty (LTV)
+  language: czech
+  position: 34
+  type: MenuItemAction
+  target_controller: ltv_projects
+
+novinky:
+  title: Novinky 
+  position: 5
+  language: czech
+  type: MenuItemAction
+  target_controller: headline
+  
+rss_atom:
+  title: Atom
+  position: 40
+  language: czech
+  type: MenuItemAction
+  target_controller: headline
+  target_action: atom
+
+rss:
+  title: RSS
+  position: 39
+  language: czech
+  type: MenuItemAction
+  target_controller: headline
+  target_action: feed
+
+fulltext:
+  title: Fulltextové vyhledávání
+  position: 50
+  language: czech
+  type: MenuItemAction
+  target_controller: fulltext

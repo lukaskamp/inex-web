@@ -1,0 +1,5 @@
+<p>Enter one or many EIREF ids (YYYY-XX-nnn), separated by almost anything (spaces, commas, newlines etc.):</p>
+<% form_tag :action => :enter_multiple, :method => :post do %>
+  <%= text_area_tag :query, "", :class => "no_rich_text", :size => "60x10" %> <br />
+  <%= submit_tag "Submit" %> <br />
+<% end %>

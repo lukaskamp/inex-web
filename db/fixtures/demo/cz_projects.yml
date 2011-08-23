@@ -1,0 +1,20 @@
+tvarozna_lhota:
+  title: Tvarožná Lhota
+  description_short: Workcamp ve Lhotě.
+  kind: hands
+  latitude: 48.859746
+  longitude: 17.393417
+
+svijany:
+  title: Svijany
+  description_short: Pití piva!
+  kind: one
+  latitude: 50.573589
+  longitude: 15.057106
+
+knezna:
+  title: Svijanská kněžna
+  description_short: Nejlepší černé pivo.
+  kind: country
+  latitude: 50.573589
+  longitude: 15.057106

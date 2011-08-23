@@ -1,0 +1,40 @@
+<%
+ prefix ||= ''
+ display_order ||= false
+ locals = { :prefix => prefix, :display_order => display_order }
+ incart_display = (prefix == 'cart_')
+%>
+
+<table id="<%= "#{prefix}workcamps" %>" class="workcamp_list">
+        <thead>
+          <% if incart_display -%>
+          <th>
+          </th>
+          <th>
+            <!-- <%= bt('order') if display_order %> -->
+          </th>
+          <% end -%>
+          <th>
+            <!--  <%= bt 'country' %> -->
+          </th>
+          <th><%= bt 'wc_code' %></th>
+          <th><%= bt 'wc_name' %></th>
+          <th><%= bt 'wc_intention' %></th>
+          <th><%= bt 'from' %></th>
+          <th><%= bt 'to' %></th>
+          <th><%= icon('person', bt('wc_free_places'), true) %></th>
+                <th><%= icon('male', bt('wc_free_male'), true) %></th>
+          <th><%= icon('female', bt('wc_free_female'), true) %></th>
+          <th></th>
+        </thead>
+        <tbody id="<%= "#{prefix}workcamps_tbody" %>">
+                <%= render :partial => 'workcamps/workcamp', :collection => workcamps, :locals => locals %>
+        </tbody>
+        <tfoot>
+          <% if workcamps.respond_to? :total_pages %>
+                <th colspan="11" class="paginator">
+                  <%= will_paginate workcamps, :prev_label => bt('previous_page') + "&nbsp;" * 6, :next_label => "&nbsp;" * 6 + bt('next_page') %>
+                </th>
+                <% end %>
+        </tfoot>
+</table>

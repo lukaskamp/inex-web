@@ -1,0 +1,21 @@
+	<tr>
+		<td><%= f.label field, label %></td>		
+		<td>
+			<% options.each do |value| -%>
+				<%= f.radio_button field, value %>
+					<%= case value
+			             when 1
+			               bt('form_yes')
+			             when 0
+			               bt('form_no')
+						 else
+						   value
+			           end
+					 %>
+					<br />
+			<% end -%>
+			<% if adlib_field %>
+				<%= adlib_label %><%= f.text_field adlib_field %>
+			<% end %>
+ 		</td>
+	</tr> 

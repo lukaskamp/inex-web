@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<%=@current_language.code%>" lang="<%=@current_language.code%>">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>INEX-SDA - Web Administration</title>
+		<%= javascript_include_tag "tiny_mce/tiny_mce.js" %>
+		<%= javascript_include_tag :defaults %>
+		<%= javascript_include_tag "admin" %>
+		<%= active_scaffold_includes %>
+		<%= stylesheet_link_tag "shared" %>
+		<%= stylesheet_link_tag "admin" %>
+		<%= stylesheet_link_tag "forms" %>
+	</head>
+	<body>
+
+		<%= render :partial => 'admin/admin_stripe', :locals => { :admin => true }  %>
+
+		<div id="contentwrapper">
+			<div id="content">
+				<%= yield %>
+			</div>
+		</div>
+
+		<div id="sidebar">
+			<center>
+				<img src="/images/inex.png" alt="Inex - SDA"/>
+				<br/>
+				<%= render :partial => 'shared/infobox' %>
+			</center>
+
+			<ul id="status"   >
+				<li>
+					<strong>Editing version:</strong>
+					<%=@current_language.to_label%>
+				</li>
+				<li>
+					<strong>Switch to language:</strong>
+					<%= render_language_switcher(request) %>
+				</li>
+			</ul>
+
+			<%= render :partial => 'admin/menu' %>
+		</div>
+	</body>
+</html>

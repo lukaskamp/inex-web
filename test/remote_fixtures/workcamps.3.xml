@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workcamp>
+  <accomodation>V domě - nutná karimatka a spacák, sprcha a WC v domě.Vegetariánská strava-velmi chutná.</accomodation>
+  <area>vesnička v SV Polsku, u města Olecko</area>
+  <begin type="date">2004-06-13</begin>
+  <capacity type="integer">6</capacity>
+  <code>FIYE 403</code>
+  <country-id type="integer">5411995</country-id>
+  <created-at type="datetime">2009-02-15T20:42:12Z</created-at>
+  <description/>
+  <end type="date">2004-06-26</end>
+  <free-places type="NilClass">0</free-places>
+  <free-places-for-females type="NilClass">0</free-places-for-females>
+  <free-places-for-males type="NilClass">0</free-places-for-males>
+  <id type="integer">3</id>
+  <language nil="true"/>
+  <maximal-age type="integer">98</maximal-age>
+  <minimal-age type="integer">14</minimal-age>
+  <name>Giże 3   Giże</name>
+  <notes>Zákaz kouření a pití alkoholu během workcampu! Možnost cvičení jogy a účasti na meditacích</notes>
+  <old-schema-key type="integer">1697</old-schema-key>
+  <organization-id type="integer">15</organization-id>
+  <places type="integer">0</places>
+  <places-for-females type="integer">0</places-for-females>
+  <places-for-males type="integer">0</places-for-males>
+  <updated-at type="datetime">2009-02-15T20:42:12Z</updated-at>
+  <workdesc>Práce na malé ekofarmě-práce na poli úklid okolí, dojení krav, péče o zvířata</workdesc>
+  <country>
+    <code>PL</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">5411995</id>
+    <name-cz>Polsko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+  <intentions type="array">
+    <intention type="WorkcampIntention">
+      <code>AGRI</code>
+      <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+      <description-cz>práce v zemědělství</description-cz>
+      <id type="integer">445288225</id>
+      <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+      <workcamp-id type="NilClass">3</workcamp-id>
+      <workcamp-intention-id type="NilClass">445288225</workcamp-intention-id>
+    </intention>
+  </intentions>
+</workcamp>

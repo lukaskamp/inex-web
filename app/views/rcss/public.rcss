@@ -1,0 +1,338 @@
+html {
+	font-family: "Trebuchet MS", Trebuchet, Tahoma, Verdana, Arial, sans-serif;
+	font-size: 11px;
+	color: black;
+/*	margin: 0;
+	padding: 0;
+	border: 0; */
+	background-color: inherit;
+}
+
+body {
+	/* TODO : replace by a filler */
+	background-color: #81bcd6;
+	font-family: inherit;
+	font-size: 12px;
+	color: black;
+	text-align: justify;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+a,p,div,td,ul,li {
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	text-align:inherit;
+}
+
+
+ul {
+}
+
+li {
+	text-align:left;
+	margin-left:1.5em;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+a img {
+	border: 0;
+}
+
+
+#layout {
+	width:100%;
+}
+
+#layout,#layout>tr,#layout>tr>td{
+	margin:0;
+	border:0;
+	padding:0;
+}
+
+#bulk {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:2.5em;
+	margin-bottom:3em;
+	max-width:<%=par('maximum_width')%>px;
+	min-width:902px;
+	background-color:transparent;
+}
+
+#framed_body {
+	border:1px solid #002266;
+	background-color:transparent;
+}
+
+#super_header{
+	background-color:transparent;
+	overflow: auto;
+	width:100%;
+	margin:0;
+	padding:0;
+	padding-top:4px;
+	padding-bottom:4px;
+	font-weight:bold;
+}
+
+#contact{
+	float:right;
+	margin:0;
+	padding:0;
+	text-align:center;
+	width:85px;
+}
+
+#contact a{
+	color:black;
+}
+
+#super_header_separator{
+	float:right;
+	margin:0;
+	padding:0;
+	text-align:center;
+	width:20px;
+}
+
+#language_switcher{
+	float:right;
+	margin:0;
+	padding:0;
+	text-align:center;
+	width:85px;
+}
+
+span.current_language{
+	color:black;
+}
+
+span.other_language a{
+	color:white;
+}
+
+#header {
+	height:210px;
+	background-color:#273840;
+}
+
+#header_logo {
+	width:20%;
+	height:210px;
+	text-align:center;
+	float:left;
+	background-color:white;
+}
+
+#header_logo img {
+	margin:0;
+	border:0;
+	padding:0;
+	height:auto;
+	margin-top:12px;
+}
+
+#header_with_image {
+	height:210px;
+	background-color:#273840;
+	background-repeat:no-repeat;
+}
+
+#header_with_image_spacer {
+	height:210px;
+	margin-right:190px;
+	background-color:transparent;
+}
+
+#header_logo_on_homepage {
+	width:25%;
+	height:210px;
+	text-align:center;
+	background-color:white;
+}
+
+#header_logo_on_homepage img {
+	margin:0;
+	border:0;
+	padding:0;
+	height:auto;
+	margin-top:12px;
+}
+
+#header_image{
+	height: 210px;
+	float:left;
+	width:80%;
+	background-color:#273840;
+	background-repeat:no-repeat;
+}
+
+#content {
+	background-color:white;
+	vertical-align:top;
+	font-size:12px;
+}
+
+#content p, #content ul, #content li {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 4px;
+}
+
+#content div.inner {
+	padding:15px;
+	padding-left:36px;
+	padding-right:36px;
+	min-height:499px;
+}
+
+#content_flash {
+	border:2px solid red;
+	margin-bottom:20px;
+}
+#content_flash p {
+	margin:20px;
+}
+
+#footer {
+}
+#footer_upper {
+}
+#footer_lower {
+	padding:5px;
+	background-color:#273840;
+	overflow:auto;
+}
+#footer_upper div {
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:9px;
+	padding-bottom:9px;
+	border-top:1px solid #273840;
+	background-color:white;
+}
+
+#footer_license {
+        display: block;
+        align:center;
+	color:white;
+}
+
+#footer_license a {
+	color:white;
+}
+
+#footer_lower #footer_authors {
+	color:white;
+	float:left;
+}
+
+#footer_lower #footer_login {
+	color:black;
+	float:right;
+}
+#footer_lower #footer_login a {
+	color:black;
+}
+
+#partner_logos {
+	text-align:center;
+	border:0px;
+}
+
+#partner_logos div {
+	border:0px;
+	width:auto;
+	display:inline;
+}
+
+#partner_logos div+div {
+	margin-left:15px;
+}
+
+#main_partner_container {
+	margin-left:18px;
+	padding-top:40px;
+	width:152px;
+	text-align:center;
+}
+
+img.main_partner_logo {
+	max-width:110px;
+}
+
+div.special_article_title {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 0.9em;
+	color:#273840;
+}
+
+div.special_article_body {
+	font-size: 12px;
+	margin-bottom: 1em;
+	color:#273840;
+	text-align:left;
+}
+
+
+/*
+#cart {
+	position: absolute;
+	left: 30px;
+	width: 130px;
+	height: 80px;
+	bottom: 30%;
+	margin: 5px;
+	border: 1px solid #000000;
+	text-align: center;
+	background-color: #E6F2FF;
+}
+
+#cart h1 {
+	padding: 0px;
+	margin: 0px;
+	font-size: xx-large;
+}
+
+
+
+#menu {
+	position:absolute;
+	left: 0px;
+	top: 25px;
+	font-size:13px;
+}
+
+#menu a {
+	color: #3E8CD9;	
+	text-decoration: none;
+}
+
+#menu a:visited {
+	color: #3E8CD9;
+}
+
+#menu a:hover {
+	background-color: #FFFF88;
+}
+
+#menu ul {
+	list-style: none;
+	padding-left:2em;
+}
+
+#menu ul li ul {
+	list-style: disc;
+	padding-left:3em;
+}
+
+*/

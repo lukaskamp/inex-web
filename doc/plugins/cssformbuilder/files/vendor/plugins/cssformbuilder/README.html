@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>File: README</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <link rel="stylesheet" href="../../../.././rdoc-style.css" type="text/css" media="screen" />
+  <script type="text/javascript">
+  // <![CDATA[
+
+  function popupCode( url ) {
+    window.open(url, "Code", "resizable=yes,scrollbars=yes,toolbar=no,status=no,height=150,width=400")
+  }
+
+  function toggleCode( id ) {
+    if ( document.getElementById )
+      elem = document.getElementById( id );
+    else if ( document.all )
+      elem = eval( "document.all." + id );
+    else
+      return false;
+
+    elemStyle = elem.style;
+    
+    if ( elemStyle.display != "block" ) {
+      elemStyle.display = "block"
+    } else {
+      elemStyle.display = "none"
+    }
+
+    return true;
+  }
+  
+  // Make codeblocks hidden by default
+  document.writeln( "<style type=\"text/css\">div.method-source-code { display: none }</style>" )
+  
+  // ]]>
+  </script>
+
+</head>
+<body>
+
+
+
+  <div id="fileHeader">
+    <h1>README</h1>
+    <table class="header-table">
+    <tr class="top-aligned-row">
+      <td><strong>Path:</strong></td>
+      <td>vendor/plugins/cssformbuilder/README
+      </td>
+    </tr>
+    <tr class="top-aligned-row">
+      <td><strong>Last Update:</strong></td>
+      <td>Wed Jan 14 15:02:50 +0100 2009</td>
+    </tr>
+    </table>
+  </div>
+  <!-- banner header -->
+
+  <div id="bodyContent">
+
+
+
+  <div id="contextContent">
+
+    <div id="description">
+      <p>
+<a href="../../../../classes/CssFormBuilder.html">CssFormBuilder</a>
+</p>
+<h6>========</h6>
+<p>
+A little plugin containing a form builder that uses css to produce
+tableless, lined-up forms.
+</p>
+<p>
+Features:
+</p>
+<pre>
+ - Each field label is automatically added at the top of the input control.
+ - Each input control appears at the right of the last control (unless there is not enough space)
+ - To force a control in a new row, use &lt;br /&gt; before adding it.
+ - Use html option {:class=&gt;'half-size' } or {:class=&gt;'double-size' } for changing control size.
+ - Use class 'half-size', 'normal-size' or 'double-size' to force select tags size.
+ - Use &lt;% fieldset tag 'legend' %&gt; [block] &lt;% end %&gt; to produce fieldset tags.
+ - By default, a fieldset expands to the right form margin; use html option {:class=&gt;'continue'} to
+   compact the fieldset. Next fieldset will be added to the right.
+ - Support translation of labels and legends using _() function (by first calling CssBuilder.translate_as_gettext) or String.t method
+    (by first calling CssBuilder.translate_as_globalize)
+ - Support both standard html form (css_form_for) and remote form (remote_css_form_for)
+ - Also support display of field values (show action), using the same template file used for edit (css_show_for)
+</pre>
+<p>
+Sample usage:
+</p>
+<pre>
+ File app/views/customers/new.rhtml:
+
+   &lt;% css_form_for :customer, @customer, :url =&gt; { :action =&gt; &quot;create&quot; } do |@f| %&gt;
+     &lt;%= render :partial =&gt; 'form' %&gt;
+     &lt;%= submit_tag 'Create' %&gt;
+   &lt;% end %&gt;
+
+ File app/views/customers/edit.rhtml:
+
+   &lt;% css_form_for :customer, @customer, :url =&gt; { :action =&gt; 'update', :id =&gt; @customer } do |@f| %&gt;
+     &lt;%= render :partial=&gt; 'form' %&gt;
+     &lt;%= submit_tag 'Edit' %&gt;
+   &lt;% end %&gt;
+
+ File app/views/customers/show.rhtml:
+
+   &lt;% css_show_for :customer, @customer,  do |@f| %&gt;
+     &lt;%= render :partial=&gt; 'form' %&gt;
+   &lt;% end %&gt;
+
+ File app/views/customers/_form.rhtml:
+
+   &lt;%= error_messages_for 'customer' %&gt;
+   &lt;!--[form:customer]--&gt;
+   &lt;% fieldset_tag 'General data' do %&gt;
+       &lt;%= @f.text_field :code, :class=&gt;'half-size' %&gt;
+       &lt;%= @f.text_field :name, :class=&gt;'double-size' %&gt;
+       &lt;br /&gt;
+       &lt;%= @f.select(:bank_id, Bank.to_select, {:include_blank =&gt; true}, {:class=&gt;'normal-size'} ) %&gt;
+       &lt;%= @f.check_box :option1  %&gt;
+       &lt;%= @f.hidden_field :field1  %&gt;
+     &lt;% end %&gt;
+   &lt;!--[eoform:customer]--&gt;
+</pre>
+<h2>Installation</h2>
+<pre>
+ - Automatically, with ruby script/plugin install cssformbuilder
+ - Manually, by downloading and unpacking compressed archive into your vendor/plugins folder
+
+ After installation:
+ - copy vendor/plugins/cssformbuilder/stylesheet/css_form.css into your public/stylesheets/ folder.
+ - include css_form.css in your template (&lt;%= stylesheet_link_tag 'css_form' %&gt;)
+</pre>
+<h2>Licence</h2>
+<pre>
+ MIT
+</pre>
+<p>
+For info about this plugin, write to: gal@addsw.it
+</p>
+<p>
+Copyright (c) 2006-2007 AD.D. Software (<a
+href="http://www.addsw.it">www.addsw.it</a>)
+</p>
+
+    </div>
+
+
+   </div>
+
+
+  </div>
+
+
+    <!-- if includes -->
+
+    <div id="section">
+
+
+
+
+
+      
+
+
+    <!-- if method_list -->
+
+
+  </div>
+
+
+<div id="validator-badges">
+  <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+</div>
+
+</body>
+</html>

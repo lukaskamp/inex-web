@@ -1,0 +1,28 @@
+dogs:
+  language: english
+  meta_article: psi_dogs
+  title: Dogs
+  url_atom: Dogs
+  body: Text about dogs.
+  created_by: admin
+  updated_by: admin
+
+psi:
+  language: czech
+  meta_article: psi_dogs
+  title: Psi
+  url_atom: Psi
+  body: Text clanku o psech.
+  created_by: admin
+  updated_by: admin
+
+cats:
+  language: english
+  title: Cats
+  url_atom: Cats
+  body: MyText
+  created_by: admin
+  updated_by: admin
+  
+<%= YamlUtils::eval_erb_file("#{RAILS_ROOT}/db/fixtures/seed/articles.yml") %>
+<%= YamlUtils::eval_erb_file("#{RAILS_ROOT}/db/fixtures/demo/articles.yml") %>

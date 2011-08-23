@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workcamps type="array" >
+  <workcamp>
+    <accomodation>V domě - nutná karimatka a spacák, sprcha a WC v domě.Vegetariánská strava-velmi chutná.</accomodation>
+    <area>vesnička v SV Polsku,  u města Olecko</area>
+    <begin type="date">2004-05-16</begin>
+    <capacity type="integer">6</capacity>
+    <code>FIYE 401</code>
+    <country-id type="integer">5411995</country-id>
+    <created-at type="datetime">2009-02-15T20:42:12Z</created-at>
+    <description/>
+    <end type="date">2004-05-29</end>
+    <free-places type="NilClass">0</free-places>
+    <free-places-for-females type="NilClass">0</free-places-for-females>
+    <free-places-for-males type="NilClass">0</free-places-for-males>
+    <id type="integer">1</id>
+    <language nil="true"/>
+    <maximal-age type="integer">98</maximal-age>
+    <minimal-age type="integer">14</minimal-age>
+    <name>Giże 1   Giże </name>
+    <notes>Zákaz kouření a pití alkoholu během workcampu! Možnost cvičení jogy a účasti na meditacích</notes>
+    <old-schema-key type="integer">1695</old-schema-key>
+    <organization-id type="integer">15</organization-id>
+    <places type="integer">0</places>
+    <places-for-females type="integer">0</places-for-females>
+    <places-for-males type="integer">0</places-for-males>
+    <updated-at type="datetime">2009-02-15T20:42:12Z</updated-at>
+    <workdesc>Práce na malé ekofarmě-práce na poli úklid okolí, dojení krav, péče o zvířata.</workdesc>
+    <country>
+      <code>PL</code>
+      <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+      <id type="integer">5411995</id>
+      <name-cz>Polsko</name-cz>
+      <name-en nil="true"/>
+      <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+    </country>
+    <intentions type="array">
+      <intention type="WorkcampIntention">
+        <code>AGRI</code>
+        <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+        <description-cz>práce v zemědělství</description-cz>
+        <id type="integer">445288225</id>
+        <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+        <workcamp-id type="NilClass">1</workcamp-id>
+        <workcamp-intention-id type="NilClass">445288225</workcamp-intention-id>
+      </intention>
+    </intentions>
+  </workcamp>
+  <workcamp>
+    <accomodation>V domě - nutná karimatka a spacák, sprcha a WC v domě.Vegetariánská strava-velmi chutná.</accomodation>
+    <area>vesnička v SV Polsku, u města Olecko</area>
+    <begin type="date">2004-05-30</begin>
+    <capacity type="integer">6</capacity>
+    <code>FIYE 402</code>
+    <country-id type="integer">5411995</country-id>
+    <created-at type="datetime">2009-02-15T20:42:12Z</created-at>
+    <description/>
+    <end type="date">2004-06-12</end>
+    <free-places type="NilClass">0</free-places>
+    <free-places-for-females type="NilClass">0</free-places-for-females>
+    <free-places-for-males type="NilClass">0</free-places-for-males>
+    <id type="integer">2</id>
+    <language nil="true"/>
+    <maximal-age type="integer">98</maximal-age>
+    <minimal-age type="integer">14</minimal-age>
+    <name>Giże 2   Giże</name>
+    <notes>Zákaz kouření a pití alkoholu během workcampu! Možnost cvičení jogy a účasti na meditacích</notes>
+    <old-schema-key type="integer">1696</old-schema-key>
+    <organization-id type="integer">15</organization-id>
+    <places type="integer">0</places>
+    <places-for-females type="integer">0</places-for-females>
+    <places-for-males type="integer">0</places-for-males>
+    <updated-at type="datetime">2009-02-15T20:42:12Z</updated-at>
+    <workdesc>Práce na malé ekofarmě-práce na poli úklid okolí, dojení krav, péče o zvířata.</workdesc>
+    <country>
+      <code>PL</code>
+      <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+      <id type="integer">5411995</id>
+      <name-cz>Polsko</name-cz>
+      <name-en nil="true"/>
+      <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+    </country>
+    <intentions type="array">
+      <intention type="WorkcampIntention">
+        <code>AGRI</code>
+        <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+        <description-cz>práce v zemědělství</description-cz>
+        <id type="integer">445288225</id>
+        <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+        <workcamp-id type="NilClass">2</workcamp-id>
+        <workcamp-intention-id type="NilClass">445288225</workcamp-intention-id>
+      </intention>
+    </intentions>
+  </workcamp>
+  <workcamp>
+    <accomodation>V domě - nutná karimatka a spacák, sprcha a WC v domě.Vegetariánská strava-velmi chutná.</accomodation>
+    <area>vesnička v SV Polsku, u města Olecko</area>
+    <begin type="date">2004-06-13</begin>
+    <capacity type="integer">6</capacity>
+    <code>FIYE 403</code>
+    <country-id type="integer">5411995</country-id>
+    <created-at type="datetime">2009-02-15T20:42:12Z</created-at>
+    <description/>
+    <end type="date">2004-06-26</end>
+    <free-places type="NilClass">0</free-places>
+    <free-places-for-females type="NilClass">0</free-places-for-females>
+    <free-places-for-males type="NilClass">0</free-places-for-males>
+    <id type="integer">3</id>
+    <language nil="true"/>
+    <maximal-age type="integer">98</maximal-age>
+    <minimal-age type="integer">14</minimal-age>
+    <name>Giże 3   Giże</name>
+    <notes>Zákaz kouření a pití alkoholu během workcampu! Možnost cvičení jogy a účasti na meditacích</notes>
+    <old-schema-key type="integer">1697</old-schema-key>
+    <organization-id type="integer">15</organization-id>
+    <places type="integer">0</places>
+    <places-for-females type="integer">0</places-for-females>
+    <places-for-males type="integer">0</places-for-males>
+    <updated-at type="datetime">2009-02-15T20:42:12Z</updated-at>
+    <workdesc>Práce na malé ekofarmě-práce na poli úklid okolí, dojení krav, péče o zvířata</workdesc>
+    <country>
+      <code>PL</code>
+      <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+      <id type="integer">5411995</id>
+      <name-cz>Polsko</name-cz>
+      <name-en nil="true"/>
+      <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+    </country>
+    <intentions type="array">
+      <intention type="WorkcampIntention">
+        <code>AGRI</code>
+        <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+        <description-cz>práce v zemědělství</description-cz>
+        <id type="integer">445288225</id>
+        <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+        <workcamp-id type="NilClass">3</workcamp-id>
+        <workcamp-intention-id type="NilClass">445288225</workcamp-intention-id>
+      </intention>
+    </intentions>
+  </workcamp>
+  <workcamp>
+    <accomodation>v budově na hradě, sprchy, WC, s sebou spacák a karimatku</accomodation>
+    <area>město Bojnice, blízko Prievidze</area>
+    <begin type="date">2004-06-13</begin>
+    <capacity type="integer">10</capacity>
+    <code>ISL 01</code>
+    <country-id type="integer">5614941</country-id>
+    <created-at type="datetime">2009-02-15T20:42:12Z</created-at>
+    <description/>
+    <end type="date">2004-06-26</end>
+    <free-places type="NilClass">0</free-places>
+    <free-places-for-females type="NilClass">0</free-places-for-females>
+    <free-places-for-males type="NilClass">0</free-places-for-males>
+    <id type="integer">4</id>
+    <language nil="true"/>
+    <maximal-age type="integer">98</maximal-age>
+    <minimal-age type="integer">14</minimal-age>
+    <name>Bojnice</name>
+    <notes/>
+    <old-schema-key type="integer">1698</old-schema-key>
+    <organization-id type="integer">122</organization-id>
+    <places type="integer">0</places>
+    <places-for-females type="integer">0</places-for-females>
+    <places-for-males type="integer">0</places-for-males>
+    <updated-at type="datetime">2009-02-15T20:42:12Z</updated-at>
+    <workdesc>čištění a údržba na hradě, zahradničení</workdesc>
+    <country>
+      <code>SK</code>
+      <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+      <id type="integer">5614941</id>
+      <name-cz>Slovensko</name-cz>
+      <name-en nil="true"/>
+      <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+    </country>
+    <intentions type="array">
+      <intention type="WorkcampIntention">
+        <code>RENO</code>
+        <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+        <description-cz>obnovovací práce</description-cz>
+        <id type="integer">281294409</id>
+        <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+        <workcamp-id type="NilClass">4</workcamp-id>
+        <workcamp-intention-id type="NilClass">281294409</workcamp-intention-id>
+      </intention>
+      <intention type="WorkcampIntention">
+        <code>AGRI</code>
+        <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+        <description-cz>práce v zemědělství</description-cz>
+        <id type="integer">445288225</id>
+        <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+        <workcamp-id type="NilClass">4</workcamp-id>
+        <workcamp-intention-id type="NilClass">445288225</workcamp-intention-id>
+      </intention>
+    </intentions>
+  </workcamp>
+  <workcamp>
+    <accomodation>ve stanech, žádné sprchy, vlastní stravování</accomodation>
+    <area>423 km JV od Harare (provincie Manicaland)</area>
+    <begin type="date">2004-06-16</begin>
+    <capacity type="integer">20</capacity>
+    <code>ZWA 06</code>
+    <country-id type="integer">6088496</country-id>
+    <created-at type="datetime">2009-02-15T20:42:13Z</created-at>
+    <description/>
+    <end type="date">2004-07-06</end>
+    <free-places type="NilClass">0</free-places>
+    <free-places-for-females type="NilClass">0</free-places-for-females>
+    <free-places-for-males type="NilClass">0</free-places-for-males>
+    <id type="integer">5</id>
+    <language nil="true"/>
+    <maximal-age type="integer">98</maximal-age>
+    <minimal-age type="integer">14</minimal-age>
+    <name>Tongogara Refugee </name>
+    <notes>zvláštní poplatek - 210 USD</notes>
+    <old-schema-key type="integer">1699</old-schema-key>
+    <organization-id type="integer">60</organization-id>
+    <places type="integer">0</places>
+    <places-for-females type="integer">0</places-for-females>
+    <places-for-males type="integer">0</places-for-males>
+    <updated-at type="datetime">2009-02-15T20:42:13Z</updated-at>
+    <workdesc>stavba komunitního domu v uprchlickém táboře</workdesc>
+    <country>
+      <code>ZW</code>
+      <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+      <id type="integer">6088496</id>
+      <name-cz>Zimbabwe</name-cz>
+      <name-en nil="true"/>
+      <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+    </country>
+    <intentions type="array">
+      <intention type="WorkcampIntention">
+        <code>CONS</code>
+        <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+        <description-cz>konstrukční, stavební práce</description-cz>
+        <id type="integer">445288229</id>
+        <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+        <workcamp-id type="NilClass">5</workcamp-id>
+        <workcamp-intention-id type="NilClass">445288229</workcamp-intention-id>
+      </intention>
+      <intention type="WorkcampIntention">
+        <code>REFUGEE</code>
+        <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+        <description-cz>práce s uprchlíky</description-cz>
+        <id type="integer">281294410</id>
+        <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+        <workcamp-id type="NilClass">5</workcamp-id>
+        <workcamp-intention-id type="NilClass">281294410</workcamp-intention-id>
+      </intention>
+    </intentions>
+  </workcamp>
+  <workcamp>
+    <accomodation>v ubytovně, žádné sprchy, vlastní stravování</accomodation>
+    <area>182 km od Harare, provincie Manicaland</area>
+    <begin type="date">2004-06-16</begin>
+    <capacity type="integer">10</capacity>
+    <code>ZWA 07</code>
+    <country-id type="integer">6088496</country-id>
+    <created-at type="datetime">2009-02-15T20:42:13Z</created-at>
+    <description/>
+    <end type="date">2004-07-06</end>
+    <free-places type="NilClass">0</free-places>
+    <free-places-for-females type="NilClass">0</free-places-for-females>
+    <free-places-for-males type="NilClass">0</free-places-for-males>
+    <id type="integer">6</id>
+    <language nil="true"/>
+    <maximal-age type="integer">98</maximal-age>
+    <minimal-age type="integer">14</minimal-age>
+    <name>Serengeti Five </name>
+    <notes>zvláštní poplatek - 210 USD</notes>
+    <old-schema-key type="integer">1700</old-schema-key>
+    <organization-id type="integer">60</organization-id>
+    <places type="integer">0</places>
+    <places-for-females type="integer">0</places-for-females>
+    <places-for-males type="integer">0</places-for-males>
+    <updated-at type="datetime">2009-02-15T20:42:13Z</updated-at>
+    <workdesc>oprava budovy základní školy</workdesc>
+    <country>
+      <code>ZW</code>
+      <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+      <id type="integer">6088496</id>
+      <name-cz>Zimbabwe</name-cz>
+      <name-en nil="true"/>
+      <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+    </country>
+    <intentions type="array">
+      <intention type="WorkcampIntention">
+        <code>RENO</code>
+        <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+        <description-cz>obnovovací práce</description-cz>
+        <id type="integer">281294409</id>
+        <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+        <workcamp-id type="NilClass">6</workcamp-id>
+        <workcamp-intention-id type="NilClass">281294409</workcamp-intention-id>
+      </intention>
+    </intentions>
+  </workcamp>
+  <workcamp>
+    <accomodation>ve stanech, žádné sprchy, vlastní stravování</accomodation>
+    <area>700 km od Harare, provincie Matebeleland North</area>
+    <begin type="date">2004-06-16</begin>
+    <capacity type="integer">16</capacity>
+    <code>ZWA 08</code>
+    <country-id type="integer">6088496</country-id>
+    <created-at type="datetime">2009-02-15T20:42:13Z</created-at>
+    <description/>
+    <end type="date">2004-07-06</end>
+    <free-places type="NilClass">0</free-places>
+    <free-places-for-females type="NilClass">0</free-places-for-females>
+    <free-places-for-males type="NilClass">0</free-places-for-males>
+    <id type="integer">7</id>
+    <language nil="true"/>
+    <maximal-age type="integer">98</maximal-age>
+    <minimal-age type="integer">14</minimal-age>
+    <name>Binga</name>
+    <notes>zvláštní poplatek - 210 USD</notes>
+    <old-schema-key type="integer">1701</old-schema-key>
+    <organization-id type="integer">60</organization-id>
+    <places type="integer">0</places>
+    <places-for-females type="integer">0</places-for-females>
+    <places-for-males type="integer">0</places-for-males>
+    <updated-at type="datetime">2009-02-15T20:42:13Z</updated-at>
+    <workdesc>stavba víceúčelového komunitního centra</workdesc>
+    <country>
+      <code>ZW</code>
+      <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+      <id type="integer">6088496</id>
+      <name-cz>Zimbabwe</name-cz>
+      <name-en nil="true"/>
+      <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+    </country>
+    <intentions type="array">
+      <intention type="WorkcampIntention">
+        <code>CONS</code>
+        <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+        <description-cz>konstrukční, stavební práce</description-cz>
+        <id type="integer">445288229</id>
+        <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+        <workcamp-id type="NilClass">7</workcamp-id>
+        <workcamp-intention-id type="NilClass">445288229</workcamp-intention-id>
+      </intention>
+    </intentions>
+  </workcamp>
+  <workcamp>
+    <accomodation>v ubytovně, žádné sprchy, vlastní stravování</accomodation>
+    <area>40 km od Harare, provincie Mashonaland West</area>
+    <begin type="date">2004-06-16</begin>
+    <capacity type="integer">12</capacity>
+    <code>ZWA 10</code>
+    <country-id type="integer">6088496</country-id>
+    <created-at type="datetime">2009-02-15T20:42:13Z</created-at>
+    <description/>
+    <end type="date">2004-07-06</end>
+    <free-places type="NilClass">0</free-places>
+    <free-places-for-females type="NilClass">0</free-places-for-females>
+    <free-places-for-males type="NilClass">0</free-places-for-males>
+    <id type="integer">9</id>
+    <language nil="true"/>
+    <maximal-age type="integer">98</maximal-age>
+    <minimal-age type="integer">14</minimal-age>
+    <name>Norton</name>
+    <notes>zvláštní poplatek - 210 USD</notes>
+    <old-schema-key type="integer">1703</old-schema-key>
+    <organization-id type="integer">60</organization-id>
+    <places type="integer">0</places>
+    <places-for-females type="integer">0</places-for-females>
+    <places-for-males type="integer">0</places-for-males>
+    <updated-at type="datetime">2009-02-15T20:42:13Z</updated-at>
+    <workdesc>orání a zavlažování</workdesc>
+    <country>
+      <code>ZW</code>
+      <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+      <id type="integer">6088496</id>
+      <name-cz>Zimbabwe</name-cz>
+      <name-en nil="true"/>
+      <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+    </country>
+    <intentions type="array">
+      <intention type="WorkcampIntention">
+        <code>AGRI</code>
+        <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+        <description-cz>práce v zemědělství</description-cz>
+        <id type="integer">445288225</id>
+        <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+        <workcamp-id type="NilClass">9</workcamp-id>
+        <workcamp-intention-id type="NilClass">445288225</workcamp-intention-id>
+      </intention>
+    </intentions>
+  </workcamp>
+  <workcamp>
+    <accomodation>v domě</accomodation>
+    <area>vesnička ve Slovenském Ráji</area>
+    <begin type="date">2004-06-20</begin>
+    <capacity type="integer">10</capacity>
+    <code>ISL 02</code>
+    <country-id type="integer">5614941</country-id>
+    <created-at type="datetime">2009-02-15T20:42:13Z</created-at>
+    <description/>
+    <end type="date">2004-06-30</end>
+    <free-places type="NilClass">-1</free-places>
+    <free-places-for-females type="NilClass">-1</free-places-for-females>
+    <free-places-for-males type="NilClass">-1</free-places-for-males>
+    <id type="integer">10</id>
+    <language nil="true"/>
+    <maximal-age type="integer">98</maximal-age>
+    <minimal-age type="integer">14</minimal-age>
+    <name>Dedinky</name>
+    <notes/>
+    <old-schema-key type="integer">1704</old-schema-key>
+    <organization-id type="integer">122</organization-id>
+    <places type="integer">0</places>
+    <places-for-females type="integer">0</places-for-females>
+    <places-for-males type="integer">0</places-for-males>
+    <updated-at type="datetime">2009-02-15T20:42:13Z</updated-at>
+    <workdesc>čištění lesů a luk v NP Stratena</workdesc>
+    <country>
+      <code>SK</code>
+      <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+      <id type="integer">5614941</id>
+      <name-cz>Slovensko</name-cz>
+      <name-en nil="true"/>
+      <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+    </country>
+    <intentions type="array">
+      <intention type="WorkcampIntention">
+        <code>ENVI</code>
+        <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+        <description-cz>práce pro životní prostředí</description-cz>
+        <id type="integer">281362061</id>
+        <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+        <workcamp-id type="NilClass">10</workcamp-id>
+        <workcamp-intention-id type="NilClass">281362061</workcamp-intention-id>
+      </intention>
+    </intentions>
+  </workcamp>
+  <workcamp>
+    <accomodation>v budově centra</accomodation>
+    <area>Ljubljana, Trieste</area>
+    <begin type="date">2004-06-26</begin>
+    <capacity type="integer">6</capacity>
+    <code>SI 4.1</code>
+    <country-id type="integer">5614939</country-id>
+    <created-at type="datetime">2009-02-15T20:42:13Z</created-at>
+    <description/>
+    <end type="date">2004-07-10</end>
+    <free-places type="NilClass">0</free-places>
+    <free-places-for-females type="NilClass">0</free-places-for-females>
+    <free-places-for-males type="NilClass">0</free-places-for-males>
+    <id type="integer">11</id>
+    <language nil="true"/>
+    <maximal-age type="integer">98</maximal-age>
+    <minimal-age type="integer">14</minimal-age>
+    <name>Dva topola I</name>
+    <notes/>
+    <old-schema-key type="integer">1705</old-schema-key>
+    <organization-id type="integer">79</organization-id>
+    <places type="integer">0</places>
+    <places-for-females type="integer">0</places-for-females>
+    <places-for-males type="integer">0</places-for-males>
+    <updated-at type="datetime">2009-02-15T20:42:13Z</updated-at>
+    <workdesc>asistence fyzicky postiženým v každodenním životě</workdesc>
+    <country>
+      <code>SI</code>
+      <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+      <id type="integer">5614939</id>
+      <name-cz>Slovinsko</name-cz>
+      <name-en nil="true"/>
+      <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+    </country>
+    <intentions type="array">
+      <intention type="WorkcampIntention">
+        <code>PHYS</code>
+        <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+        <description-cz>práce s fyzicky postiženými</description-cz>
+        <id type="integer">281294413</id>
+        <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+        <workcamp-id type="NilClass">11</workcamp-id>
+        <workcamp-intention-id type="NilClass">281294413</workcamp-intention-id>
+      </intention>
+    </intentions>
+  </workcamp>
+  <workcamp>
+    <accomodation>V domě - nutná karimatka a spacák. Vegetariánská strava-velmi chutná.</accomodation>
+    <area>vesnička v SV Polsku, u města Olecko .</area>
+    <begin type="date">2004-06-27</begin>
+    <capacity type="integer">6</capacity>
+    <code>FIYE 404</code>
+    <country-id type="integer">5411995</country-id>
+    <created-at type="datetime">2009-02-15T20:42:13Z</created-at>
+    <description/>
+    <end type="date">2004-07-10</end>
+    <free-places type="NilClass">-2</free-places>
+    <free-places-for-females type="NilClass">-2</free-places-for-females>
+    <free-places-for-males type="NilClass">-2</free-places-for-males>
+    <id type="integer">12</id>
+    <language nil="true"/>
+    <maximal-age type="integer">98</maximal-age>
+    <minimal-age type="integer">14</minimal-age>
+    <name>Giże 4   Giże</name>
+    <notes>Zákaz kouření a pití alkoholu během workcampu! Možnost cvičení jogy a účasti na meditacích</notes>
+    <old-schema-key type="integer">1706</old-schema-key>
+    <organization-id type="integer">15</organization-id>
+    <places type="integer">0</places>
+    <places-for-females type="integer">0</places-for-females>
+    <places-for-males type="integer">0</places-for-males>
+    <updated-at type="datetime">2009-02-15T20:42:13Z</updated-at>
+    <workdesc>Práce na malé ekofarmě-práce na poli úklid okolí, dojení krav, péče o zvířata</workdesc>
+    <country>
+      <code>PL</code>
+      <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+      <id type="integer">5411995</id>
+      <name-cz>Polsko</name-cz>
+      <name-en nil="true"/>
+      <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+    </country>
+    <intentions type="array">
+      <intention type="WorkcampIntention">
+        <code>AGRI</code>
+        <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+        <description-cz>práce v zemědělství</description-cz>
+        <id type="integer">445288225</id>
+        <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+        <workcamp-id type="NilClass">12</workcamp-id>
+        <workcamp-intention-id type="NilClass">445288225</workcamp-intention-id>
+      </intention>
+    </intentions>
+  </workcamp>
+  <workcamp>
+    <accomodation>Ubytování v tělocvičně se soc.zařízením. Nutný vlastní spacák a karimatka!</accomodation>
+    <area>Zagórze se nachází asi 20km od Varšavy</area>
+    <begin type="date">2004-06-27</begin>
+    <capacity type="integer">10</capacity>
+    <code>FIYE 413</code>
+    <country-id type="integer">5411995</country-id>
+    <created-at type="datetime">2009-02-15T20:42:13Z</created-at>
+    <description/>
+    <end type="date">2004-07-10</end>
+    <free-places type="NilClass">0</free-places>
+    <free-places-for-females type="NilClass">0</free-places-for-females>
+    <free-places-for-males type="NilClass">0</free-places-for-males>
+    <id type="integer">13</id>
+    <language nil="true"/>
+    <maximal-age type="integer">98</maximal-age>
+    <minimal-age type="integer">14</minimal-age>
+    <name>Zagórze 1</name>
+    <notes/>
+    <old-schema-key type="integer">1707</old-schema-key>
+    <organization-id type="integer">15</organization-id>
+    <places type="integer">0</places>
+    <places-for-females type="integer">0</places-for-females>
+    <places-for-males type="integer">0</places-for-males>
+    <updated-at type="datetime">2009-02-15T20:42:13Z</updated-at>
+    <workdesc>stavba zařízení pro koně, kteří se využívají při hypoterapii, úklid lesa, manuální práce</workdesc>
+    <country>
+      <code>PL</code>
+      <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+      <id type="integer">5411995</id>
+      <name-cz>Polsko</name-cz>
+      <name-en nil="true"/>
+      <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+    </country>
+    <intentions type="array">
+      <intention type="WorkcampIntention">
+        <code>CONS</code>
+        <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+        <description-cz>konstrukční, stavební práce</description-cz>
+        <id type="integer">445288229</id>
+        <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+        <workcamp-id type="NilClass">13</workcamp-id>
+        <workcamp-intention-id type="NilClass">445288229</workcamp-intention-id>
+      </intention>
+      <intention type="WorkcampIntention">
+        <code>ENVI</code>
+        <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+        <description-cz>práce pro životní prostředí</description-cz>
+        <id type="integer">281362061</id>
+        <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+        <workcamp-id type="NilClass">13</workcamp-id>
+        <workcamp-intention-id type="NilClass">281362061</workcamp-intention-id>
+      </intention>
+    </intentions>
+  </workcamp>
+  <workcamp>
+    <accomodation>v pokojích po 3-4 lidech.Spacák ani karimatka není nutná.Možnost přípravy veget. stravy.</accomodation>
+    <area>Józefów u Varšavy (JV)</area>
+    <begin type="date">2004-06-27</begin>
+    <capacity type="integer">12</capacity>
+    <code>FIYE 417</code>
+    <country-id type="integer">5411995</country-id>
+    <created-at type="datetime">2009-02-15T20:42:13Z</created-at>
+    <description/>
+    <end type="date">2004-07-10</end>
+    <free-places type="NilClass">0</free-places>
+    <free-places-for-females type="NilClass">0</free-places-for-females>
+    <free-places-for-males type="NilClass">0</free-places-for-males>
+    <id type="integer">14</id>
+    <language nil="true"/>
+    <maximal-age type="integer">98</maximal-age>
+    <minimal-age type="integer">14</minimal-age>
+    <name>Józefów 1</name>
+    <notes>Nutná silná motivace pro práci s dětmi ze slabšího soc. prostředí. Předchozí zkušenosti výhodou.</notes>
+    <old-schema-key type="integer">1708</old-schema-key>
+    <organization-id type="integer">15</organization-id>
+    <places type="integer">0</places>
+    <places-for-females type="integer">0</places-for-females>
+    <places-for-males type="integer">0</places-for-males>
+    <updated-at type="datetime">2009-02-15T20:42:13Z</updated-at>
+    <workdesc>zajišťění sport.a kult.programu pro děti v městech</workdesc>
+    <country>
+      <code>PL</code>
+      <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+      <id type="integer">5411995</id>
+      <name-cz>Polsko</name-cz>
+      <name-en nil="true"/>
+      <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+    </country>
+    <intentions type="array">
+      <intention type="WorkcampIntention">
+        <code>KIDS</code>
+        <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+        <description-cz>práce s dětmi</description-cz>
+        <id type="integer">281362056</id>
+        <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+        <workcamp-id type="NilClass">14</workcamp-id>
+        <workcamp-intention-id type="NilClass">281362056</workcamp-intention-id>
+      </intention>
+      <intention type="WorkcampIntention">
+        <code>PLAY</code>
+        <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+        <description-cz>organizování her, školení</description-cz>
+        <id type="integer">281294411</id>
+        <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+        <workcamp-id type="NilClass">14</workcamp-id>
+        <workcamp-intention-id type="NilClass">281294411</workcamp-intention-id>
+      </intention>
+    </intentions>
+  </workcamp>
+  <workcamp>
+    <accomodation>ve škole, píslušenství</accomodation>
+    <area>městečko Trebišov, 50km od Košic</area>
+    <begin type="date">2004-06-27</begin>
+    <capacity type="integer">12</capacity>
+    <code>ISL 03</code>
+    <country-id type="integer">5614941</country-id>
+    <created-at type="datetime">2009-02-15T20:42:13Z</created-at>
+    <description/>
+    <end type="date">2004-07-09</end>
+    <free-places type="NilClass">0</free-places>
+    <free-places-for-females type="NilClass">0</free-places-for-females>
+    <free-places-for-males type="NilClass">0</free-places-for-males>
+    <id type="integer">15</id>
+    <language nil="true"/>
+    <maximal-age type="integer">98</maximal-age>
+    <minimal-age type="integer">14</minimal-age>
+    <name>Paric</name>
+    <notes/>
+    <old-schema-key type="integer">1709</old-schema-key>
+    <organization-id type="integer">122</organization-id>
+    <places type="integer">0</places>
+    <places-for-females type="integer">0</places-for-females>
+    <places-for-males type="integer">0</places-for-males>
+    <updated-at type="datetime">2009-02-15T20:42:13Z</updated-at>
+    <workdesc>čištění, údržba, archeologické práce na zřícenině hradu</workdesc>
+    <country>
+      <code>SK</code>
+      <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+      <id type="integer">5614941</id>
+      <name-cz>Slovensko</name-cz>
+      <name-en nil="true"/>
+      <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+    </country>
+    <intentions type="array">
+      <intention type="WorkcampIntention">
+        <code>ARCH</code>
+        <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+        <description-cz>archeologie</description-cz>
+        <id type="integer">445288227</id>
+        <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+        <workcamp-id type="NilClass">15</workcamp-id>
+        <workcamp-intention-id type="NilClass">445288227</workcamp-intention-id>
+      </intention>
+      <intention type="WorkcampIntention">
+        <code>RENO</code>
+        <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+        <description-cz>obnovovací práce</description-cz>
+        <id type="integer">281294409</id>
+        <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+        <workcamp-id type="NilClass">15</workcamp-id>
+        <workcamp-intention-id type="NilClass">281294409</workcamp-intention-id>
+      </intention>
+    </intentions>
+  </workcamp>
+  <workcamp>
+    <accomodation>stany, chata</accomodation>
+    <area>rekreační centrum Gazarka, 2km od města Šaštín-Stráže, Malé Karpaty</area>
+    <begin type="date">2004-06-27</begin>
+    <capacity type="integer">12</capacity>
+    <code>ISL 04</code>
+    <country-id type="integer">5614941</country-id>
+    <created-at type="datetime">2009-02-15T20:42:13Z</created-at>
+    <description/>
+    <end type="date">2004-07-10</end>
+    <free-places type="NilClass">-1</free-places>
+    <free-places-for-females type="NilClass">-1</free-places-for-females>
+    <free-places-for-males type="NilClass">-1</free-places-for-males>
+    <id type="integer">16</id>
+    <language nil="true"/>
+    <maximal-age type="integer">98</maximal-age>
+    <minimal-age type="integer">14</minimal-age>
+    <name>Gazarka</name>
+    <notes> vegetariáni</notes>
+    <old-schema-key type="integer">1710</old-schema-key>
+    <organization-id type="integer">122</organization-id>
+    <places type="integer">0</places>
+    <places-for-females type="integer">0</places-for-females>
+    <places-for-males type="integer">0</places-for-males>
+    <updated-at type="datetime">2009-02-15T20:42:13Z</updated-at>
+    <workdesc>stavba vodních kanálů, ochrana lesního ekosystému, sadba stromů</workdesc>
+    <country>
+      <code>SK</code>
+      <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+      <id type="integer">5614941</id>
+      <name-cz>Slovensko</name-cz>
+      <name-en nil="true"/>
+      <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+    </country>
+    <intentions type="array">
+      <intention type="WorkcampIntention">
+        <code>ENVI</code>
+        <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+        <description-cz>práce pro životní prostředí</description-cz>
+        <id type="integer">281362061</id>
+        <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+        <workcamp-id type="NilClass">16</workcamp-id>
+        <workcamp-intention-id type="NilClass">281362061</workcamp-intention-id>
+      </intention>
+    </intentions>
+  </workcamp>
+</workcamps>

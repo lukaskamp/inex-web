@@ -1,0 +1,57 @@
+<%= error_messages_for 'file' %>
+
+<table class="admin_properties_table">
+<colgroup>
+  <col width="150" />
+  <col width="250" />
+</colgroup>
+<% form_for :media_file, @file, :url => {:id => @file.id} do |f| %>
+  <tr>
+    <th colspan=2>
+      Media file properties
+    </th>
+  <tr>
+    <td></td>
+    <td><%= image_tag(thumb_url(:id => @file.id, :dims => thumbnail_dimensions)) %></td>
+  </tr>
+  <tr>
+    <td>File name </td>
+    <td><%= @file.filename %></td>
+  <tr>
+    <td><%= f.label :title, "Title" %></td>
+    <td><%= f.text_field :title, :size=>15%></td>
+  </tr>
+  <tr>
+    <td><%= f.label :description, "Description" %></td>
+    <td><%= f.text_area :description, :size => "15x4" %></td>
+  </tr>
+  <tr>
+    <td><%= f.label :type, "Media type" %></td>
+    <td><%= f.select :type, {"Image / photo"=>"MediaFileImage","YouTube video"=>"MediaFileYoutube","Local video"=>"MediaFileVideo"} %></td>
+  </tr>
+  <tr>
+    <td><%= f.label :link, "Link" %></td>
+    <td><%= f.text_field :link, :size=>12 %></td>
+  </tr>
+  <tr>
+    <td>Video dimensions</td>
+    <td><%= f.text_field :video_width, :size=>5 %> x <%= f.text_field :video_height, :size=>5 %> pixels</td>
+  </tr>
+  <tr>
+    <td>Linked file id</td>
+    <td><%= @file.linked_file || "(none)" %></td>
+  </tr>
+  <tr>
+    <td><%= f.label :hidden, "Hidden file" %></td>
+    <td><%= f.check_box :hidden %></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+  	  <div class="admin_button">
+    	  <%= icon('ok') %><%= f.submit "Save" %>
+    	</div>
+    </td>
+  </tr>
+<% end %>
+</table>

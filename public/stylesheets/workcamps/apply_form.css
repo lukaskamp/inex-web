@@ -1,0 +1,44 @@
+.form-field label.required {
+	color: red;
+}
+
+.form-field input.required {
+	border:1px solid red;
+}
+
+form.cssform .form-field .fieldWithErrors input {
+		border:1px solid red;
+}
+
+fieldset.application_form {
+	border:1px solid black;
+	margin:0;
+	padding:10px;
+}
+
+fieldset.application_form h4 {
+	margin-top:5px;
+}
+
+form.cssform {
+	background-color:white;
+	border:0;
+  width: 700px;
+  margin-left: 0;
+  margin-right: auto;	
+}
+
+.form-field label {
+	float:left;
+}
+
+#application_submit{
+	margin-top:35px;
+	border: 1px solid black;
+	padding: 2px;
+	padding-left:8px;
+	padding-right:8px;
+	background-color: white;
+	font-weight:normal;
+	color:#74a8bf;
+}

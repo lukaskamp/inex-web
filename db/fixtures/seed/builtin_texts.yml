@@ -1,0 +1,264 @@
+<%    
+    def txt(name,cz_value,en_value)
+        result =  "cz_#{name}:\n"        
+        result << "  name: #{name}\n"        
+        result << "  body: \"#{cz_value}\"\n"        
+        result << "  language: czech\n"        
+        result << "\n"
+        result <<  "en_#{name}:\n"        
+        result << "  name: #{name}\n"        
+        result << "  body: \"#{en_value}\"\n"        
+        result << "  language: english\n"        
+        result << "\n"
+        result
+    end
+%>
+
+# General labels
+<%= txt 'headlines', 'Novinky', 'News' %>
+<%= txt 'submit', 'Odeslat', 'Submit' %>
+<%= txt 'general', 'Obecné', 'General' %>
+<%= txt 'country', 'Země', 'Country' %>
+<%= txt 'continent', 'Světadíl', 'Continent' %>
+<%= txt 'order', 'Pořadí', 'Order' %>
+<%= txt 'from', 'Od', 'From' %>
+<%= txt 'to', 'Do', 'To' %>
+<%= txt 'term', 'Termín', 'Term' %>
+<%= txt 'description', 'Popis', 'Description' %>
+<%= txt 'age', 'Věk', 'Age' %>
+<%= txt 'sex', 'Pohlaví', 'Sex' %>
+<%= txt 'male', 'muž', 'male' %>
+<%= txt 'female', 'žena', 'female' %>  
+<%= txt 'total', 'Celkem', 'Total' %>
+<%= txt 'contact_email', 'inexsda@inexsda.cz', 'inexsda@inexsda.cz' %>
+<%= txt 'next_page', ' Další >>', 'Next >>' %>
+<%= txt 'previous_page', '<< Předchozí', '<< Previous' %>
+<%= txt 'add', 'Přidat', 'Add' %>
+<%= txt 'remove', 'Odebrat', 'Remove' %>
+<%= txt 'clear', 'Vymazat', 'Clear' %>
+<%= txt 'nationality', 'Národnost', 'Nationality' %>
+<%= txt 'occupation', 'Zaměstnání', 'Occupation' %>
+<%= txt 'email', 'Email', 'Email' %>
+<%= txt 'address', 'Adresa', 'Address' %>
+<%= txt 'contact_address', 'Kontaktní adresa', 'Contact Address' %>
+<%= txt 'personal_data', 'Osobní údaje', 'Personal Data' %>
+<%= txt 'contact', 'Kontakt', 'Contact' %>
+<%= txt 'birthdate', 'Datum narození', 'Date of Birth' %>
+<%= txt 'birthplace', 'Místo narození', 'Place of Birth' %>
+<%= txt 'passport_number', 'Číslo pasu', 'Passport Number' %>
+<%= txt 'passport_expiry', 'Platnost pasu do', 'Passport Expiration Date' %>
+<%= txt 'i_agree', 'Souhlasím', 'I agree' %>
+<%= txt 'other', 'Ostatní', 'Other' %>
+<%= txt 'agreements', 'Dohody', 'Agreements' %>
+<%= txt 'motivation', 'Motivace', '' %>
+<%= txt 'health_remarks', 'Poznámky ohledně zdraví, diety, zvláštních potřeb', '' %>
+<%= txt 'general_remarks', 'Poznámky', 'General Remarks' %>
+<%= txt 'general_skills', ' Předchozí dobrovolnická zkušenost ( země, rok a typ práce)', 'Experience (indicate the country, year and type of work)' %>
+
+
+
+# General address labels
+<%= txt 'firstname', 'Jméno', 'First Name' %>
+<%= txt 'lastname', 'Příjmení', 'Last Name' %>
+<%= txt 'street', 'Ulice', 'Street' %>
+<%= txt 'city', 'Město', 'City' %>
+<%= txt 'zipcode', 'Směrovací číslo', 'Zipcode' %>
+<%= txt 'cellphone', 'Mobilní telefon', 'Cellphone' %>
+
+
+<%= txt 'cz_kind_title_country', 'Setkávání v krajině', 'Meeting in the countryside' %>
+<%= txt 'cz_kind_title_hands', 'Ruce a historie', 'Hands and history' %>
+<%= txt 'cz_kind_title_one', 'Jeden druhému', 'One to another' %>
+<%= txt 'cz_kind_title_bridges', 'Mosty k přírodě', 'Bridges to nature' %>
+
+<%= txt 'cz_infobox_link', "->", "->" %>
+
+<%= txt 'cz_kind_description_country', 'V našich pobočkách v Kosteleckých Horkách a Tvarožné Lhotě se zaměřujeme na oživení místního dění, tradičních zvyků a řemesel. Společně s místními lidmi sbíráme bylinky na výrobu bylinných čajů, sázíme stromy, kosíme podmáčené louky. Provozujeme venkovská informační centra pro veřejnost a pro mládež spojená svýstavami a tvůrčími dílnami. Pomáháme na svět dobrým nápadům na venkově, oživování tradic a přivádíme netradiční návštěvníky.', 'involving into the daily life and work of an individual village, including local and country life problems' %>
+<%= txt 'cz_kind_description_hands', 'Program je zaměřen na pomoc v oblasti ochrany a péče o historicky významné objekty, veřejná prostranství a dokumentaci drobných památek v kulturní krajině. Zaměřujeme se na spolupráci tam, kde přináší oživení, připomenutí našich kořenů a navrací památky do života lidí. Ke kořenům se vracíme i dlouholetou pomocí ve Středisku experimentální archeologie nebo při odkrývání historie v zemi s archeology. V rámci projektu se snažíme o prezentaci multikulturní tradice naší země jako živé součásti duchovního i kulturního dědictví. Usilujeme o oživování místních kulturních tradic a podporujeme kulturní počiny vycházející z podnětu místních lidí.', 'help with the renovation and care of castles, chateaux or small monuments in the landscape, help with building up experimental medieval village' %>
+<%= txt 'cz_kind_description_one', 'Program je zaměřen na pomoc v humanitární a sociální oblasti. Cílem je dobrovolná pomoc v komunitách a centrech pracujících s dětmi a dospělými s postižením, s dětmi ze sociálně slabších rodin, se staršími občany v obtížných životních situacích, či s drogově závislými. Možnost pomoci jeden druhému nabízíme i lidem ze znevýhodněného prostředí.', 'co-operation with communities and associations working in the area of people with special needs, people with drug problems, children from socially handicapped families' %>
+<%= txt 'cz_kind_description_bridges', 'Program je zaměřen na pomoc při péči o přírodu, chráněná území, naše okolí a veřejná prostranství. Jeho cílem je vést mladé lidi k poznání odpovědnosti za životní prostředí, k myšlenkám a principům trvale udržitelného života. Součástí jsou semináře a diskuse týkající se problematiky ekologické výchovy a vzdělávání, alternativních zdrojů energie, ochrany životního prostředí v ČR, podpory eko-agroturistiky. V rámci tohoto programu se zaměřujeme na tradiční řemesla, výchovu k úctě a porozumění k životnímu prostředí, rozšiřování přírodovědných znalostí a technických dovedností. Obnovujeme studánky, budujeme naučné stezky, cyklostezky a stezky po místních kulturních zajímavostech.', 'help in the area of care of landscape, protected areas, environment and public spaces, work in eco-centres' %>
+
+# forms
+<%= txt 'form_yes', '\"Ano\"', '\"Yes\"' %>
+<%= txt 'form_no', '\"Ne\"', '\"No\"' %>
+
+# survey status
+
+<%= txt 'survey_success', 'Děkujeme za vyplnění dotazníku.', 'Thank you for filling in the survey.' %>
+<%= txt 'survey_failure', 'Opravte prosím chybně vyplněné údaje.', 'Please correct the wrong input.' %>
+
+# survey mayhem
+<%= txt 'survey_head_about_yourself', 'Stručně o Vás', 'Briefly about yourself' %>
+<%= txt 'survey_head_inex', 'INEX-SDA', 'INEX-SDA' %>
+<%= txt 'survey_head_project', 'Projekt', 'Project' %>
+<%= txt 'survey_head_other', 'Ostatní', 'Miscellaneous' %>
+
+<%= txt 'survey_field_lastname', 'Příjmení', 'Last name' %>
+<%= txt 'survey_field_firstname', 'Jméno', 'First name' %>
+<%= txt 'survey_field_email', 'Aktuální e-mail', 'Current e-mail' %>
+<%= txt 'survey_field_age', 'Věk', 'Age' %>
+<%= txt 'survey_field_projectcountry', 'Země projektu', 'Project country' %>
+<%= txt 'survey_field_project', 'Kód a název projektu', 'Project code and name' %>
+
+<%= txt 'survey_field_reason', '1. Co Vás vedlo k účasti na dobrovolnickém projektu:', '1. Why did you participate in a volunteer project:' %>
+<%= txt 'survey_field_reason_culture', 'Poznání jiné kultury', 'To get acquainted with another culture' %>
+<%= txt 'survey_field_reason_people', 'Poznání nových lidí', 'To meet new people' %>
+<%= txt 'survey_field_reason_language', 'Procvičení jazykových znalostí v praxi', 'To practice my language abilities' %>
+<%= txt 'survey_field_reason_stay', 'Vyzkoušení pobytu v cizím prostředí', 'To try living in a unfamiliar environment' %>
+<%= txt 'survey_field_reason_freetime', 'Smysluplné využití volného času', 'To meaningfully spend my free time' %>
+<%= txt 'survey_field_reason_other', 'Jiný důvod:', 'Other reasons:' %>
+
+<%= txt 'survey_field_howknow', '2. Kde jste se dozvěděl/a o INEX – SDA?', '2. How do you know about INEX - SDA?' %>
+<%= txt 'survey_field_howknow_friends', 'Od přátel', 'From friends' %>
+<%= txt 'survey_field_howknow_internet', 'Na Internetu', 'From the Internet' %>
+<%= txt 'survey_field_howknow_press', 'V tisku', 'From the press' %>
+<%= txt 'survey_field_howknow_promo', 'Z propagačních materiálů', 'From the promotional materials' %>
+<%= txt 'survey_field_howknow_past', 'INEX - SDA znám z předchozích let', 'I know INEX - SDA from the past' %>
+<%= txt 'survey_field_howknow_other', 'Jinak:', 'Other way:' %>
+
+<%= txt 'survey_field_find', '3. Jak snadné bylo nalézt: (1-výborné, 5-zcela nedostatečné)', '3. How easy it was to find: (1-great, 5-absolutely unsatisfactory)' %>
+<%= txt 'survey_field_findinex', 'a. Informace o INEX-SDA?', 'a. Information about INEX-SDA?' %>
+<%= txt 'survey_field_findproject', 'b. Informace o projektech?', 'b. Information about projects?' %>
+<%= txt 'survey_field_findapplication', 'c. Informace pro přihlášení?', 'c. Application instructions?' %>
+<%= txt 'survey_field_findcomment', 'Uveďte prosím, kde byl problém, co bychom měli zlepšit; prostor pro Váš komentář:', 'Please let us know where there were troubles, what should we improve; area for your comment:' %>
+
+<%= txt 'survey_field_rate', '4. Jak hodnotíte:  (1-výborné, 5-zcela nedostatečné)', '4. How do you rate: (1-great, 5-absolutely unsatisfactory)' %>
+<%= txt 'survey_field_ratecommunication', 'a. Komunikaci s INEX-SDA?', 'a. Communication with INEX-SDA?' %>
+<%= txt 'survey_field_rateapplication', 'b. Vyřízení přihlášky na projekt?', 'b. Project application processing?' %>
+<%= txt 'survey_field_ratecomment', 'Uveďte prosím, kde byl problém, co bychom měli zlepšit; prostor pro Váš komentář:', 'Please let us know where there were troubles, what should we improve; area for your comment:' %>
+
+<%= txt 'survey_field_projectitem', '5. Ohodnoťte jednotlivé aspekty projektu:  (1-výborné, 5-zcela nedostatečné)', '5. Rate these aspects of the project:  (1-great, 5-absolutely unsatisfactory)' %>
+<%= txt 'survey_field_projwork', 'a. Práce (smysl, množství, organizace, zadání)', 'a. Work (meaningfulness, amount, organization, specification)' %>
+<%= txt 'survey_field_projstudy', 'b. Studijní část- byla-li (kvalita, připravenost, organizace)', 'b. Study part, if applicable (quality, readiness, organization)' %>
+<%= txt 'survey_field_projgroup', 'c. Skupina (vztahy, vzájemná komunikace, různorodost)', 'c. Group (relationships, communication, diversity)' %>
+<%= txt 'survey_field_projleisure', 'd. Trávení volného času', 'd. Leisure time' %>
+<%= txt 'survey_field_projleader', 'e. Vedoucí projektu (organizovaný, přátelský)', 'e. Project leader (organized, friendly)' %>
+<%= txt 'survey_field_projaccomodation', 'f. Ubytování', 'f. Accomodation' %>
+<%= txt 'survey_field_projfood', 'g. Stravování', 'g. Food' %>
+<%= txt 'survey_field_projhygiene', 'h. Hygiena', 'h. Hygiene' %>
+<%= txt 'survey_field_projcomment', 'Uveďte prosím, kde byl problém; prostor pro Váš komentář:', 'Please let us know where there were problems; area for your comments:' %>
+
+<%= txt 'survey_field_coll', '6. Ohodnoťte spolupráci s hostitelskou organizací v následujících aspektech:  (1-výborné, 5-zcela nedostatečné)', '6. Rate the cooperation with the host organization in the following aspects: (1-great, 5-asbolutely unsatisfactory)' %>
+<%= txt 'survey_field_collcommunication', 'a. Komunikace (např. před odjezdem)', 'a. Communication (e.g. before departure)' %>
+<%= txt 'survey_field_collconflict', 'b. Pomoc při řešení konfliktů a problémů pokud se vyskytly', 'b. Aid while resolving conflicts or problems if they appeared' %>
+<%= txt 'survey_field_collinfo', 'c. Poskytnutí relevantních informací (infosheet)', 'c. Relevant information provided (infosheet)' %>
+<%= txt 'survey_field_collcomment', 'Prostor pro Váš komentář:', 'Area for your comments:' %>
+
+<%= txt 'survey_field_wasgood', '7. Splnil tento projekt Vaše očekávání?', '7. Did the project meet your expectations?' %>
+<%= txt 'survey_field_wouldrecommend', '8. Doporučil/a byste tento projekt pro příští rok?', '8. Would you recommend the project for the next year?' %>
+<%= txt 'survey_field_whynot', 'Pokud ne, prosím, zdůvodněte', 'If no, please tell us why' %>
+<%= txt 'survey_field_rating', '9. Celkové zhodnocení projektu:', '9. Overall rating of the project' %>
+<%= txt 'survey_field_rating_sub', '(stupnice od 1-výborné, jel bych hned znovu až 5-hrozné, lituji, že jsem se projektu zúčastnil)', '(scale from 1-great, I\'d go again right now to 5-terrible, I regret that I took part)' %>
+<%= txt 'survey_field_visa', '10. Vaše zkušenosti s vyřizováním víz, komunikace s ambasádou, rychlost vyřízení, cena.', '10. Your experience with obtaining the visa, communication with the embassy, time of processing, price.' %>
+<%= txt 'survey_field_transport', '11. Jak jste se na projekt dopravil/a; celková cena dopravy; můžete doporučit dopravní společnost v zahraničí jejíchž služeb jste využil/a, popř. užitečné webové stánky?', '11. How did you get to the place of the project; total price of the transport; could you recommend a transport company whose services you used or useful web pages?' %>
+<%= txt 'survey_field_goagain', '12. Chtěl/a byste se v budoucnu zúčastnit dalších dobrovolnických projektů pořádaných INEX-SDA?', '12. Would you like to take part in other future volunteer projects organized by INEX-SDA?' %>
+<%= txt 'survey_field_recommendtofriends', '13. Doporučil/a byste INEX-SDA svým přátelům?', '13. Would you recommend INEX-SDA to your friends?' %>
+<%= txt 'survey_field_wouldhelp', '14. Může Vás INEX-SDA oslovit s žádostí o pomoc s prací v kanceláři, akcích, veletrzích apod.?', '14. Could INEX-SDA ask you for help with administration, organization of events and fairs etc.?' %>
+<%= txt 'survey_field_newsletter', '15. Prosím o zasílání emailového zpravodaje na:', '15. Please send me a newsletter to e-mail:' %>
+<%= txt 'survey_field_comments', '16. Prostor pro Vaše zážitky, další komentář či sdělení:', '16. Area for your experiences or further comments:' %>
+
+# Survey evaluation
+<%= txt 'survey_not_rated', 'Nehodnoceno', 'Not rated' %>
+<%= txt 'survey_excellent', '1 - Výborné', '1 - Excellent' %>
+<%= txt 'survey_good', '2 - Dobré', '2 - Good' %>
+<%= txt 'survey_average', '3 - Průměrné', '3 - Average' %>
+<%= txt 'survey_bad', '4 - Špatné', '4 - Bad' %>
+<%= txt 'survey_terrible', '5 - Zcela nedostatečné', '5 - Terrible' %>
+
+# Survey labels
+<%= txt 'survey_submit', 'Odeslat', 'Submit' %>
+
+# Search Results
+<%= txt 'results_word_5plus', 'výsledků', 'results' %>
+<%= txt 'results_word_2to4', 'výsledky', 'results' %>
+<%= txt 'results_word_1', 'výsledek', 'result' %>
+
+# Workcamps
+<%= txt 'wc_list_title', 'Nalezené workcampy', 'Workcamps found' %>
+<%= txt 'wc_search_title', 'Vyhledávání workcampů', 'Workcamp search' %>
+<%= txt 'wc_term', 'Termín', 'Term' %>
+<%= txt 'wc_code', 'Kód', 'Code' %>
+<%= txt 'wc_name', 'Jméno projektu', 'Project name' %>
+<%= txt 'wc_about_project', 'O projektu', 'About project' %>
+<%= txt 'wc_aim', 'Zaměření', 'Aim' %>
+<%= txt 'wc_add_to_cart', 'Přidat do přihlášky', 'Add to Application Form' %>
+<%= txt 'wc_cart_title', 'Vybrané workcampy', 'Selected workcamps' %>
+<%= txt 'wc_empty_cart', 'Odebrat vše', 'Remove all' %>
+<%= txt 'wc_remove_from_cart', 'Odebrat z přihlášky', 'Remove from Application Form' %>
+<%= txt 'wc_free_male', 'Volných míst pro muže', 'Free places for males' %>
+<%= txt 'wc_free_female', 'Volných míst pro ženy', 'Free places for females' %>
+<%= txt 'wc_back_to_search', 'Zpět', 'Back' %>
+<%= txt 'wc_has_places', 'Pouze s volnými místy', 'Free only' %>
+<%= txt 'wc_hide_detail', 'Skrýt detaily', 'Hide details' %>
+<%= txt 'wc_free_places', 'Volných míst', 'Free places' %>
+<%= txt 'wc_capacity', 'Kapacita', 'Capacity' %>
+<%= txt 'wc_minage', 'Minimální věk', 'Minimal age' %>
+<%= txt 'wc_maxage', 'Maximální věk', 'Maximal age' %>
+<%= txt 'wc_vegetarian', 'Pro vegetariány', 'For vegetarians' %>
+<%= txt 'wc_workcamps', 'Workcampy', 'Workcamps' %>
+<%= txt 'wc_apply', 'Odeslat přihlášku', 'Submit application form' %>
+<%= txt 'wc_passport_and_visa', 'Pas a Víza', 'Passport & Visa' %>
+<%= txt 'wc_emergency', 'Kontaktní osoba v případě nouze', 'Emergency Contact' %>
+<%= txt 'wc_emergency_name', 'Jméno', 'Name' %>
+<%= txt 'wc_emergency_phone_day', 'Telefon ve dne', 'Phone (day)' %>
+<%= txt 'wc_emergency_phone_night', 'Telefon v noci', 'Phone (night)' %>
+<%= txt 'wc_languages', 'Jazyky', 'Languages' %>
+<%= txt 'wc_speak_well', 'Mluvím dobře', 'Speak Well' %>
+<%= txt 'wc_speak_some', 'Mluvím trochu', 'Speak Some' %>
+<%= txt 'wc_apply_form_title', 'Přihláška na workcampy', 'Workcamps Application Form' %>
+<%= txt 'wc_to_apply_form', 'Pokračovat na přihlášku', 'Apply for the Selected Workcamps' %>
+<%= txt 'wc_apply_form_success', 'Přihlášku byla úspěšně přidána.', 'Application form was succesfully submitted.' %>
+<%= txt 'wc_not_found', 'Žádný workcamp nesplňuje zadaná kritéria.', 'No workcamp found.' %>
+
+
+
+
+<%= txt 'wc_terms_of_processing_body', 'I agree to use and process all data which I filled in this form by INEX - SDA', 
+                                       'I agree to use and process all data which I filled in this form by INEX - SDA.' %>
+<%= txt 'wc_terms_of_workcamps_body', 
+        "Souhlasím se všemi podmínkami účasti v programu vysílající organizace INEX-SDA a přijímám na sebe odpovědnost zajistit si cestovní pojištění léčebných výloh a pojištění odpovědnosti, platné po celou dobu výkonu dobrovolnické služby i po dobu cesty na projekt a zpět.",
+        "I accept all conditions of participation in the programme, presented me by INEX-SDA as the sending organisation, and I fully understand and accept my responsibility to obtain health insurance for the duration of the voluntary service as well as the travel period." 
+        %>
+
+# Newsletter
+
+<%= txt 'subscribe_ask', 'Přihlásit se do zpravodaje:', 'Subscribe to newsletter:' %>
+<%= txt 'subscribe_ask_submit', 'Přihlásit', 'Subscribe' %>
+<%= txt 'subscribe_ask_email', 'E-mail:', 'E-mail:' %>
+<%= txt 'newsletter_success', 'Přihlášení do zpravodaje proběhlo úspěšně.', 'Subscribed to the INEX-SDA newsletter.' %>
+<%= txt 'newsletter_failure', 'Zadaná e-mailová adresa není platná.', 'The e-mail address you entered is not valid.' %>
+
+# Atom & RSS Feeds
+<%= txt 'rss_title', 'Novinky z INEX-SDA', 'News from INEX-SDA' %>
+<%= txt 'rss_author', 'INEX-SDA', 'INEX-SDA' %>
+<%= txt 'rss_homepage', 'http://www.inexsda.cz', 'http://www.inexsda.cz' %>
+<%= txt 'rss_description', 'Novinky z INEX-SDA', 'News from INEX-SDA' %>
+<%= txt 'rss_language', 'cs', 'en-us' %>
+
+# Fulltext
+<%= txt 'fulltext_display_all_results', 'Zobrazit všech %1 výsledků', 'Display all %1 results' %>
+<%= txt 'fulltext_display_extended_results', 'Zobrazit dalších %1 výsledků', 'Display next %1 results' %>
+<%= txt 'fulltext_search_progress', 'Hledám...', 'Searching...' %>
+<%= txt 'fulltext_search_query', 'Výraz pro vyhledávání: ', 'Fulltext query: ' %>
+<%= txt 'fulltext_search_button', 'Vyhledat', 'Search' %>
+<%= txt 'fulltext_results_notfound', 'Nenalezeny žádné výsledky.', 'Your search did not match any content.' %>
+
+<%= txt 'fulltext_results_articles_head', 'Výsledky hledání v článcích', 'Articles found' %>
+<%= txt 'fulltext_results_headlines_head', 'Výsledky hledání v novinkách', 'Headlines found' %>
+<%= txt 'fulltext_results_menu_items_head', 'Výsledky hledání v menu', 'Menu items found' %>
+<%= txt 'fulltext_results_media_albums_head', 'Výsledky hledání v albech mediatéky', 'Media albums found' %>
+<%= txt 'fulltext_results_media_files_head', 'Výsledky hledání v souborech mediatéky', 'Media files found' %>
+<%= txt 'fulltext_results_cz_projects_head', 'Výsledky hledání v českých workcampech', 'Czech workcamps found' %>
+<%= txt 'fulltext_results_evs_projects_head', 'Výsledky hledání v EVS projektech', 'EVS projects found' %>
+<%= txt 'fulltext_results_ltv_projects_head', 'Výsledky hledání v LTV projektech', 'LTV projects found' %>
+
+<%= txt 'fulltext_result_link_article', '(zobrazit celý článek)', '(show article)' %>
+<%= txt 'fulltext_result_link_headline', '(zobrazit novinku)', '(show headlines)' %>
+<%= txt 'fulltext_result_link_media_file', '(zobrazit multimediální obsah)', '(show media)' %>
+<%= txt 'fulltext_result_link_media_album', '(zobrazit album v mediatéce)', '(show media album)' %>
+<%= txt 'fulltext_result_link_menu_item', '(přejít)', '(go)' %>
+<%= txt 'fulltext_result_link_cz_project',  '(přejít)', '(go)' %>
+<%= txt 'fulltext_result_link_evs_project', '(přejít)', '(go)' %>
+<%= txt 'fulltext_result_link_ltv_project', '(přejít)', '(go)' %>
+
+

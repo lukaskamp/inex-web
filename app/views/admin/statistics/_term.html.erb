@@ -1,0 +1,7 @@
+<!-- TODO - DRY up, cleanup -->
+<td colspan="2">
+	From <%= calendar_date_select_tag 'chart[term][from]', term.from, :disabled => !term.needs?(:from), :id => 'chart_term_from_id' %>
+	to <%= calendar_date_select_tag 'chart[term][to]', term.to, :disabled => !term.needs?(:to), :id => 'chart_term_to_id' %>
+</td>
+
+

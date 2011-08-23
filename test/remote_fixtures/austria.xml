@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<countries type="array">
+  <country>
+    <code>AT</code>
+    <created-at type="datetime">2009-02-15T20:42:00Z</created-at>
+    <id type="integer">4397269</id>
+    <name-cz>Rakousko</name-cz>
+    <name-en nil="true"/>
+    <updated-at type="datetime">2009-02-15T20:42:00Z</updated-at>
+  </country>
+</countries>

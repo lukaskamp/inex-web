@@ -1,0 +1,16 @@
+# not including the seed one, 'cause no need and too much woik
+
+en_vodka_fun:
+  name: vodka_fun
+  body: Finish Vodka is finish.
+  language: english
+
+cs_vodka_fun:
+  name: vodka_fun
+  body: Když je švédská prostitutka po orgasmu, stejně není Finka.
+  language: czech
+
+en_dogma:
+  name: dogma
+  body: Lars von Trier likes Danish pastry.
+  language: english

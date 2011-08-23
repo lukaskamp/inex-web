@@ -1,0 +1,90 @@
+#headlines_table {
+	width: 100%;
+}
+
+#headlines_table td {
+	width:50%;
+	vertical-align:top;
+}
+
+#headlines_left_inner {
+	padding-right:30px;
+}
+#headlines_right_inner {
+	padding-left:30px;
+}
+
+#headlines_rss_link {
+	clear:both;
+	color: #4d7080;
+	text-align:left;
+}
+
+#headlines_rss_link img {
+	margin-right:6px;
+}
+
+#headlines_rss_link a {
+	color: inherit;
+	font-size: 10px;
+}
+
+.headline_validity {
+	font-size:9px;
+	line-height:10px;
+}
+
+.headline_validity_date {
+	color:#4d7080;
+	font-size:8px;
+	width:70px;
+	float:left;
+}
+
+.headline_validity_line {
+	border-bottom:1px solid #cccccc;
+	margin-left:70px;
+	line-height:6px;
+}
+
+
+div.headline_list_item {
+	clear:both;
+}
+
+div.headline_list_title {
+	padding-top:5px;
+	clear:both;
+	font-size:13px;
+	font-weight:bold;
+	color:#951145;
+	padding-bottom:5px;
+}
+
+div.headline_list_title a {
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+	color:inherit;
+}
+
+div.headline_list_image {
+	clear:both;
+	padding-top:4px;
+	padding-right:15px;
+	padding-bottom:15px;
+	float: left;
+}
+
+#content div.headline_list_image img {
+	padding:0;
+}
+
+div.headline_list_annotation {
+	margin-bottom:15px;
+	text-align:justify;
+	font-size:11px;
+	color:#273840;
+}
+
+

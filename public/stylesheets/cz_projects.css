@@ -1,0 +1,72 @@
+#cz_projects_key {
+	float:left; 
+	margin-left:15px;
+	color: #2f5d6e;
+}
+
+#cz_projects_map {
+	float:left;
+}
+
+#cz_projects_key img {
+	padding:0px;
+}
+
+#cz_projects_map img {
+	padding:0px;
+}
+
+#map {
+	width: 600px; 
+	height: 380px;
+}
+
+p.cz_project_kind_head {
+	font-weight:bold;
+	margin-bottom:4px;
+	padding-bottom:2px;
+	border-bottom:1px solid blue;
+}
+
+p.cz_project_kind_desc {
+	font-style: italic;
+	color:#444444;
+}
+
+p.cz_project_head {
+	margin-top:5px;
+	margin-bottom:2px;
+	font-size:13px;
+}
+
+span.cz_project_title {
+	color: #74a8bf;
+	font-weight:bold;
+}
+
+div.cz_project_body, div.cz_project_body p {
+	margin-bottom:12px;
+	color: #4d7080;
+}
+
+div.map_infobox_crumb {
+	margin-bottom:3px;
+}
+
+div.map_infobox_crumb a {
+	text-decoration:none;
+	color:blue;
+	font-weight:bold;
+}
+
+a.cz_project_js_select{
+	color: #440000;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+a.cz_project_js_select_selected{
+	color: #ff0000;
+	font-weight:bold;
+	text-decoration:none;
+}

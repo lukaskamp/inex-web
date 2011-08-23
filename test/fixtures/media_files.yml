@@ -1,0 +1,29 @@
+en_bodak:
+  filename: bodak.jpg
+  title: Bodak
+  media_album: en_root
+  type: MediaFileImage
+  position: 1
+
+en_propriete:
+  filename: propriete.jpg
+  title: Propriete
+  media_album: en_root
+  type: MediaFileImage
+  position: 2
+  hidden: 1
+
+en_invalid:
+  filename: kolben.jpg
+  title: Invalid thingy
+  media_album: en_root
+  type: MediaFileImage
+  position: 3
+
+en_plot:
+  filename: plot.jpg
+  title: Plot
+  media_album: en_album1
+  type: MediaFileImage
+  hidden: 1
+  position: 1

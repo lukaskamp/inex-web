@@ -1,0 +1,24 @@
+<p>This is a list of available menu actions for 'custom action' menu type.</p>
+
+<%
+  def table_line(cols)
+    "<tr>\n" + cols.map{|x| "<td>#{x}</td>\n"}*"\n" + "</tr>\n"
+  end
+%>
+
+<table class="admin_properties_table">
+  <tr>
+    <th>What to do</th>
+    <th>target controller</th>
+    <th>target action</th>
+  </tr>
+  <%= table_line(["Workcamps (from INEX database)","workcamps",""]) %>
+  <%= table_line(["LTV projects","ltv_projects",""]) %>
+  <%= table_line(["EVS projects","evs_projects",""]) %>
+  <%= table_line(["CZ workcamps","cz_projects",""]) %>
+
+  <%= table_line(["Media gallery","gallery",""]) %>
+  <%= table_line(["Survey","survey",""]) %>
+  <%= table_line(["Fulltext search","fulltext",""]) %>
+  <%= table_line(["Headlines","headline",""]) %>
+</table>
